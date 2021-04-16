@@ -9,7 +9,7 @@
             <!-- <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="" /></div> -->
             <div class="col-lg-3">
                 <div class="card border-light" style="width: 15rem;">
-                    <img class="card-img-top" src="./assets/img/purchase-loans.jpg" alt="Purchase Loans">
+                    <img class="card-img-top" src="./assets/img/purchase-loans-min.jpg" alt="Purchase Loans">
                         <div class="card-body">
                             <p class="card-text text-center">Purchase Loans</p>
                         </div>
@@ -17,7 +17,7 @@
             </div>
             <div class="col-lg-3">
                 <div class="card border-light" style="width: 15rem;">
-                    <img class="card-img-top" src="./assets/img/rate-term.jpg" alt="Rate & Term Refinance">
+                    <img class="card-img-top" src="./assets/img/rate-term-min.jpg" alt="Rate & Term Refinance">
                         <div class="card-body">
                             <p class="card-text text-center">Rate & Term Refinance</p>
                         </div>
@@ -25,7 +25,7 @@
             </div>
             <div class="col-lg-3">
                 <div class="card border-light" style="width: 15rem;">
-                    <img class="card-img-top" src="./assets/img/refinance-rehab.jpg" alt="Refinance Rehab">
+                    <img class="card-img-top" src="./assets/img/refinance-rehab-min.jpg" alt="Refinance Rehab">
                         <div class="card-body">
                             <p class="card-text text-center">Refinance Rehab</p>
                         </div>
@@ -33,7 +33,7 @@
             </div>
             <div class="col-lg-3">
                 <div class="card border-light" style="width: 15rem;">
-                    <img class="card-img-top" src="./assets/img/cash-out.jpg" alt="Refinance Cash Out">
+                    <img class="card-img-top" src="./assets/img/cash-out-min.jpg" alt="Refinance Cash Out">
                         <div class="card-body">
                             <p class="card-text text-center">Refinance Cash Out</p>
                         </div>
