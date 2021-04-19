@@ -1,4 +1,4 @@
-<form action="../../fixandflip/controllers/Submit.php" method="post">
+<form action="../controllers/Submit.php" method="post">
     <div class="container apply">
         <div class="container mx-auto my-5 bpla-form shadow">
             <h1 class="mb-3">Business Purpose Loan Analysis</h1>
