@@ -4,305 +4,87 @@
         font-size: 14px;
     }
 </style>
-<section class="contact-section" id="applynow">
-    <div class="container">
+<section class="contact-section mb-3" id="applynow">
+    <div class="container-fluid" style="width: 80%">
         <div class="row">
         <div class="text-center mb-4">
                 <h2 class="mx-auto mt-2 mb-2">Our Process</h2>
+                <ul class="legend text-center">
+                    <li><span class="borrower"></span> Borrower</li>
+                    <li><span class="funder-closer"></span> Funder/Closer</li>
+                    <li><span class="processor"></span> Processor</li>
+                    <li><span class="research-processor"></span> Research Processor</li>
+                    <li><span class="underwriter"></span> Underwriter</li>
+                    <li><span class="important-step"></span> Important Process Step</li>
+                </ul>
             </div>
-            <div class="container">
-                <div class="timeline"> 
-                    <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
-                        <div class="timeline__event__icon ">
-                            {{-- <i class="lni-cake"></i> --}}
-                        </div>
-                        <div class="timeline__event__date">
-                            BPLA
-                        </div>
-                        <div class="timeline__event__content ">
-                            <div class="timeline__event__title">
-                                &nbsp;
-                            </div>
-                            <div class="timeline__event__description">
-                                <p>Business Purpose Loan Application is either denied, additional info requested, or pre-approved. If approved, welcome letter will be sent.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
-                        <div class="timeline__event__icon">
-                            <i class="lni-burger"></i>
-                        </div>
-                        <div class="timeline__event__date">
-                            Letter Of Intent
-                        </div>
-                        <div class="timeline__event__content">
-                            <div class="timeline__event__title">
-                                Pre-approval with Welcome Letter
-                            </div>
-                            <div class="timeline__event__description">
-                                <p>Welcome letter includes: submission checklist, pre-approval, and secure access to portal for Borrower/Broker.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
-                        <div class="timeline__event__icon">
-                            <i class="lni-slim"></i>
-                        </div>
-                        <div class="timeline__event__date">
-                            Portal Log-In
-                        </div>
-                        <div class="timeline__event__content">
-                            <div class="timeline__event__title">
-                                &nbsp;
-                            </div>
-                            <div class="timeline__event__description">
-                                <p>Borrower/broker reviews submission instructions and downloads ACRA documents from portal. Borrower then uploads completed documents into portal.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center my-5">
-                    <h2 class="mx-auto">Phase 1</h2>
-                    <h4>Background & Credit requested by Researcher</h4>
-                </div>
-                <div class="timeline">
-                    <div class="timeline__event animated fadeInUp delay-3s timeline__event--type1">
-                        <div class="timeline__event__icon">
-                            <i class="lni-burger"></i>
-                        </div>
-                        <div class="timeline__event__date">
-                            Researcher Review
-                        </div>
-                        <div class="timeline__event__content">
-                            <div class="timeline__event__title">
-                                &nbsp;
-                            </div>
-                            <div class="timeline__event__description">
-                                <p>Researcher reviews Borrower’s bank statements, rehab budget, background, credit & entity documents.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
-                        <div class="timeline__event__icon">
-                            <i class="lni-slim"></i>
-                        </div>
-                        <div class="timeline__event__date">
-                            Waiting On Appraisal
-                        </div>
-                        <div class="timeline__event__content">
-                            <div class="timeline__event__title">
-                                &nbsp;
-                            </div>
-                            <div class="timeline__event__description">
-                                <p>Appraisals take 5-10 business days. Outstanding conditions are being collected and analyzed. All documents need to be submitted prior to appraisal completion.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
-                        <div class="timeline__event__icon">
-                            <i class="lni-cake"></i>
-                        </div>
-                        <div class="timeline__event__date">
-                            Appraisal Review
-                        </div>
-                        <div class="timeline__event__content">
-                            <div class="timeline__event__title">
-                                &nbsp;
-                            </div>
-                            <div class="timeline__event__description">
-                                <p>Appraisal reviewed by Processor and sent to ACRA QC for review. Once approved by QC, Processor completes final review.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline__event animated fadeInUp delay-3s timeline__event--type1">
-                        <div class="timeline__event__icon">
-                            <i class="lni-burger"></i>
-                        </div>
-                        <div class="timeline__event__date">
-                            Researcher Review
-                        </div>
-                        <div class="timeline__event__content">
-                            <div class="timeline__event__title">
-                                &nbsp;
-                            </div>
-                            <div class="timeline__event__description">
-                                <p>Researcher reviews Borrower’s bank statements, rehab budget, background, credit & entity documents.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-                <div class="text-center my-5">
-                    <h2 class="mx-auto">Phase 2</h2>
-                    <h4>Appraisal & Title complete. All documents uploaded to portal</h4>
-                </div>
-                <div class="timeline">
-                    <div class="timeline__event animated fadeInUp delay-3s timeline__event--type1">
-                        <div class="timeline__event__icon">
-                            <i class="lni-burger"></i>
-                        </div>
-                        <div class="timeline__event__date">
-                            Processor Final Review
-                        </div>
-                        <div class="timeline__event__content">
-                            <div class="timeline__event__title">
-                                &nbsp;
-                            </div>
-                            <div class="timeline__event__description">
-                                <p>Researcher reviews Borrower’s bank statements, rehab budget, background, credit & entity documents.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
-                        <div class="timeline__event__icon">
-                            <i class="lni-slim"></i>
-                        </div>
-                        <div class="timeline__event__date">
-                            Underwriting Review
-                        </div>
-                        <div class="timeline__event__content">
-                            <div class="timeline__event__title">
-                                &nbsp;
-                            </div>
-                            <div class="timeline__event__description">
-                                <p>Underwriter reviews file within 24 hours. Underwriter either sends file back to processing with conditions to be met by Borrower or approves file.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
-                        <div class="timeline__event__icon">
-                            <i class="lni-cake"></i>
-                        </div>
-                        <div class="timeline__event__date">
-                            Approval
-                        </div>
-                        <div class="timeline__event__content">
-                            <div class="timeline__event__title">
-                                &nbsp;
-                            </div>
-                            <div class="timeline__event__description">
-                                <p>Closer & Servicing alerted file is approved; commitment letter sent.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline__event animated fadeInUp delay-3s timeline__event--type1">
-                        <div class="timeline__event__icon">
-                            <i class="lni-burger"></i>
-                        </div>
-                        <div class="timeline__event__date">
-                            Closing
-                        </div>
-                        <div class="timeline__event__content">
-                            <div class="timeline__event__title">
-                                &nbsp;
-                            </div>
-                            <div class="timeline__event__description">
-                                <p>Closer ensures contact with counterparty and drafts closing documents.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
-                        <div class="timeline__event__icon">
-                            <i class="lni-slim"></i>
-                        </div>
-                        <div class="timeline__event__date">
-                            File Sent to Servicing
-                        </div>
-                        <div class="timeline__event__content">
-                            <div class="timeline__event__title">
-                                &nbsp;
-                            </div>
-                            <div class="timeline__event__description">
-                                <p>Draw schedule and client information sent to Servicing; servicing instructions sent to Borrower.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
-                        <div class="timeline__event__icon">
-                            <i class="lni-cake"></i>
-                        </div>
-                        <div class="timeline__event__date">
-                            Commitment Letter Executed
-                        </div>
-                        <div class="timeline__event__content">
-                            <div class="timeline__event__title">
-                                &nbsp;
-                            </div>
-                            <div class="timeline__event__description">
-                                <p>Borrower/Broker returns executed commitment letter to ensure terms before funding Borrower.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline__event animated fadeInUp delay-3s timeline__event--type1">
-                        <div class="timeline__event__icon">
-                            <i class="lni-burger"></i>
-                        </div>
-                        <div class="timeline__event__date">
-                            Funding
-                        </div>
-                        <div class="timeline__event__content">
-                            <div class="timeline__event__title">
-                                &nbsp;
-                            </div>
-                            <div class="timeline__event__description">
-                                <p>Closer ensures delivery of funds and post-closing document collection.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-
-            </div>
-            {{-- < class="col-md-4 mb-3 mb-md-0">
-                <div class="card py-4 h-100">
-                    <div class="card-body text-center">
-                        <!-- <i class="fas fa-map-marked-alt text-primary mb-2"></i> -->
-                        <i class="far fa-hand-pointer fa-2x text-primary mb-3 mr-1"></i>
-                        <h4 class="text-uppercase m-0">Submit</h4>
-                        <hr class="my-4 mx-auto" />
-                        <div class="small text-black-50">Business Purpose Loan Analysis</div>
-                    </div>
-                </div>
-            </>
-            <div class="col-md-4 mb-3 mb-md-0">
-                <div class="card py-4 h-100">
-                    <div class="card-body text-center">
-                        <!-- <i class="fas fa-envelope text-primary mb-2"></i> -->
-                        <i class="far fa-list-alt fa-2x text-primary mb-3"></i>
-                        <h4 class="text-uppercase m-0">Review</h4>
-                        <hr class="my-4 mx-auto" />
-                        <div class="small text-black-50">Customized loan based on your criteria</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-3 mb-md-0">
-                <div class="card py-4 h-100">
-                    <div class="card-body text-center">
-                        <!-- <i class="fas fa-mobile-alt text-primary mb-2"></i> -->
-                        <i class="far fa-check-circle fa-2x text-primary mb-3"></i>
-                        <h4 class="text-uppercase m-0">Approved</h4>
-                        <hr class="my-4 mx-auto" />
-                        <div class="small text-black-50">Receive funding fast</div>
-                    </div>
-                </div>
-            </div> --}}
+            <!-- Takes an ordered list and renders a responsive timeline try resizing the viewport -->
+            <ol class="timeline">
+                <li>
+                    <p class="event-date">October 1991</p>
+                    <p class="event-description">HTML Tags, an informal CERN document listing 18 HTML tags, was first mentioned in public.</p>
+                </li>
+                <li>
+                    <p class="event-date">June 1992</p>
+                    <p class="event-description">First informal draft of the HTML DTD.</p>
+                </li>
+                <li>
+                    <p class="event-date">November 1992</p>
+                    <p class="event-description">HTML DTD 1.1 the first revision with a version number, an informal draft.</p>
+                </li>
+                <li>
+                    <p class="event-date">June 1993</p>
+                    <p class="event-description">Hypertext Markup Language published by the IETF IIIR Working Group as an Internet Draft. </p>
+                </li>
+                <li>
+                    <p class="event-date">24 November 1995</p>
+                    <p class="event-description">HTML 2.0 was published as RFC 1866</p>
+                </li>
+                <li>
+                    <p class="event-date">25 November 1995</p>
+                    <p class="event-description">RFC 1867 (form-based file upload)</p>
+                </li>
+                <li>
+                    <p class="event-date">May 1996</p>
+                    <p class="event-description">RFC 1942 (tables)</p>
+                </li>
+                <li>
+                    <p class="event-date">August 1996</p>
+                    <p class="event-description">RFC 1980 (client-side image maps)</p>
+                </li>
+                <li>
+                    <p class="event-date">January 1997</p>
+                    <p class="event-description">RFC 2070 (internationalization)</p>
+                </li>
+                <li>
+                    <p class="event-date">14 January 1997</p>
+                    <p class="event-description">HTML 3.2 was published as a W3C Recommendation.</p>
+                </li>
+                <li>
+                    <p class="event-date">18 December 1997</p>
+                    <p class="event-description">HTML 4.0 was published as a W3C Recommendation.</p>
+                </li>
+                <li>
+                    <p class="event-date">24 April 1998</p>
+                    <p class="event-description">HTML 4.0 was reissued with minor edits</p>
+                </li>
+                <li>
+                    <p class="event-date">24 December 1999</p>
+                    <p class="event-description">HTML 4.01 was published as a W3C Recommendation</p>
+                </li>
+                <li>
+                    <p class="event-date">26 January 2000</p>
+                    <p class="event-description">XHTML 1.0 was published as a W3C Recommendation</p>
+                </li>
+                <li>
+                    <p class="event-date">May 2000</p>
+                    <p class="event-description">"ISO HTML", based on HTML 4.01 Strict was published as an ISO/IEC international standard.</p>
+                </li>
+                <li>
+                    <p class="event-date">31 May 2001</p>
+                    <p class="event-description">XHTML 1.1 was published as a W3C Recommendation.</p>
+                </li>
+            </ol>
         </div>
-        <!-- <div class="social d-flex justify-content-center">
-            <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-            <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-            <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
-        </div> -->
     </div>
 </section>
