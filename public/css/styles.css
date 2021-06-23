@@ -4038,6 +4038,10 @@ input[type=button].btn-block {
   display: block;
 }
 
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
 .navbar {
   position: relative;
   display: flex;

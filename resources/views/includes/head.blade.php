@@ -13,4 +13,4 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css" />
 <link rel="stylesheet" href="css/morphext.css">
 <!-- Core theme CSS (includes Bootstrap)-->
-<link href="css/styles.css?ver=1" rel="stylesheet" />
+<link href="css/styles.css?ver=2" rel="stylesheet" />

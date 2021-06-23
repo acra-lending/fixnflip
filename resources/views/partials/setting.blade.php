@@ -1,4 +1,4 @@
-<section class="projects-section bg-light" id="setting">
+<section class="projects-section bg-light pt-5" id="setting">
     <div class="container">
         <!-- Featured Project Row-->
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">

@@ -36,7 +36,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="#">Guidelines</a>
-                      <a class="dropdown-item" href="#">What To Expect</a>
+                      <a class="dropdown-item" href="/expect">What To Expect</a>
                       <a class="dropdown-item" href="#">Rate & Term Refinance</a>
                       <a class="dropdown-item" href="/process">Our Process</a>
                       <a class="dropdown-item" href="#">Industry Terms</a>
