@@ -28,13 +28,10 @@
                 <a href="https://acracorrespondent.com/" class="text-left text-white" style="text-decoration: none;" target="_blank">
                     Correspondents
                 </a><br>
-                <a href="https://citadelservicing.com/" class="text-left text-white" style="text-decoration: none;" target="_blank">
-                    Servicing
-                </a><br>
                 <!-- <a href="#" class="text-left text-white" style="text-decoration: none;" target="_blank">
                     Fix N Flip
                 </a><br> -->
-                <a href="https://acralending.com/contact-us/" class="text-left text-white" style="text-decoration: none;" target="_blank">
+                <a href="/contact/" class="text-left text-white" style="text-decoration: none;">
                     Contact Us
                 </a>
             </div>

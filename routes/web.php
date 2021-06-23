@@ -18,5 +18,8 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', 'App\Http\Controllers\HomeController@index');
+
 Route::get('/apply', 'App\Http\Controllers\FormController@index');
 Route::post('/apply', 'App\Http\Controllers\FormController@submit');
+
+Route::get('/process', 'App\Http\Controllers\OurProcessController@index');
