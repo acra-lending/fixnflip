@@ -39,7 +39,7 @@
                       <a class="dropdown-item" href="/expect">What To Expect</a>
                       <a class="dropdown-item" href="#">Rate & Term Refinance</a>
                       <a class="dropdown-item" href="/process">Our Process</a>
-                      <a class="dropdown-item" href="#">Industry Terms</a>
+                      <a class="dropdown-item" href="/industryterms">Industry Terms</a>
                     </div>
                 </li>
                 {{-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#programs">Programs</a></li> --}}
