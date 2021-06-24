@@ -21,68 +21,68 @@
             <!-- Takes an ordered list and renders a responsive timeline try resizing the viewport -->
             <ol class="timeline">
                 <li>
-                    <p class="event-date">October 1991</p>
-                    <p class="event-description">HTML Tags, an informal CERN document listing 18 HTML tags, was first mentioned in public.</p>
+                    <p class="event-date">BPLA</p>
+                    <p class="event-description">Business Purpose Loan Application. is either denied, additional info requested, or pre-approved</p>
                 </li>
                 <li>
-                    <p class="event-date">June 1992</p>
-                    <p class="event-description">First informal draft of the HTML DTD.</p>
+                    <p class="event-date">Pre-Approval Letter</p>
+                    <p class="event-description">(after B.P.L.A. info is received) ​Pre-Approval Letter includes: submission checklist, pre-approval, and secure access to portal for Borrower/Broker</p>
                 </li>
                 <li>
-                    <p class="event-date">November 1992</p>
-                    <p class="event-description">HTML DTD 1.1 the first revision with a version number, an informal draft.</p>
+                    <p class="event-date">Portal Log-In</p>
+                    <p class="event-description">Borrower reviews submission instructions and downloads ACRA documents from portal; then Borrower uploads completed documents into portal</p>
                 </li>
                 <li>
-                    <p class="event-date">June 1993</p>
-                    <p class="event-description">Hypertext Markup Language published by the IETF IIIR Working Group as an Internet Draft. </p>
+                    <p class="event-date">Phase 1</p>
+                    <p class="event-description">Research Processor requests Borrower’s background and credit</p>
                 </li>
                 <li>
-                    <p class="event-date">24 November 1995</p>
-                    <p class="event-description">HTML 2.0 was published as RFC 1866</p>
+                    <p class="event-date">Research Processor Review</p>
+                    <p class="event-description">Research Processor reviews Borrower’s bank statements, rehab budget, background, credit & entity documents</p>
                 </li>
                 <li>
-                    <p class="event-date">25 November 1995</p>
-                    <p class="event-description">RFC 1867 (form-based file upload)</p>
+                    <p class="event-date">Processor</p>
+                    <p class="event-description">Processor orders Appraisal & Title is initiated</p>
                 </li>
                 <li>
-                    <p class="event-date">May 1996</p>
-                    <p class="event-description">RFC 1942 (tables)</p>
+                    <p class="event-date">Waiting on Appraisal</p>
+                    <p class="event-description">Appraisals take 5-10 business days. Outstanding conditions are being ​collected and analyzed. All documents need to be submitted prior to appraisal completion</p>
                 </li>
                 <li>
-                    <p class="event-date">August 1996</p>
-                    <p class="event-description">RFC 1980 (client-side image maps)</p>
+                    <p class="event-date">Appraisal Review</p>
+                    <p class="event-description">Processor reviews Appraisal and sends to third-party review (TPR)</p>
                 </li>
                 <li>
-                    <p class="event-date">January 1997</p>
-                    <p class="event-description">RFC 2070 (internationalization)</p>
+                    <p class="event-date">Phase 2</p>
+                    <p class="event-description">Appraisal & Title complete; Processor uploads all documents to portal</p>
                 </li>
                 <li>
-                    <p class="event-date">14 January 1997</p>
-                    <p class="event-description">HTML 3.2 was published as a W3C Recommendation.</p>
+                    <p class="event-date">Processor Final Review</p>
+                    <p class="event-description">Processor ensures all documents have been reviewed per guidelines and moves file to “Right-Hand” side of portal</p>
                 </li>
                 <li>
-                    <p class="event-date">18 December 1997</p>
-                    <p class="event-description">HTML 4.0 was published as a W3C Recommendation.</p>
+                    <p class="event-date">Underwriter Review</p>
+                    <p class="event-description">Underwriter reviews file within 24 hours; Underwriter either sends file back to Processing with conditions to be met by Borrower or approves file</p>
                 </li>
                 <li>
-                    <p class="event-date">24 April 1998</p>
-                    <p class="event-description">HTML 4.0 was reissued with minor edits</p>
+                    <p class="event-date">Approval</p>
+                    <p class="event-description">Management alerts Funding/Closing and Servicing that file is approved; commitment letter sent</p>
                 </li>
                 <li>
-                    <p class="event-date">24 December 1999</p>
-                    <p class="event-description">HTML 4.01 was published as a W3C Recommendation</p>
+                    <p class="event-date">Closing</p>
+                    <p class="event-description">Funder/Closer ensures contact with counterparty and drafts closing documents</p>
                 </li>
                 <li>
-                    <p class="event-date">26 January 2000</p>
-                    <p class="event-description">XHTML 1.0 was published as a W3C Recommendation</p>
+                    <p class="event-date">File Sent to Servicing</p>
+                    <p class="event-description">Funder/Closer sends draw schedule and client information to Servicing; servicing instructions sent to Borrower</p>
                 </li>
                 <li>
-                    <p class="event-date">May 2000</p>
-                    <p class="event-description">"ISO HTML", based on HTML 4.01 Strict was published as an ISO/IEC international standard.</p>
+                    <p class="event-date">Commitment Letter Executed</p>
+                    <p class="event-description">Borrower returns executed commitment letter to ensure terms before funding Borrower</p>
                 </li>
                 <li>
-                    <p class="event-date">31 May 2001</p>
-                    <p class="event-description">XHTML 1.1 was published as a W3C Recommendation.</p>
+                    <p class="event-date">Funding</p>
+                    <p class="event-description">Funder/Closer ensures delivery of funds and post-closing document collection</p>
                 </li>
             </ol>
         </div>
