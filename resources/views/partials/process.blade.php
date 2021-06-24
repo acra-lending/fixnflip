@@ -74,7 +74,7 @@
                 </li>
                 <li>
                     <p class="event-date">File Sent to Servicing</p>
-                    <p class="event-description">Funder/Closer sends draw schedule and client information to Servicing; servicing instructions sent to Borrower</p>
+                    <p class="event-description">Funder/Closer sends draw schedule and client information to Servicing; servicing instructions sent to Borrowers</p>
                 </li>
                 <li>
                     <p class="event-date">Commitment Letter Executed</p>
