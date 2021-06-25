@@ -1,6 +1,6 @@
 <div class="anchor" id="C"> </div>
-<div class="container pt-5">
-    <h4 class="text-center">C</h4>
+<div class="container letter-banner">
+    <h4 class="text-center py-1 pt-2">C</h4>
 </div>
 <ul class="list-group">
     <li class="list-group-item"><strong>Capital Expenditures</strong><br>Line items on a profit and loss statement that would not be expensed on an annual basis. This category would include replacement of major building systems, such as roofs, etc.</li>

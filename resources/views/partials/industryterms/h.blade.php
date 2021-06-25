@@ -1,6 +1,6 @@
 <div class="anchor" id="H"> </div>
-<div class="container pt-5">
-    <h4 class="text-center">H</h4>
+<div class="container letter-banner">
+    <h4 class="text-center py-1 pt-2">H</h4>
 </div>
 <ul class="list-group">
     <li class="list-group-item"><strong>Hard Money</strong><br>Private funds used for the purchase of real estate by investors.</li>

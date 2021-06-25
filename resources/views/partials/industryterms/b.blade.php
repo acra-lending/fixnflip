@@ -1,6 +1,6 @@
 <div class="anchor" id="B"> </div>
-<div class="container pt-5">
-    <h4 class="text-center">B</h4>
+<div class="container letter-banner">
+    <h4 class="text-center py-1 pt-2">B</h4>
 </div>
 <ul class="list-group">
     <li class="list-group-item"><strong>Basis Point (BP)</strong><br>1/100th of 1; expressed as a margin over an index rate.</li>

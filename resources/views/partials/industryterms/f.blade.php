@@ -1,6 +1,6 @@
 <div class="anchor" id="F"> </div>
-<div class="container pt-5">
-    <h4 class="text-center">F</h4>
+<div class="container letter-banner">
+    <h4 class="text-center py-1 pt-2">F</h4>
 </div>
 <ul class="list-group">
     <li class="list-group-item"><strong>Fair Market Value</strong><br>An appraisal term for the price which a property would bring in a competitive market, given a willing seller and willing buyer, each having reasonable knowledge of all pertinent facts, with neither being under any compulsion to buy or sell.</li>

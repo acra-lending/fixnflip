@@ -1,6 +1,6 @@
 <div class="anchor" id="E"> </div>
-<div class="container pt-5">
-    <h4 class="text-center">E</h4>
+<div class="container letter-banner">
+    <h4 class="text-center py-1 pt-2">E</h4>
 </div>
 <ul class="list-group">
     <li class="list-group-item"><strong>Effective Gross Income</strong><br>Gross income of a building if fully rented, less an allowance for estimated vacancies.</li>

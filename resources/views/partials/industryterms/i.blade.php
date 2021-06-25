@@ -1,6 +1,6 @@
 <div class="anchor" id="I"> </div>
-<div class="container pt-5">
-    <h4 class="text-center">I</h4>
+<div class="container letter-banner">
+    <h4 class="text-center py-1 pt-2">I</h4>
 </div>
 <ul class="list-group">
     <li class="list-group-item"><strong>Index</strong><br>An economic indicator, usually a published interest rate.</li>

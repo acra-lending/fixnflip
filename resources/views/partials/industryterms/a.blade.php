@@ -1,6 +1,6 @@
 <div class="anchor" id="A"> </div>
-<div class="container pt-5">
-    <h4 class="text-center">A</h4>
+<div class="container letter-banner">
+    <h4 class="text-center py-1 pt-2">A</h4>
 </div>
 <ul class="list-group">
     <li class="list-group-item"><strong>Acreage</strong><br>A 2-dimensional measure of land equaling 160 square rods, 10 square chains, 4,840 square yards, or 43,560 square feet.</li>

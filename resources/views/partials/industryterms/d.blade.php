@@ -1,6 +1,6 @@
 <div class="anchor" id="D"> </div>
-<div class="container pt-5">
-    <h4 class="text-center">D</h4>
+<div class="container letter-banner">
+    <h4 class="text-center py-1 pt-2">D</h4>
 </div>
 <ul class="list-group">
     <li class="list-group-item"><strong>Debt Service</strong><br>The periodic payments of a borrower’s obligations.</li>
