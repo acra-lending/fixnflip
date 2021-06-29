@@ -10371,8 +10371,11 @@ body {
   padding-top: 3rem;
   padding-bottom: 6rem;
   /* background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%); */
-  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 100%, #000000 100%), url('../img/true-simple-hassle-free2-min.jpg'); */
+  background: url('../img/about-section.jpg');
+  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 100%, #000000 100%), url('../img/about-section.jpg'); */
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
   /* background-size: 1920px 830px; */
 }
 .about-section p {
