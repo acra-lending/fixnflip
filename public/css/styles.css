@@ -10387,6 +10387,26 @@ body {
   font-size: 2.75rem;
 }
 
+.contact-section {
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+  /* background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%); */
+  /* background: url('../img/contact-section.jpg'); */
+  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 100%, #000000 100%), url('../img/contact-section.jpg'); */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* background-size: auto; */
+  /* background-size: 1920px 830px; */
+}
+.contact-section p {
+  margin-bottom: 3rem;
+  font-size: 1.25rem;
+}
+
+.contact-section span {
+  font-size: 2.75rem;
+}
+
 .projects-section {
   padding: 0 0 0 0;
 }

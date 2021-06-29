@@ -47,7 +47,7 @@
 
                 {{-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#setting">Setting Expectations</a></li> --}}
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/apply">Get Pre-Approved</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/contact">Contact Us</a></li>
                 <li class="nav-item"><a class="js-scroll-trigger" href="#login"><button class="btn btn-primary pb-1 pt-2" type="submit" style="margin-top: 1.7rem; margin-bottom: 1rem;">Login</button></a></li>
             </ul>
         </div>
