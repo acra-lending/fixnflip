@@ -4,7 +4,7 @@
         font-size: 14px;
     }
 </style>
-<section class="contact-section mb-3" id="applynow">
+<section class="process-section mb-3" id="applynow">
     <div class="container-fluid" style="width: 80%">
         <div class="row">
         <div class="text-center mb-4">

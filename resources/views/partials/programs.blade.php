@@ -32,7 +32,7 @@
             </div>
             <div class="card">
               
-              <div class="card-body">
+              <div class="card-body" style="background-color: #f0f0f0;">
                 <img src="{{ asset('img/icons/purchase_rehab.svg') }}" class="card-img-top mx-auto" alt="purchase-rehab">
                 <h5 class="card-title text-uppercase font-weight-bold text-center pt-3" style="color: var(--primary-color);">Purchase & Rehab</h4>
 
@@ -52,7 +52,7 @@
             </div>
             <div class="card">
               
-              <div class="card-body">
+              <div class="card-body" style="background-color: #f0f0f0;">
                 <img src="{{ asset('img/icons/refinance_rehab.svg') }}" class="card-img-top mx-auto" alt="refinance-rehab">
                 <h5 class="card-title text-uppercase font-weight-bold text-center pt-3" style="color: var(--primary-color);">Refinance Rehab</h4>
                     {{-- <img src="{{ asset('img/refinance-rehab-min.jpg') }}" class="card-img-top" alt="..."> --}}

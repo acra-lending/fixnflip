@@ -20,7 +20,6 @@
 
         @include('includes.navbar')
 
-
         <div class="container col-3 mt-4 pt-5" id="messages">    
             @include('includes.messages')
         </div>

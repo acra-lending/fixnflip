@@ -20,12 +20,9 @@
                     style="
                         padding: 3rem; 
                         border-radius: 0.5rem 0 0 0.5rem;">
-                    <p class="text-white-75">
-                        email@email.com
-                    </p>
-                    <p class="text-white-75">+123-456-7894</p>
-                    <p class="text-white-75">123 Nowhere St<br>
-                        City, State, ZIP<br>
+                    <p class="text-white-75">(888) 800-7661</p>
+                    <p class="text-white-75">25531 Commercecentre Drive<br>
+                        Lake Forest, CA 92630<br>
                     </p>
                 </div>
                 <div class="col-lg-8 shadow" 

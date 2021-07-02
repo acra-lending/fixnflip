@@ -21,5 +21,5 @@
     });
 </script>
 <script src="https://cdn.userway.org/widget.js" data-account="dC4dVUeRnF"></script>
-<script src="js/scripts.js"></script>
+<script src="js/scripts.js?ver=2"></script>
 
