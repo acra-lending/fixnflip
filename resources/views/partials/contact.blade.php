@@ -16,29 +16,38 @@
         <p class="text-center" style="font-size: 1.25rem;">Drop us a message and we'll get back to you.</p>
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 shadow banner" 
+                <div class="col-lg-5 shadow banner" 
                     style="
                         padding: 3rem; 
                         border-radius: 0.5rem 0 0 0.5rem;">
-                    <p class="text-white-75">(888) 800-7661</p>
-                    <p class="text-white-75">25531 Commercecentre Drive<br>
-                        Lake Forest, CA 92630<br>
-                    </p>
+                        <ul class="text-white-75 mt-4" style="list-style-type: none;">
+                            <li class="mb-3"><i class="fas fa-map-marked-alt mr-1"></i>
+                                <a class="text-white-75" href="https://goo.gl/maps/F7Eikwrm2C1vbNVx9" style="text-decoration: none;" target="_blank">25531 Commercecentre Drive<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Suite 160<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lake Forest, CA 92630</a></li>
+                            <li><i class="fas fa-phone mr-1"></i>
+                                <a class="text-white-75" href="tel:8888007661" style="text-decoration: none;">(888) 800-7661</a></li>
+                        </ul>
+                    {{-- <p class="text-white-75 mb-3"></p>
+                    <p class="text-white-75">
+                    </p> --}}
                 </div>
-                <div class="col-lg-8 shadow" 
+                <div class="col-lg-7 shadow" 
                     style="
                         padding: 3rem; 
                         border-radius: 0 0.5rem 0.5rem 0;">
-                    <p class="text-black-75">
-                        Name
-                    </p>
-                    <p class="text-black-75">
-                        Email
-                    </p>
-                    <p class="text-black-75">
-                        Message
-                    </p>
-                    <a class="btn btn-primary" href="#setting">Submit</a>
+                        {{ Form::open(['action' => 'App\Http\Controllers\ContactUsController@submit', 'method' => 'POST']) }}
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" name="name" value="{{ old('name') }}" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" name="email" value="{{ old('email') }}" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="3" class="form-control" id="message" name="message" value="{{ old('message') }}" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    {{ Form::close()}}
                 </div>
             </div>
         </div>

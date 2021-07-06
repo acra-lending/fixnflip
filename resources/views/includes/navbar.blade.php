@@ -15,6 +15,9 @@
     border-radius: 0.5rem 0 0 0.5rem;
     z-index: 9999;
   }
+  .dropdown-menu {
+    animation-duration: 200ms;
+  }
   </style>
 <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav" style="z-index: 99999;">
     <div class="container-fluid" style="width: 80%">
@@ -31,7 +34,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       About
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu animated zoomIn" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="#">Overview</a>
                       <a class="dropdown-item" href="#">History</a>
                     </div>
@@ -40,7 +43,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Programs
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu animated zoomIn" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="#">Purchase Loans</a>
                       <a class="dropdown-item" href="#">Purchase & Rehab</a>
                       <a class="dropdown-item" href="#">Rate & Term Refinance</a>
@@ -52,7 +55,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Setting Expectations
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu animated zoomIn" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="#">Guidelines</a>
                       <a class="dropdown-item" href="/expect">What To Expect</a>
                       <a class="dropdown-item" href="#">Rate & Term Refinance</a>
@@ -65,7 +68,7 @@
 
                 {{-- <li class="nav-item"><a class="nav-link" href="#setting">Setting Expectations</a></li> --}}
                 <li class="nav-item"><a class="nav-link" href="/apply">Get Pre-Approved</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
                 <li class="nav-item"><a class=" href="#login"><button class="btn btn-primary pb-1 pt-2" type="submit" style="margin-top: 1.7rem; margin-bottom: 1rem;">Login</button></a></li>
             </ul>
         </div>
