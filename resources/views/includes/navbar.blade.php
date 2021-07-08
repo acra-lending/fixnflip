@@ -5,7 +5,7 @@
     background: var(--primary-color);
     width: 200px;
     height: 100px;
-    top: 90px;
+    top: 135px;
     display: flex;
     margin-bottom: -150px;
     justify-content: center;
