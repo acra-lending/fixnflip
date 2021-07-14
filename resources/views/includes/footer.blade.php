@@ -20,7 +20,7 @@
                     Links
                 </h3>
                 <a href="https://acralending.com/home-loans/" class="text-left text-white" style="text-decoration: none;" target="_blank">
-                    Non-QM
+                    Borrowers
                 </a><br>
                 <a href="https://acralending/new-broker/" class="text-left text-white" style="text-decoration: none;" target="_blank">
                     Brokers
