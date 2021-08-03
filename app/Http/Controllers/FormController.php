@@ -92,7 +92,13 @@ class FormController extends Controller
         // if($request->filled('email4')) {
         //     array_push($emails, $request->email4);
         // }
-        Mail::to(['robert.jennings@acralending.com', 'webupdates@acralending.com', 'marketing@acralending.com'])
+        Mail::to([
+            'robert.jennings@acralending.com',  
+            'john.licea@acralending.com',
+            'phi.le@acralending.com',
+            'arden.hillstrom@acralending.com',
+            'webupdates@acralending.com',
+        ])
         ->send($mail);
 
         return response()->json(['success' => 'Sent Successfully. You may navigate away from this page.']);
