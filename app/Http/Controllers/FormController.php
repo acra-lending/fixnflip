@@ -80,30 +80,16 @@ class FormController extends Controller
 
         }
 
-        // $emails = [
-        //     'chris.liu@acralending.com',
-        //     'chrisliu0416@gmail.com',
-        //     // 'robert.jennings@acralending.com',
-        // ];
-
-        // if($request->filled('email3')){
-        //     array_push($emails, $request->email3);
-        // }
-        // if($request->filled('email4')) {
-        //     array_push($emails, $request->email4);
-        // }
         Mail::to([
             'robert.jennings@acralending.com',  
             'john.licea@acralending.com',
             'phi.le@acralending.com',
+            'harvey.goldberg@acralending.com',
             'arden.hillstrom@acralending.com',
             'webupdates@acralending.com',
         ])
         ->send($mail);
 
         return response()->json(['success' => 'Sent Successfully. You may navigate away from this page.']);
-
-        // return redirect('/')
-        //     ->with('success', 'Form Sent Successfully');
     }
 }
