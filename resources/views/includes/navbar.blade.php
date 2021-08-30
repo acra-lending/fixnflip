@@ -53,11 +53,11 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Setting Expectations
+                      What To Expect
                     </a>
                     <div class="dropdown-menu animated zoomIn" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Guidelines</a>
-                      <a class="dropdown-item" href="/expect">What To Expect</a>
+                      {{-- <a class="dropdown-item" href="#">Guidelines</a> --}}
+                      <a class="dropdown-item" href="/expect">Setting Expectations</a>
                       <a class="dropdown-item" href="/process">Our Process</a>
                       <a class="dropdown-item" href="/industryterms">Industry Terms</a>
                     </div>
@@ -68,7 +68,7 @@
                 {{-- <li class="nav-item"><a class="nav-link" href="#setting">Setting Expectations</a></li> --}}
                 <li class="nav-item"><a class="nav-link" href="/apply">Get Pre-Approved</a></li>
                 <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
-                <li class="nav-item"><a class=" href="#login"><button class="btn btn-primary pb-1 pt-2" type="submit" style="margin-top: 1.7rem; margin-bottom: 1rem;">Login</button></a></li>
+                {{-- <li class="nav-item"><a class=" href="#login"><button class="btn btn-primary pb-1 pt-2" type="submit" style="margin-top: 1.7rem; margin-bottom: 1rem;">Login</button></a></li> --}}
             </ul>
         </div>
     </div>

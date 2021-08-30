@@ -11,6 +11,8 @@
     <li class="list-group-item"><strong>Title</strong><br>Proof of legal ownership of a real estate asset.</li>
     <li class="list-group-item"><strong>Title Insurance</strong><br>An insurance policy that insures you against errors in the title search – essentially guaranteeing your, and your lender’s financial interest in the property.</li>
     <li class="list-group-item"><strong>Total Annual Operating Income</strong><br>Total yearly income less operating expenses, adjustments, etc., but before mortgage payments, tenant improvements and leasing commissions.</li>
+    <li class="list-group-item"><strong>Total Loan Amount (TLA)</strong><br>The total dollar amount for a loan (for loan calculating purposes, it includes the sum of the Initial Advance and Rehab Budget Amount).</li>
+    <li class="list-group-item"><strong>Total Project Cost (TPC)</strong><br>The sum of the Purchase Price, Rehab Budget Amount, and fees.</li>
     <li class="list-group-item"><strong>Triple–Net Lease (NNN)</strong><br>A lease that requires the tenant to pay for property taxes, insurance and maintenance in addition to the rent (also referred to as "net net net lease").</li>
     <li class="list-group-item"><strong>Turnaround Time</strong><br>The amount of time it takes from when the investment property is purchased to when it is sold.</li>
 </ul>

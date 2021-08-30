@@ -10,6 +10,7 @@
     <li class="list-group-item"><strong>Amenities</strong><br>In appraisal, the non–monetary benefits derived from property ownership.</li>
     <li class="list-group-item"><strong>Anchored</strong><br>A piece of commercial real estate property, which will serve as the main tenant in a shopping center.</li>
     <li class="list-group-item"><strong>Anchors</strong><br>All long term, credit worthy tenants.</li>
+    <li class="list-group-item"><strong>As-Is-Value (AIV)</strong><br>The stated (from the borrower) and/or appraised value (from an appraiser) for a property.</li>
     <li class="list-group-item"><strong>Assignee</strong><br>One to whom a transfer of an interest is done; this party then has the right to purchase the existing contract.</li>
     <li class="list-group-item"><strong>Assignment</strong><br>Written document by which an interest, other than real property, is transferred from one entity/person to another.</li>
     <li class="list-group-item"><strong>Assignor</strong><br>A party who is in control of an assignment and can transfer said assignment to an assignee.</li>

@@ -10,6 +10,7 @@
     <li class="list-group-item"><strong>Recourse</strong><br>Personal liability.</li>
     <li class="list-group-item"><strong>Refinance</strong><br>Replacing an existing loan with a new one; for Fix and Flip, usually for extended completion of a project.</li>
     <li class="list-group-item"><strong>Rehab</strong><br>In the world of real estate, rehab is simply another word for renovation. You are fixing, or rehabbing, a property to rent or to sell.</li>
+    <li class="list-group-item"><strong>Rehab Budget Amount (RBA) </strong><br>The dollar amount that a borrower devotes toward rehab for a property (needs to be approved by the lender).</li>
     <li class="list-group-item"><strong>Rehab-to-Rent</strong><br>Renovating a property with the intentions of renting it out. Rental properties are considered long-term investments.</li>
     <li class="list-group-item"><strong>Rent Roll (Schedule of Real Estate)</strong><br>A list of tenants leasing a property, which details terms of lease, area leased, and the amount of rent being paid.</li>
     <li class="list-group-item"><strong>Rentable Square Feet (same as Net Leasable Area)</strong><br>In a building or project, floor space that may be rented to tenants. The area upon which rental payments are based. Generally, excludes common areas and space devoted to the heating, cooling, and other equipment of a building.</li>

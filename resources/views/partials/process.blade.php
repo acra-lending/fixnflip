@@ -34,11 +34,11 @@
                 </li>
                 <li>
                     <p class="event-date">Phase 1</p>
-                    <p class="event-description">Research Processor requests Borrower’s background and credit</p>
+                    <p class="event-description">Processor initiates Loan Set-Up and requests Borrower's background and credit</p>
                 </li>
                 <li>
-                    <p class="event-date">Research Processor Review</p>
-                    <p class="event-description">Research Processor reviews Borrower’s bank statements, rehab budget, background, credit & entity documents</p>
+                    <p class="event-date">Processor Review</p>
+                    <p class="event-description">Processor reviews Borrower's bank statements, rehab budget, background, credit & entity documents, and completes vetting</p>
                 </li>
                 <li>
                     <p class="event-date">Processor</p>

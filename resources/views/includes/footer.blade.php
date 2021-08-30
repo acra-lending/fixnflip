@@ -2,7 +2,7 @@
 <footer class="footer bg-gray small text-center text-white-50">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-3 text-left">
+            <div class="col-sm-12 col-md-4 text-left">
                 <h3 class="py-2">
                     Contact Us
                 </h3>
@@ -15,7 +15,7 @@
                 <br>
                 <a href="tel:8888007661" class="text-white" style="text-decoration: none;">Phone: (888) 800-7661</a>
             </div>
-            <div class="col-sm-12 col-md-3 text-left">
+            {{-- <div class="col-sm-12 col-md-3 text-left">
                 <h3 class="py-2">
                     Links
                 </h3>
@@ -34,8 +34,8 @@
                 <a href="/contact/" class="text-left text-white" style="text-decoration: none;">
                     Contact Us
                 </a>
-            </div>
-            <div class="col-sm-12 col-md-3 text-left">
+            </div> --}}
+            <div class="col-sm-12 col-md-4 text-left">
                 <h3 class="py-2">
                     Legal
                 </h3>
@@ -53,7 +53,7 @@
                     State Licensing Information
                 </a><br>
             </div>
-            <div class="col-sm-12 col-md-3 text-left">
+            <div class="col-sm-12 col-md-4 text-left">
                 <ul style="list-style-type: none;" class="p-0 pt-3">
                     <li>
                     <a href="https://nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/144549" target="_blank"><img class="mb-3 pb-3" src="{{ asset('img/nmls-logo.png') }}"></a>
