@@ -33,6 +33,8 @@ Route::post('/contact', 'App\Http\Controllers\ContactUsController@submit');
 
 Route::get('/overview', 'App\Http\Controllers\OverviewController@index');
 
+Route::get('/history', 'App\Http\Controllers\HistoryController@index');
+
 Route::get('/team', 'App\Http\Controllers\TeamController@index');
 
 Route::get('/programs', 'App\Http\Controllers\ProgramsController@index');

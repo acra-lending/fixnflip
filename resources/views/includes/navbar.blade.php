@@ -37,6 +37,7 @@
                     <div class="dropdown-menu animated zoomIn" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="/overview">Overview</a>
                       <a class="dropdown-item" href="/team">Our Team</a>
+                      <a class="dropdown-item" href="/history">History</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">

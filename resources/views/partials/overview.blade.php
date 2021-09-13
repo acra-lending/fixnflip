@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div class="row mb-4 pb-4">
-                <div class="col-lg-4 mb-4">
+                <div class="col-lg-4 mb-4 text-center">
                     <img src="{{ asset('img/key-aspects-min.png') }}" alt="Key Aspects">
                 </div>
                 <div class="col-lg-8">
@@ -52,7 +52,7 @@
                 </div>
             </div>
             <div class="row mb-4 pb-4">
-                <div class="col-lg-4 mb-4">
+                <div class="col-lg-4 mb-4 text-center">
                     <img src="{{ asset('img/experience-min.png') }}" alt="Key Aspects">
                 </div>
                 <div class="col-lg-8">
