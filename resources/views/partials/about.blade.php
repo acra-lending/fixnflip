@@ -17,7 +17,7 @@
                     </br>
                     We strive to deliver programs and a platform by originators for originators.
                 </p>
-                <a class="btn btn-primary js-scroll-trigger" href="#setting">Learn More</a>
+                <a class="btn btn-primary js-scroll-trigger" href="/process">Learn More</a>
             </div>
         </div>
         <!-- <img class="img-fluid" src="assets/img/true-simple-hassle-free.jpg" alt="true, simple, hassle free" /> -->
