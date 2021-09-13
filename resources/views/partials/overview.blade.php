@@ -38,7 +38,7 @@
                     <h2 class="border-start border-primary border-4 px-2 pt-2 mb-4">Why Work With Us</h2>
                 </div>
                 <div class="col-lg-8 border-top border-end py-3">
-                    <p>Our Acra Lending team has firsthand knowledge of what it means to be a borcontainerer and/or broker. With our experience as originators and entrepreneurs, we have traversed and overcome the unique obstacles of the lending world. </p>
+                    <p>Our Acra Lending team has firsthand knowledge of what it means to be a borrower and/or broker. With our experience as originators and entrepreneurs, we have traversed and overcome the unique obstacles of the lending world.</p>
                 </div>
             </div>
             <div class="row mb-3 pb-3">

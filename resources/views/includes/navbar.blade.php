@@ -46,9 +46,7 @@
                     <div class="dropdown-menu animated zoomIn" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="/programs">Purchase Loans</a>
                       <a class="dropdown-item" href="/programs#rehab">Purchase & Rehab</a>
-                      <a class="dropdown-item" href="/programs#refinance">Rate & Term Refinance</a>
-                      <a class="dropdown-item" href="/programs#refinance">Refinance Rehab</a>
-                      <a class="dropdown-item" href="/programs#refinance">Refinance Cash Out</a>
+                      <a class="dropdown-item" href="/programs#refinance">Refinance</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
