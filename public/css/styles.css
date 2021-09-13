@@ -3065,7 +3065,7 @@ input[type=button].btn-block {
 
 .dropdown-menu {
   position: absolute;
-  top: 100%;
+  top: 80%;
   left: 0;
   z-index: 1000;
   display: none;
@@ -10434,6 +10434,20 @@ body {
 }
 .projects-section .featured-text {
   padding: 2rem;
+}
+
+.programs-section {
+  padding-top: 2rem;
+  padding-bottom: 20rem;
+  background: url('../img/programs-min.png');
+  background-position: 50% 70%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.programs-section .row {
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 @media (min-width: 992px) {

@@ -23,7 +23,18 @@ Route::get('/apply', 'App\Http\Controllers\FormController@index');
 Route::post('/apply', 'App\Http\Controllers\FormController@submit');
 
 Route::get('/process', 'App\Http\Controllers\OurProcessController@index');
+
 Route::get('/expect', 'App\Http\Controllers\ExpectationsController@index');
+
 Route::get('/industryterms', 'App\Http\Controllers\IndustryTermsController@index');
+
 Route::get('/contact', 'App\Http\Controllers\ContactUsController@index');
 Route::post('/contact', 'App\Http\Controllers\ContactUsController@submit');
+
+Route::get('/overview', 'App\Http\Controllers\OverviewController@index');
+
+Route::get('/team', 'App\Http\Controllers\TeamController@index');
+
+Route::get('/programs', 'App\Http\Controllers\ProgramsController@index');
+
+
