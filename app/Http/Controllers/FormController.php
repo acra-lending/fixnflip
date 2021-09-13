@@ -16,6 +16,7 @@ class FormController extends Controller
     public function submit(Request $request)
     {
         $dataValidate = request()->validate([
+            'referredBy'            => 'required',
             'entityName'            => 'nullable|max:100',
             'sponsorFirstName'      => 'nullable|max:100',
             'sponsorLastName'       => 'nullable|max:100',
@@ -45,10 +46,13 @@ class FormController extends Controller
             'marketRent'            => 'nullable',
             'annualTaxes'           => 'nullable',
             'annualInsurance'       => 'nullable',
+            'hoa'                   => 'nullable',
+            'other'                 => 'nullable',
             'liquidity'             => 'nullable',
             'marketValue'           => 'nullable',
             'amountRequested'       => 'nullable',
             'afterRepairValue'      => 'nullable',
+            'ltvRequested'          => 'nullable',
             'marketComparables'     => 'nullable',
             'exitStrategy'          => 'nullable',
             'creditScore'           => 'nullable',
@@ -90,6 +94,6 @@ class FormController extends Controller
         ])
         ->send($mail);
 
-        return response()->json(['success' => 'Sent Successfully. You may navigate away from this page.']);
+        return response()->json(['success' => 'Sent Successfully. We will reach out to your shortly.']);
     }
 }

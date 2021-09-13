@@ -15,10 +15,24 @@
                 <li>All loans are 12 months, interest only with 3 months minimum interest</li>
                 <li>No rural properties</li>
                 <li>Minimum “AS IS” value $75,000</li>
-                <li>Max loan amt $2.5M</li>
+                <li>Max loan amount $4M</li>
+                <li>No interest charged on un-used rehab available for experience investors.</li>
             </ul>
             <br/>
             <br/>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-floating mb-3">
+                            <select class="form-select" id="referredBy" name="referredBy" value="{{ old('referredBy') }}" required>
+                                <option selected disabled value="">Select</option>
+                                <option value="Rob Jennings">Rob Jennings</option>
+                                <option value="Arden Hillstrom">Arden Hillstrom</option>
+                                <option value="Harvey Goldberg">Harvey Goldberg</option>
+                            </select>
+                            <label class="referredBy">Referred by: <span class="required"> *</span></label>
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-12">
                         <a href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="All loans must close into an entity"><i class="fas fa-info-circle"></i></a>
@@ -151,7 +165,7 @@
                     <div class="col-6">
                         <div class="form-floating mb-5">
                             <select class="form-select" name="state" value="{{ old('state') }}" required>
-                                <option disabled selected>Select</option>
+                                <option selected disabled value="">Select</option>
                                 <option value="AL">Alabama</option>
                                 <option value="AK">Alaska</option>
                                 <option value="AZ">Arizona</option>
@@ -224,7 +238,7 @@
                     <div class="col-12">
                         <div class="form-floating mb-3">
                             <select class="form-select" id="loanPrograms" name="loanPrograms" value="{{ old('loanPrograms') }}" required>
-                                <option selected disabled>Select</option>
+                                <option selected disabled value="">Select</option>
                                 <option value="Purchase">Purchase</option>
                                 <option value="Purchase With Rehab">Purchase With Rehab</option>
                                 <option value="Rate And Term Refinance">Rate And Term Refinance</option>
@@ -296,6 +310,18 @@
                             <label for="annualInsurance" class="form-label">Annual Insurance</label>
                         </div>
                     </div>
+                    <div class="col-12">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="hoa" name="hoa" value="{{ old('hoa') }}" placeholder="HOA (if applicable)">
+                            <label for="hoa" class="form-label">Annual Insurance</label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="other" name="other" value="{{ old('other') }}" placeholder="Purchase Price">
+                            <label for="other" class="form-label">Other</label>
+                        </div>
+                    </div>
                 </div>
                 <br>
                 <div class="row">
@@ -336,6 +362,15 @@
                     </div>
                 </div>
                 <div class="row">
+                    <div class="col-12">
+                        <a href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="Lower LTV loans may receive lower interest rate and pricing"><i class="fas fa-info-circle"></i></a>
+                        <div class="form-floating mb-5">
+                            <input type="text" class="form-control" id="ltvRequested" name="ltvRequested" value="{{ old('ltvRequested') }}" placeholder="After Repair Value">
+                            <label for="ltvRequested" class="form-label">LTV Requested (%)</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-6">
                         <label class="marketComparables">Already ran market comparables?</label>
                     </div>
@@ -353,7 +388,7 @@
                     <div class="col-6">
                         <div class="form-floating mb-5">
                             <select class="form-select" id="exitStrategy" name="exitStrategy" value="{{ old('exitStrategy') }}" required>
-                                <option selected disabled>Select</option>
+                                <option selected disabled value="">Select</option>
                                 <option value="Sell">Sell</option>
                                 <option value="Hold">Hold</option>
                             </select>

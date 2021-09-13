@@ -20,10 +20,6 @@ $(function() {
             },
             complete: function(data) {
                 $('.complete').html(data.responseJSON.success);
-<<<<<<< HEAD
-                
-=======
->>>>>>> 4df95686cf23d9ce8c222f4d5686cac5cf75b531
             }
           });
     }); 

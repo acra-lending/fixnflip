@@ -1,6 +1,8 @@
 @component('mail::message')
 
-# Fix N Flip Business Purpose Loan Analysis 
+# Fix N Flip Business Purpose Loan Analysis<br/>
+<strong>Referred by:</strong> {{ $mail['referredBy'] }}<br/>
+
 <hr/>
 
 # Pre-Approval Form Details:
@@ -57,6 +59,10 @@
 
 <strong>Annual Insurance:</strong> ${{ $mail['annualInsurance'] }}<br/>
 
+<strong>HOA (if applicable):</strong> ${{ $mail['hoa'] }}<br/>
+
+<strong>Other:</strong> ${{ $mail['other'] }}<br/>
+
 <hr/>
 
 # Loan Details:
@@ -68,6 +74,8 @@
 <strong>Amount of Rehab Requested:</strong> ${{ $mail['amountRequested'] }} <br/>
 
 <strong>After Repair Value:</strong> ${{ $mail['afterRepairValue'] }} <br/>
+
+<strong>LTV Requested (%):</strong> ${{ $mail['ltvRequested'] }} <br/>
 
 <strong>Already ran market comparables?</strong> {{ $mail['marketComparables'] }}<br/>
 
