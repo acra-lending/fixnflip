@@ -9,9 +9,9 @@
 <script src="js/morphext.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
 <script src="{{ asset('js/alert-timeout/alert-timeout.js') }}"></script>
-<script src="{{ asset('js/numbers.js?ver=2') }}"></script>
+<script src="{{ asset('js/numbers.js?ver=3') }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.js"></script>
-<script src="{{ asset('js/progress.js?ver=1') }}"></script>
+<script src="{{ asset('js/progress.js?ver=2') }}"></script>
 <script>
     var tooltipTriggerList = [].slice.call(
     document.querySelectorAll('[data-bs-toggle="tooltip"]')
@@ -21,5 +21,5 @@
     });
 </script>
 <script src="https://cdn.userway.org/widget.js" data-account="dC4dVUeRnF"></script>
-<script src="js/scripts.js?ver=2"></script>
+<script src="js/scripts.js?ver=3"></script>
 
