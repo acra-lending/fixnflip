@@ -1,5 +1,10 @@
 <style>
-
+    div.anchor {
+    display: block;
+    position: relative;
+    top: -7.85rem;
+    visibility: hidden;
+    }
 </style>
 <section class="programs-section" id="programs">
     <div class="container-fluid p-0">
@@ -29,6 +34,7 @@
                     <a href="/apply" class="btn btn-primary">Get Pre-Approved</a>
                 </div>
             </div>
+            <div id="rehab" class="anchor"></div>
             <div class="row mb-3 p-5 text-dark rounded shadow">
                 <div class="col-lg-6">
                     <h2>Purchase with Rehab Loans</h2>
@@ -54,6 +60,7 @@
                     <a href="/apply" class="btn btn-primary">Get Pre-Approved</a>
                 </div>
             </div>
+            <div id="refinance" class="anchor"></div>
             <div class="row mb-3 p-5 text-dark rounded shadow">
                 <div class="col-lg-6">
                     <h2>Refinance Loans (Rate & Term, Rehab & Cash-Out options available)</h2>
