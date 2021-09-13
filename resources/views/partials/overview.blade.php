@@ -34,6 +34,11 @@
                 </div>
             </div>
             <div class="row mb-3 pb-3">
+                <div class="col-sm-12">
+                    <hr class="mb-5" style="color: #0033a1; opacity: 0.75;">
+                </div>
+            </div>
+            <div class="row mb-3 pb-3">
                 <div class="col-lg-4">
                     <h2 class="border-start border-primary border-4 px-2 pt-2 mb-4">Why Work With Us</h2>
                 </div>
