@@ -12,10 +12,11 @@
             <p class="pb-0 mb-0">As a busy real estate investor, we value your time and the opportunity to compete for your business. Be advised pricing and leverage are determined by the borrower’s experience, project, credit and liquidity.</p>
             <p class="pt-2">Kindly, assist us in delivering our best pricing by filling out this form with as much detail as possible.</p>
             <ul class="pt-3">
+                <li>SFR 1-4 Units; Multi-Family 5-29 Units. No mixed-use</li>
+	            <li>Loan Amounts: SFR 1-4 Units – up to $4million; Multi-Family 5-29 Units – up to $10 million</li>
                 <li>All loans are 12 months, interest only with 3 months minimum interest</li>
                 <li>No rural properties</li>
                 <li>Minimum “AS IS” value $75,000</li>
-                <li>Max loan amount $4M</li>
                 <li>No interest charged on un-used rehab available for experience investors.</li>
             </ul>
             <br/>
@@ -230,7 +231,7 @@
                     <div class="col-6">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="units" name="units" value="{{ old('units') }}" placeholder="1-50">
-                            <label for="units" class="form-label">How many units? (1-50)</label>
+                            <label for="units" class="form-label">How many units? (1-29)</label>
                         </div>
                     </div>
                 </div>
