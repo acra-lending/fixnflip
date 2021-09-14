@@ -10,7 +10,7 @@
     <div class="container-fluid p-0">
         <div class="container ">
             <h1 class="text-center text-white">Programs</h1>
-            <div class="row mb-3 p-5 text-dark rounded shadow">
+            <div class="row mb-3 p-5 text-dark rounded-3 shadow">
                 <div class="col-lg-6">
                     <h2>Purchase Loans</h2>
                     <p>

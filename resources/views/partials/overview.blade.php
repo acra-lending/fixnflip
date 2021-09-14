@@ -23,7 +23,7 @@
             </div>
             <div class="row mb-4 pb-4">
                 <div class="col-lg-4 mb-4 text-center">
-                    <img src="{{ asset('img/key-aspects-min.png') }}" alt="Key Aspects">
+                    <img src="{{ asset('img/key-aspects-min.png') }}" class="img-fluid rounded-3" alt="Key Aspects">
                 </div>
                 <div class="col-lg-8">
                     <ul class="list-group list-group-flush">
@@ -42,7 +42,7 @@
                 <div class="col-lg-4">
                     <h2 class="border-start border-primary border-4 px-2 pt-2 mb-4">Why Work With Us</h2>
                 </div>
-                <div class="col-lg-8 border-top border-end py-3">
+                <div class="col-lg-8 border-top border-end rounded-end  py-3">
                     <p>Our Acra Lending team has firsthand knowledge of what it means to be a borrower and/or broker. With our experience as originators and entrepreneurs, we have traversed and overcome the unique obstacles of the lending world.</p>
                 </div>
             </div>
@@ -53,7 +53,7 @@
             </div>
             <div class="row mb-4 pb-4">
                 <div class="col-lg-4 mb-4 text-center">
-                    <img src="{{ asset('img/experience-min.png') }}" alt="Key Aspects">
+                    <img src="{{ asset('img/experience-min.png') }}" class="img-fluid rounded-3" alt="Key Aspects">
                 </div>
                 <div class="col-lg-8">
                     <ul class="list-group list-group-flush">

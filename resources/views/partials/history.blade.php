@@ -11,7 +11,7 @@
                 <div class="col-lg-3">
                     <h2 class="border-start border-primary border-4 px-2 pt-2 mb-4">History</h2>
                 </div>
-                <div class="col-lg-8 border-top border-end py-3">
+                <div class="col-lg-8 border-top border-end rounded-end py-3">
                     <p class="mb-4">Fix and Flip as a practice predates the term itself. The concept has been around for a long time, going back to American Colonial times and even in England before American settlement. During this time, it was largely limited due to time and money constraints.</p>
                 </div>
             </div>
@@ -28,14 +28,14 @@
                     </ul>
                 </div>
                 <div class="col-lg-4 mb-4 text-center">
-                    <img src="{{ asset('img/construction-min.png') }}" alt="Key Aspects">
+                    <img src="{{ asset('img/construction-min.png') }}" class="img-fluid rounded-3" alt="Key Aspects">
                 </div>
             </div>
             <div class="row mb-3 pb-3">
                 <div class="col-lg-4">
                     {{-- <h2 class="border-start border-primary border-4 px-2 pt-2 mb-4">Why Work With Us</h2> --}}
                 </div>
-                <div class="col-lg-12 border-top border-end py-3">
+                <div class="col-lg-12 border-top border-end rounded-end py-3">
                     <p>Also at this time, “Hard Money” loans are created and used to buy homes at a reduced price. These loans are largely from private lenders (usually real estate investors) with higher interest rates, lower loan to value (LTV), and are based on the home as an asset (not credit or proof of income).</p>
                 </div>
             </div>
@@ -46,7 +46,7 @@
             </div>
             <div class="row mb-4 pb-4">
                 <div class="col-lg-4 mb-4 text-center">
-                    <img src="{{ asset('img/diy-min.png') }}" alt="Key Aspects">
+                    <img src="{{ asset('img/diy-min.png') }}" class="img-fluid rounded-3" alt="Key Aspects">
                 </div>
                 <div class="col-lg-8">
                     <ul class="list-group list-group-flush">
