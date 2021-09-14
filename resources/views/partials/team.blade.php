@@ -9,7 +9,7 @@
         <div class="container">
             <div class="row mb-3 pb-3">
                 <div class="col-lg-3">
-                    <h2 class="border-start border-primary border-4px-2 pt-2 mb-4">Our Team</h2>
+                    <h2 class="border-start border-primary border-4 px-2 pt-2 mb-4">Our Team</h2>
                 </div>
                 <div class="col-lg-9 border-top border-end rounded-end py-3">
                     <p>Our team members are knowledgeable, responsive, and collaborate with our entrepreneurs to ensure success.</p>
