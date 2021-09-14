@@ -11,7 +11,7 @@
                 <div class="col-lg-3">
                     <h2 class="border-start border-primary border-4 px-2 pt-2 mb-4">History</h2>
                 </div>
-                <div class="col-lg-8 border-top border-end rounded-end py-3">
+                <div class="col-lg-9 border-top border-end rounded-end py-3">
                     <p class="mb-4">Fix and Flip as a practice predates the term itself. The concept has been around for a long time, going back to American Colonial times and even in England before American settlement. During this time, it was largely limited due to time and money constraints.</p>
                 </div>
             </div>
