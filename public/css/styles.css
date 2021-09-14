@@ -10453,7 +10453,7 @@ body {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid var(--primary-color);
+    /* border-left: 0.5rem solid var(--primary-color); */
   }
 }
 .projects-section .project-text {
@@ -10465,8 +10465,8 @@ body {
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: var(--primary-color);
-    border-width: 0.25rem;
+    /* border-color: var(--primary-color); */
+    /* border-width: 0.25rem; */
     width: 30%;
   }
 }

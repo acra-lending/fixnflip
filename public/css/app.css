@@ -61,6 +61,7 @@
   /* background-color: hsl(221,100%,32%); */
   background-color: hsl(calc(var(--hue)*221),100%,32%);
   border-color: hsl(calc(var(--hue)*221),100%,32%);
+  border-radius: 0.5rem;
   /* border-color: hsl(221,100%,32%); */
   padding: 1rem;
   margin: 2rem 0;

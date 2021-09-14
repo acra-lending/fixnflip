@@ -1,9 +1,9 @@
 <section class="projects-section bg-light pt-5" id="setting">
     <div class="container">
         <!-- Featured Project Row-->
-        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-            <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0 shadow" src="{{ asset('img/set-expectations-min.jpg')}}" alt="setting-expectations" /></div>
-            <div class="col-xl-4 col-lg-5">
+        <div class="row align-items-center no-gutters pb-5">
+            <div class="col-xl-6 col-lg-6"><img class="img-fluid mb-3 mb-lg-0 shadow" src="{{ asset('img/set-expectations-min.jpg')}}" alt="setting-expectations" /></div>
+            <div class="col-xl-6 col-lg-6">
                 <div class="featured-text text-center text-lg-left">
                     <h4>Setting Expectations</h4>
                     <!-- <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p> -->
