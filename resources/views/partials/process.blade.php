@@ -1,4 +1,4 @@
-<link href="css/app.css?ver=1" rel="stylesheet" />
+<link href="css/app.css?ver=2" rel="stylesheet" />
 <style>
     p {
         font-size: 14px;
