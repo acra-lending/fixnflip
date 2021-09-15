@@ -18,7 +18,7 @@
             <div class="row mb-3 pb-3">
                 <div class="col-lg-4 text-center">
                     <img src="{{ asset('img/rob-jennings.jpg') }}" class="img-fluid rounded-3 mb-3 mx-auto" alt="Rob Jennings">
-                    <p class="fw-bold">Robert Jennings</p>
+                    <p class="fw-bold text-uppercase">Robert Jennings</p>
                     <p class="mb-4">Managing Director</p>
                 </div>
                 <div class="col-lg-8">
@@ -39,7 +39,7 @@
             <div class="row mb-3 pb-3">
                 <div class="col-lg-4 text-center">
                     <img src="{{ asset('img/arden-hillstrom.jpg') }}" class="img-fluid rounded-3 mb-3" alt="Arden Hillstrom">
-                    <p class="fw-bold">Arden Hillstrom</p>
+                    <p class="fw-bold text-uppercase">Arden Hillstrom</p>
                     <p class="mb-4">Operations Director</p>
                 </div>
                 <div class="col-lg-8">
