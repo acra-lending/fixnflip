@@ -27,7 +27,6 @@
                             <select class="form-select" id="referredBy" name="referredBy" value="{{ old('referredBy') }}" required>
                                 <option selected disabled value="">Select</option>
                                 <option value="Rob Jennings">Rob Jennings</option>
-                                <option value="Arden Hillstrom">Arden Hillstrom</option>
                                 <option value="Harvey Goldberg">Harvey Goldberg</option>
                             </select>
                             <label class="referredBy">Referred by: <span class="required"> *</span></label>
@@ -40,6 +39,7 @@
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="entityName" name="entityName" value="{{ old('entityName') }}" placeholder="ACME">
                             <label for="entityName">Entity Name</label>
+                            <input type="text" id="ref" name="ref" value="{{ request('ref') }}">
                         </div>
                     </div>
                 </div>

@@ -61,6 +61,15 @@
                       <a class="dropdown-item" href="/industryterms">Industry Terms</a>
                     </div>
                 </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Resources & Documents
+                    </a>
+                    <div class="dropdown-menu animated zoomIn" aria-labelledby="navbarDropdown">
+                      {{-- <a class="dropdown-item" href="#">Guidelines</a> --}}
+                      <a class="dropdown-item" href="/ratesheets">Ratesheets</a>
+                    </div>
+                </li>
                 {{-- <li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li> --}}
                 {{-- <li class="nav-item"><a class="nav-link" href="#about">About</a></li> --}}
 

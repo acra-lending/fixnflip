@@ -2,6 +2,6 @@
 
 @section('content')
 
-@include('partials.industryterms')
+@include('partials.ratesheets')
 
 @endsection

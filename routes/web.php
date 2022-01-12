@@ -28,6 +28,8 @@ Route::get('/expect', 'App\Http\Controllers\ExpectationsController@index');
 
 Route::get('/industryterms', 'App\Http\Controllers\IndustryTermsController@index');
 
+Route::get('/ratesheets', 'App\Http\Controllers\RatesheetsController@index');
+
 Route::get('/contact', 'App\Http\Controllers\ContactUsController@index');
 Route::post('/contact', 'App\Http\Controllers\ContactUsController@submit');
 
