@@ -31,27 +31,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row mb-3 pb-3">
-                <div class="col-sm-12">
-                    <hr class="mb-5" style="color: #0033a1; opacity: 0.75;">
-                </div>
-            </div>
-            <div class="row mb-3 pb-3">
-                <div class="col-lg-4 text-center">
-                    <img src="{{ asset('img/arden-hillstrom.jpg') }}" class="img-fluid rounded-3 mb-3" alt="Arden Hillstrom">
-                    <p class="fw-bold text-uppercase">Arden Hillstrom</p>
-                    <p class="mb-4">Operations Director</p>
-                </div>
-                <div class="col-lg-8">
-                    <p>
-                        Ms. Hillstrom started in the Fix & Flip arena at 22 years of age, using her education in business and legal training to make her a strategic flipper. Early in her career path, she was not only flipping but training and molding other investors. This led to her current longstanding tenure in the mortgage industry. 
-                        <br><br>
-                        Ms. Hillstrom also started, owned, and managed many Broker shops, reflecting her wealth of knowledge in sales. Her mortgage career path has even ventured into advocacy work, including revisions to the 1003 Form and Fannie and Freddie commercial property practices. 
-                        <br><br>
-                        Ms. Hillstrom continues to utilize her knowledge and experience for her current ventures and pouring into others who desire to learn more about the mortgage industry.
-                        </p>
-                </div>
-            </div>
+
             <div class="row mb-5 pb-5">
                 <div class="col-sm-12">
                     <hr class="mb-5" style="color: #0033a1; opacity: 0.75;">
