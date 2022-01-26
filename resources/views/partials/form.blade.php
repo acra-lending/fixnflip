@@ -39,7 +39,7 @@
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="entityName" name="entityName" value="{{ old('entityName') }}" placeholder="ACME">
                             <label for="entityName">Entity Name</label>
-                            <input type="text" id="ref" name="ref" value="{{ request('ref') }}">
+                            {{-- <input type="text" id="ref" name="ref" value="{{ request('ref') }}"> --}}
                         </div>
                     </div>
                 </div>
