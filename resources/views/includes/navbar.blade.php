@@ -67,6 +67,7 @@
                     </a>
                     <div class="dropdown-menu animated zoomIn" aria-labelledby="navbarDropdown">
                       {{-- <a class="dropdown-item" href="#">Guidelines</a> --}}
+                      <a class="dropdown-item" href="/forms">Forms</a>
                       <a class="dropdown-item" href="/ratesheets">Ratesheets</a>
                     </div>
                 </li>
