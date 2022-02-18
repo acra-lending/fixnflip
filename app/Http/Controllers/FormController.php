@@ -85,11 +85,7 @@ class FormController extends Controller
         }
 
         Mail::to([
-            'robert.jennings@acralending.com',  
-            'john.licea@acralending.com',
-            'phi.le@acralending.com',
-            'harvey.goldberg@acralending.com',
-            'arden.hillstrom@acralending.com',
+            'robert.jennings@acralending.com',
             'webupdates@acralending.com',
         ])
         ->send($mail);

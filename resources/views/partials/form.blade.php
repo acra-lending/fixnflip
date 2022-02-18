@@ -27,7 +27,6 @@
                             <select class="form-select" id="referredBy" name="referredBy" value="{{ old('referredBy') }}" required>
                                 <option selected disabled value="">Select</option>
                                 <option value="Rob Jennings">Rob Jennings</option>
-                                <option value="Harvey Goldberg">Harvey Goldberg</option>
                             </select>
                             <label class="referredBy">Referred by: <span class="required"> *</span></label>
                         </div>
