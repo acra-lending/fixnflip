@@ -9,6 +9,9 @@
         background: rgb(138,183,233);
         background: linear-gradient(250deg, rgba(138,183,233,1) 0%, rgba(0,51,161,1) 100%);
     }
+    .progress { position:relative; width:100%; background-color: var(--gray-color); height: 20px; }
+    .bar { background-color: var(--primary-color); width:0%; height:40px; }
+    .percent { position:absolute; display:inline-block; left:50%; top:50%; color: #fff;}
 </style>
 <section class="contact-section" id="contact">
     <div class="container">
@@ -47,6 +50,11 @@
                             <textarea rows="3" class="form-control" id="message" name="message" value="{{ old('message') }}" placeholder="Message" required></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
+                        <div class="progress mt-3" hidden>
+                            <div class="bar"></div>
+                            <div class="percent">0%</div>
+                        </div>
+                        <div class="complete"></div>
                     {{ Form::close()}}
                 </div>
             </div>

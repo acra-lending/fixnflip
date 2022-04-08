@@ -29,8 +29,9 @@ class ContactUsController extends Controller
             ->bcc(['webupdates@acralending.com'])
             ->send($mail);
 
-        return redirect('/contact')
-            ->with('success', 'Thank you for your message. We will reply back shortly.');
+        // return redirect('/contact')
+        //     ->with('success', 'Thank you for your message. We will reply back shortly.');
+        return response()->json(['success' => 'Sent Successfully. We will reach out to your shortly.']);
     }
     
 }

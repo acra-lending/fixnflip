@@ -90,6 +90,6 @@ class FormController extends Controller
         ])
         ->send($mail);
 
-        return response()->json(['success' => 'Sent Successfully. We will reach out to your shortly.']);
+        return response()->json(['success' => 'Sent Successfully. We will reach out to you shortly.']);
     }
 }
