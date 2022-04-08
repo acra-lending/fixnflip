@@ -1,4 +1,4 @@
-var SITEURL = "{{URL('/contact')}}";
+var SITEURL = "{{URL('/apply')}}";
 $(function() {
     $(document).ready(function()
     {

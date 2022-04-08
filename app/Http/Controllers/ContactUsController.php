@@ -31,7 +31,7 @@ class ContactUsController extends Controller
 
         // return redirect('/contact')
         //     ->with('success', 'Thank you for your message. We will reply back shortly.');
-        return response()->json(['success' => 'Sent Successfully. We will reach out to your shortly.']);
+        return response()->json(['success' => 'Sent Successfully. We will reach out to you shortly.']);
     }
     
 }

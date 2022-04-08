@@ -49,12 +49,14 @@
                         <div class="form-group">
                             <textarea rows="3" class="form-control" id="message" name="message" value="{{ old('message') }}" placeholder="Message" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                        <div class="progress mt-3" hidden>
-                            <div class="bar"></div>
-                            <div class="percent">0%</div>
+                        <div class="row">
+                            <div class="col-12 mb-5">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                                {{-- {{ Form::submit('Submit', ['class' => 'btn btn-outline-danger ']) }} --}}
+                                <div class="complete"></div>
+                            </div>
                         </div>
-                        <div class="complete"></div>
+                        {{-- <button type="submit" class="btn btn-primary">Submit</button>   --}}
                     {{ Form::close()}}
                 </div>
             </div>
