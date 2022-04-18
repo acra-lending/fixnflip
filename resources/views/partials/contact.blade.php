@@ -5,6 +5,7 @@
         padding-top: 0.85rem;
         float: right;
     }
+    input[type="text"]#subject { display: none; }
     .contact-section .banner {
         background: rgb(138,183,233);
         background: linear-gradient(250deg, rgba(138,183,233,1) 0%, rgba(0,51,161,1) 100%);
@@ -48,6 +49,7 @@
                         </div>
                         <div class="form-group">
                             <textarea rows="3" class="form-control" id="message" name="message" value="{{ old('message') }}" placeholder="Message" required></textarea>
+                            <input id="subject" name="subject" type="text" value="" />
                         </div>
                         <div class="row">
                             <div class="col-12 mb-5">

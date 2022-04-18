@@ -21,6 +21,10 @@ class ContactUsController extends Controller
             'message'       => 'required',
         ]);
 
+        if ($request->filled('subject')) {
+            return;
+        }
+
         $data = $request->all();
 
         $mail = new ContactSubmit($data);
