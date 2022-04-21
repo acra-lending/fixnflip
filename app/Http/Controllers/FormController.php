@@ -86,6 +86,7 @@ class FormController extends Controller
 
         Mail::to([
             'robert.jennings@acralending.com',
+            'keith.lind@acralending.com',
             'webupdates@acralending.com',
         ])
         ->send($mail);
