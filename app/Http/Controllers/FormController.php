@@ -73,19 +73,22 @@ class FormController extends Controller
         );    
 
         if ($request->filled('ref')) {
-            $user = DB::connection('mysql2')->table('s2zar_users')->where('email', $request->input('ref'))->get();
-            $userEmail = $user[0]->email;
-            array_push($emailArray, $userEmail);
-            $data = [
-                $request->all(),
-                'referredBy' => $user[0]->name
-            ];
-        } else {
-            $userEmail = null;
-            $data = [
-                $request->all(),
-                'referredBy' => null
-            ];
+            $user = DB::connection('mysql2')->table('s2zar_users')->where('email', $request->input('ref'))->first();
+            // dd($user);
+            if ($user != null) {
+                $userEmail = $user[0]->email;
+                array_push($emailArray, $userEmail);
+                $data = [
+                    $request->all(),
+                    'referredBy' => $user[0]->name
+                ];
+            } else {
+                $userEmail = null;
+                $data = [
+                    $request->all(),
+                    'referredBy' => null
+                ];
+            }
         }
 
         $mail = new FormSubmit($data);
@@ -104,8 +107,8 @@ class FormController extends Controller
         Mail::to($emailArray)
         ->send($mail);
 
-        return response()->json(['success' => 'Sent Successfully. We will reach out to you shortly.']);
-        // return redirect('/');
+        // return response()->json(['success' => 'Sent Successfully. We will reach out to you shortly.']);
+        return redirect('/');
         
     }
 }
