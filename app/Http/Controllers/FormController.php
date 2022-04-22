@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Mail\FormSubmit;
 use Mail;
+use DB;
 
 class FormController extends Controller
 {
@@ -16,7 +17,7 @@ class FormController extends Controller
     public function submit(Request $request)
     {
         $dataValidate = request()->validate([
-            'referredBy'            => 'required',
+            'ref'                   => 'nullable',
             'entityName'            => 'nullable|max:100',
             'sponsorFirstName'      => 'nullable|max:100',
             'sponsorLastName'       => 'nullable|max:100',
@@ -65,13 +66,33 @@ class FormController extends Controller
             'attachment.*'          => 'nullable|mimes:pdf,jpeg,jpg,bmp,png,gif|max:99999999',
         ]);
 
-        $data = $request->all();
+        $emailArray = array(
+            'webupdates@acralending.com',
+            'robert.jennings@acralending.com',
+            'keith.lind@acralending.com',
+        );    
+
+        if ($request->filled('ref')) {
+            $user = DB::connection('mysql2')->table('s2zar_users')->where('email', $request->input('ref'))->get();
+            $userEmail = $user[0]->email;
+            array_push($emailArray, $userEmail);
+            $data = [
+                $request->all(),
+                'referredBy' => $user[0]->name
+            ];
+        } else {
+            $userEmail = null;
+            $data = [
+                $request->all(),
+                'referredBy' => null
+            ];
+        }
+
         // dd($data);
 
         $mail = new FormSubmit($data);
         // dd($mail);
         $files = $request->file('attachment');
-
         if($request->hasFile('attachment')){
 
             foreach ($files as $file){
@@ -80,17 +101,13 @@ class FormController extends Controller
                     'mime'  => $file->getClientMimeType()
                 ]);          
             }
-        } else {
+        };
 
-        }
-
-        Mail::to([
-            'robert.jennings@acralending.com',
-            'keith.lind@acralending.com',
-            'webupdates@acralending.com',
-        ])
+        Mail::to($emailArray)
         ->send($mail);
 
         return response()->json(['success' => 'Sent Successfully. We will reach out to you shortly.']);
+        // return redirect('/');
+        
     }
 }

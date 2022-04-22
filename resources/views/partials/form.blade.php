@@ -21,7 +21,7 @@
             </ul>
             <br/>
             <br/>
-                <div class="row">
+                {{-- <div class="row">
                     <div class="col-12">
                         <div class="form-floating mb-3">
                             <select class="form-select" id="referredBy" name="referredBy" value="{{ old('referredBy') }}" required>
@@ -31,14 +31,14 @@
                             <label class="referredBy">Referred by: <span class="required"> *</span></label>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <div class="row">
                     <div class="col-12">
                         <a href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="All loans must close into an entity"><i class="fas fa-info-circle"></i></a>
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="entityName" name="entityName" value="{{ old('entityName') }}" placeholder="ACME">
                             <label for="entityName">Entity Name</label>
-                            {{-- <input type="text" id="ref" name="ref" value="{{ request('ref') }}"> --}}
+                            <input type="text" id="ref" name="ref" value="{{ request('ref') }}" hidden>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                         <a href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="Borrower = Sponsor"><i class="fas fa-info-circle"></i></a>
                         <div class="form-floating mb-5">
                             <input type="text" class="form-control" id="sponsorFirstName" name="sponsorFirstName" value="{{ old('sponsorFirstName') }}" placeholder="John Doe">
-                            <label for="sponsorFirstName" class="form-label">Sponsor/Borrower First Name</label>
+                            <label for="sponsorFirstName" class="form-label">Borrower First Name</label>
 
                         </div>
                     </div>
@@ -55,7 +55,7 @@
                         &nbsp;
                         <div class="form-floating mb-5">
                             <input type="text" class="form-control" id="sponsorLastName" name="sponsorLastName" value="{{ old('SponsorLastName') }}" placeholder="Jane Doe">
-                            <label for="SponsorLastName" class="form-label">Sponsor/Borrower Last Name</label>
+                            <label for="SponsorLastName" class="form-label">Borrower Last Name</label>
                         </div>
                     </div>
                     <div class="col-2">
@@ -84,14 +84,14 @@
                     <div class="col-5">
                         <div class="form-floating mb-5">
                             <input type="text" class="form-control" id="coSponsorFirstName" name="coSponsorFirstName" value="{{ old('coSponsorFirstName') }}" placeholder="John Doe">
-                            <label for="coSponsorFirstName" class="form-label">Co-Sponsor/Borrower First Name</label>
+                            <label for="coSponsorFirstName" class="form-label">Co-Borrower First Name</label>
 
                         </div>
                     </div>
                     <div class="col-5">
                         <div class="form-floating mb-5">
                             <input type="text" class="form-control" id="coSponsorLastName" name="coSponsorLastName" value="{{ old('coSponsorLastName') }}" placeholder="Jane Doe">
-                            <label for="coSponsorLastName" class="form-label">Co-Sponsor/Borrower Last Name</label>
+                            <label for="coSponsorLastName" class="form-label">Co-Borrower Last Name</label>
                         </div>
                     </div>
                     <div class="col-2">
@@ -141,7 +141,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <a href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="We only lend on the following: SFR 1-4, Condos, Ground Up (case by case)"><i class="fas fa-info-circle"></i></a>
+                        <a href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="We lend on residential properties 1-29 units. No mixed use."><i class="fas fa-info-circle"></i></a>
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="address" name="address" value="{{ old('address') }}" placeholder="Street Address" required>
                             <label for="address" class="form-label">Subject Property Address<span class="required"> *</span></label>
