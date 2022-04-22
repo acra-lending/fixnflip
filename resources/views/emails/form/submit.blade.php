@@ -85,7 +85,7 @@
 
 <hr/>
 
-# Sponsor's Real Estate Experience:
+# Borrower's Real Estate Experience:
 
 <strong>Properties Sold in Last 36 Months:</strong> {{ $mail[0]['propertiesSold'] }}<br/>
 

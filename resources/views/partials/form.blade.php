@@ -420,7 +420,7 @@
                 <div class="row">
                     <div class="col-12">
                         <a href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="Lender must be able to verify Sponsor or Sponsors entities to the properties listed or property will not qualify. Personal residences do not count as experience"><i class="fas fa-info-circle"></i></a>
-                        <label for="realEstateExperience" class="form-label">Sponsor's Real Estate Experience</label>
+                        <label for="realEstateExperience" class="form-label">Borrower's Real Estate Experience</label>
                     </div>
                 </div>
                 <div class="row">
