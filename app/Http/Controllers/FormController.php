@@ -88,10 +88,8 @@ class FormController extends Controller
             ];
         }
 
-        // dd($data);
-
         $mail = new FormSubmit($data);
-        // dd($mail);
+
         $files = $request->file('attachment');
         if($request->hasFile('attachment')){
 
