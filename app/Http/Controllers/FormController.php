@@ -74,13 +74,13 @@ class FormController extends Controller
 
         if ($request->filled('ref')) {
             $user = DB::connection('mysql2')->table('s2zar_users')->where('email', $request->input('ref'))->first();
-            // dd($user);
+            // dd($user->email);
             if ($user != null) {
-                $userEmail = $user[0]->email;
+                $userEmail = $user->email;
                 array_push($emailArray, $userEmail);
                 $data = [
                     $request->all(),
-                    'referredBy' => $user[0]->name
+                    'referredBy' => $user->name
                 ];
             } else {
                 $userEmail = null;
