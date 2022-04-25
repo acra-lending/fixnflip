@@ -11,7 +11,7 @@
 
 <strong>Borrower First Name:</strong> {{ $mail[0]['sponsorFirstName'] }}<br/>
 <strong>Borrower Last Name:</strong> {{ $mail[0]['sponsorLastName'] }}<br/>
-<strong>Borrower Name:</strong> {{ $mail[0]['sponsorMiddleInitial'] }}<br/>
+<strong>Borrower Middle Initial:</strong> {{ $mail[0]['sponsorMiddleInitial'] }}<br/>
 <strong>Email:</strong> {{ $mail[0]['email'] }}<br/>
 <strong>Phone:</strong> {{ $mail[0]['phone'] }}<br/> 
 
