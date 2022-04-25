@@ -15,9 +15,9 @@
 <strong>Email:</strong> {{ $mail[0]['email'] }}<br/>
 <strong>Phone:</strong> {{ $mail[0]['phone'] }}<br/> 
 
-<strong>Co-Borrower Name:</strong> {{ $mail[0]['coSponsorFirstName'] }}<br/>
-<strong>Co-Borrower Name:</strong> {{ $mail[0]['coSponsorLastName'] }}<br/>
-<strong>Co-Borrower Name:</strong> {{ $mail[0]['coSponsorMiddleInitial'] }}<br/>
+<strong>Co-Borrower First Name:</strong> {{ $mail[0]['coSponsorFirstName'] }}<br/>
+<strong>Co-Borrower Last Name:</strong> {{ $mail[0]['coSponsorLastName'] }}<br/>
+<strong>Co-Borrower Middle Initial:</strong> {{ $mail[0]['coSponsorMiddleInitial'] }}<br/>
 <strong>Email:</strong> {{ $mail[0]['email2'] }}<br/>
 <strong>Phone:</strong> {{ $mail[0]['phone2'] }}<br/> 
 
