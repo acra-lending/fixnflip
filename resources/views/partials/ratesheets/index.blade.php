@@ -23,5 +23,17 @@
             <span id="text">Small Balance Multifamily</span>
         </a>
     </div>
+    <div class="link">
+        <a href="https://acralending.com/wp-content/uploads/2022/RateSheets/FF/acra-ff-creditbox-sfr.pdf" target="_blank">
+            <i id="icon" class="fas fa-file-pdf"></i> 
+            <span id="text">Fix & Flip / Stabilized Bridge SFR</span>
+        </a>
+    </div>
+    <div class="link">
+        <a href="https://acralending.com/wp-content/uploads/2022/RateSheets/FF/acra-ff-creditbox-mf.pdf" target="_blank">
+            <i id="icon" class="fas fa-file-pdf"></i> 
+            <span id="text">Fix & Flip / Stabilized Bridge MF</span>
+        </a>
+    </div>
     <hr />
 </div>

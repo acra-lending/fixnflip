@@ -25,7 +25,7 @@
             <h2 class="mx-auto mt-2 mb-2 pb-4">Ratesheets</h1>
         </div> --}}
         <div class="container">
-            @include('partials.ratesheets.sbmf')
+            @include('partials.ratesheets.index')
         </div>
     </div>
 </section>

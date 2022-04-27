@@ -15,6 +15,11 @@
     border-radius: 0.5rem 0 0 0.5rem;
     z-index: 9999;
   }
+  @media (max-width: 992px) {
+    #sticky {
+      display: none;
+    }
+  }
   .dropdown-menu {
     animation-duration: 200ms;
   }
