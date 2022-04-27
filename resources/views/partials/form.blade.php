@@ -335,20 +335,20 @@
                     <div class="col-12">
                         <a href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="Liquid assets help establish the stability of the borrower and may result in higher LTV’s"><i class="fas fa-info-circle"></i></a>
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="liquidity" name="liquidity" value="{{ old('liquidity') }}" placeholder="Purchase Price">
-                            <label for="marketValue" class="form-label">Borrower's Liquidity</label>
+                            <input type="text" class="form-control" id="liquidity" name="liquidity" value="{{ old('liquidity') }}" placeholder="Borrower's Liquidity" required>
+                            <label for="marketValue" class="form-label">Borrower's Liquidity<span class="required"> *</span></label>
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="marketValue" name="marketValue" value="{{ old('marketValue') }}" placeholder="Purchase Price">
-                            <label for="marketValue" class="form-label">"As Is"/Current Market Value</label>
+                            <input type="text" class="form-control" id="marketValue" name="marketValue" value="{{ old('marketValue') }}" placeholder="As Is/Current Market Value" required>
+                            <label for="marketValue" class="form-label">"As Is"/Current Market Value<span class="required"> *</span></label>
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="amountRequested" name="amountRequested" value="{{ old('amountRequested') }}" placeholder="Purchase Date">
-                            <label for="amountRequested" class="form-label">Amount of Rehab Requested (if applicable)</label>
+                            <input type="text" class="form-control" id="amountRequested" name="amountRequested" value="{{ old('amountRequested') }}" placeholder="Amount Requested" required>
+                            <label for="amountRequested" class="form-label">Amount of Rehab Requested<span class="required"> *</span></label>
                         </div>
                     </div>
                 </div>
@@ -356,8 +356,8 @@
                     <div class="col-12">
                         <a href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="The A.R.V. is a critical component used by the lender to determine pricing. Appraisers use the Sponsors rehab budget along with “like” completed projects to determine the A.R.V."><i class="fas fa-info-circle"></i></a>
                         <div class="form-floating mb-5">
-                            <input type="text" class="form-control" id="afterRepairValue" name="afterRepairValue" value="{{ old('afterRepairValue') }}" placeholder="After Repair Value">
-                            <label for="afterRepairValue" class="form-label">After Repair Value (A.R.V.)</label>
+                            <input type="text" class="form-control" id="afterRepairValue" name="afterRepairValue" value="{{ old('afterRepairValue') }}" placeholder="After Repair Value" required>
+                            <label for="afterRepairValue" class="form-label">After Repair Value (A.R.V.)<span class="required"> *</span></label>
                         </div>
                     </div>
                 </div>
@@ -365,20 +365,20 @@
                     <div class="col-12">
                         <a href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="Lower LTV loans may receive lower interest rate and pricing"><i class="fas fa-info-circle"></i></a>
                         <div class="form-floating mb-5">
-                            <input type="text" class="form-control" id="ltvRequested" name="ltvRequested" value="{{ old('ltvRequested') }}" placeholder="After Repair Value">
-                            <label for="ltvRequested" class="form-label">LTV Requested (%)</label>
+                            <input type="text" class="form-control" id="ltvRequested" name="ltvRequested" value="{{ old('ltvRequested') }}" placeholder="LTV Requested" required>
+                            <label for="ltvRequested" class="form-label">LTV Requested (%)<span class="required"> *</span></label>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-6">
-                        <label class="marketComparables">Already ran market comparables?</label>
+                        <label class="marketComparables">Already ran market comparables?<span class="required"> *</span></label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-6">
                         <div class="mb-5">
-                            <select class="form-select" id="marketComparables" name="marketComparables" value="{{ old('marketComparables') }}">
+                            <select class="form-select" id="marketComparables" name="marketComparables" value="{{ old('marketComparables') }}" required>
                                 <option selected value="N/A">Select</option>
                                 <option value="Yes">Yes</option>
                                 <option value="No">No</option>
@@ -400,7 +400,7 @@
                     <div class="col-12">
                         <a href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="Final credit score will be determined by lender credit pull"><i class="fas fa-info-circle"></i></a>
                         <div class="form-floating mb-5">
-                            <select class="form-select" id="creditScore" name="creditScore" value="{{ old('creditScore') }}">
+                            <select class="form-select" id="creditScore" name="creditScore" value="{{ old('creditScore') }}" required>
                                 <option selected value="N/A">Select</option>
                                 <option value="600-619">600-619</option>
                                 <option value="620-639">620-639</option>
@@ -413,7 +413,7 @@
                                 <option value="760-779">680-699</option>
                                 <option value="780-800">780-800</option>
                             </select>
-                            <label class="creditScore">Estimated Fico Score</label>
+                            <label class="creditScore">Estimated Fico Score<span class="required"> *</span></label>
                         </div>
                     </div>
                 </div>
@@ -426,7 +426,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="form-floating mb-5">
-                            <select class="form-select" id="propertiesSold" name="propertiesSold" value="{{ old('propertiesSold') }}">
+                            <select class="form-select" id="propertiesSold" name="propertiesSold" value="{{ old('propertiesSold') }}" required>
                                 <option selected value="N/A">Select</option>
                                 <option value="0">0</option>
                                 <option value="1">1</option>
@@ -440,13 +440,13 @@
                                 <option value="9">9</option>
                                 <option value="10+">10+</option>
                             </select>
-                            <label class="propertiesSold">Properties Sold in Last 36 Months</label>
+                            <label class="propertiesSold">Properties Sold in Last 36 Months<span class="required"> *</span></label>
                         </div>
                     </div>
                     <div class="col-12">
                         &nbsp;
                         <div class="form-floating mb-5">
-                            <select class="form-select" id="propertiesOwned" name="propertiesOwned" value="{{ old('propertiesOwned') }}">
+                            <select class="form-select" id="propertiesOwned" name="propertiesOwned" value="{{ old('propertiesOwned') }}" required>
                                 <option selected value="N/A">Select</option>
                                 <option value="0">0</option>
                                 <option value="1">1</option>
@@ -460,14 +460,14 @@
                                 <option value="9">9</option>
                                 <option value="10+">10+</option>
                             </select>
-                            <label class="propertiesOwned">Properties Currently Owned (excl. Personal)</label>
+                            <label class="propertiesOwned">Properties Currently Owned (excl. Personal)<span class="required"> *</span></label>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-6">
                         <div class="mb-2">
-                            <label for="scopeOfWork" class="form-label">Scope of Work <a href="#!" data-bs-toggle="tooltip" data-bs-placement="top" title="In a couple of sentences, please explain the overview of the project. (i.e., basic or high end fixtures, change in floor plan, etc.)"><i class="fas fa-info-circle"></i></a></label>
+                            <label for="scopeOfWork" class="form-label">Scope of Work<span class="required"> *</span> <a href="#!" data-bs-toggle="tooltip" data-bs-placement="top" title="In a couple of sentences, please explain the overview of the project. (i.e., basic or high end fixtures, change in floor plan, etc.)"><i class="fas fa-info-circle"></i></a></label>
                         </div>
                     </div>
                 </div>
@@ -482,12 +482,12 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="form-floating mb-3">
-                            <select class="form-select" id="addSqFt" name="addSqFt" value="{{ old('addSqFt') }}">
+                            <select class="form-select" id="addSqFt" name="addSqFt" value="{{ old('addSqFt') }}" required>
                                 <option selected value="N/A">Select</option>
                                 <option value="Yes">Yes</option>
                                 <option value="No">No</option>
                             </select>
-                            <label class="addSqFt">Are you adding Square Footage?</label>
+                            <label class="addSqFt">Are you adding Square Footage?<span class="required"> *</span></label>
                         </div>
                     </div>
                     <div class="col-12">
