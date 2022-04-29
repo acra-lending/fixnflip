@@ -37,7 +37,7 @@ class FormController extends Controller
             'city'                  => 'required',
             'state'                 => 'required',
             'zipcode'               => 'required',
-            'units'                 => 'nullable|max:2',
+            'units'                 => 'nullable|max:50',
             'loanPrograms'          => 'required',
             'purchasePrice'         => 'required',
             'originalPurchaseDate'  => 'nullable',
