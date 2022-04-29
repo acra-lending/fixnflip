@@ -71,11 +71,11 @@
 
 <strong>As Is / Current Market Value:</strong> ${{ $mail[0]['marketValue'] }}<br/>
 
-<strong>Amount of Rehab Requested:</strong> ${{ $mail[0]['amountRequested'] }} <br/>
+<strong>Amount of Rehab Requested:</strong> ${{ $mail[0]['amountRequested'] }}<br/>
 
-<strong>After Repair Value:</strong> ${{ $mail[0]['afterRepairValue'] }} <br/>
+<strong>After Repair Value:</strong> ${{ $mail[0]['afterRepairValue'] }}<br/>
 
-<strong>LTV Requested (%):</strong> ${{ $mail[0]['ltvRequested'] }} <br/>
+<strong>LTV Requested (%):</strong> {{ $mail[0]['ltvRequested'] }}<br/>
 
 <strong>Already ran market comparables?</strong> {{ $mail[0]['marketComparables'] }}<br/>
 
