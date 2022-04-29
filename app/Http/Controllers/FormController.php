@@ -90,6 +90,13 @@ class FormController extends Controller
                     'referredBy' => null
                 ];
             }
+        } else {
+            $data = [
+                $request->all(),
+                'referredBy' => null
+            ];
+            dd($data);
+
         }
 
         $mail = new FormSubmit($data);
@@ -108,8 +115,8 @@ class FormController extends Controller
         Mail::to($emailArray)
         ->send($mail);
 
-        return response()->json(['success' => 'Sent Successfully. We will reach out to you shortly.']);
-        // return redirect('/');
+        // return response()->json(['success' => 'Sent Successfully. We will reach out to you shortly.']);
+        return redirect('/');
         
     }
 }
