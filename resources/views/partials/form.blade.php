@@ -120,20 +120,20 @@
                     </div>
                     <div class="col-md-4 col-12">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="brokerName" name="brokerName" value="{{ old('brokerName') }}" placeholder="John Doe">
-                            <label for="brokerName" class="form-label">Broker Name</label>
+                            <input type="text" class="form-control" id="brokerName" name="brokerName" value="{{ old('brokerName') }}" placeholder="John Doe" required>
+                            <label for="brokerName" class="form-label">Broker Name<span class="required"> *</span></label>
                         </div>
                     </div>
                     <div class="col-md-4 col-6">
                         <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="brokerEmail" name="brokerEmail" value="{{ old('brokerEmail') }}" placeholder="John Doe">
-                            <label for="brokerEmail" class="form-label">Broker Email</label>
+                            <input type="email" class="form-control" id="brokerEmail" name="brokerEmail" value="{{ old('brokerEmail') }}" placeholder="John Doe" required>
+                            <label for="brokerEmail" class="form-label">Broker Email<span class="required"> *</span></label>
                         </div>
                     </div>
                     <div class="col-md-4 col-6">
                         <div class="form-floating mb-3">
-                            <input type="tel" class="form-control" id="brokerPhone" name="brokerPhone" value="{{ old('brokerPhone') }}" placeholder="John Doe">
-                            <label for="brokerPhone" class="form-label">Broker Phone</label>
+                            <input type="tel" class="form-control" id="brokerPhone" name="brokerPhone" value="{{ old('brokerPhone') }}" placeholder="John Doe" required>
+                            <label for="brokerPhone" class="form-label">Broker Phone<span class="required"> *</span></label>
                         </div>
                     </div>
                 </div>
