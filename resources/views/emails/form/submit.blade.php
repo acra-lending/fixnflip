@@ -24,6 +24,8 @@
 <strong>Broker Name:</strong> {{ $mail[0]['brokerName'] }}<br/>
 <strong>Broker Email:</strong> {{ $mail[0]['brokerEmail'] }}<br/>
 <strong>Broker Phone:</strong> {{ $mail[0]['brokerPhone'] }}<br/>
+<strong>Broker Points:</strong> {{ $mail[0]['brokerPoints'] }}<br/>
+<strong>Broker Processing Fees:</strong> ${{ $mail[0]['brokerProcessingFees'] }}<br/>
 
 <hr/>
 

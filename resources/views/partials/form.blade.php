@@ -35,7 +35,7 @@
                 <div class="row">
                     <div class="col-12">
                         <a href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="All loans must close into an entity"><i class="fas fa-info-circle"></i></a>
-                        <div class="form-floating mb-3">
+                        <div class="form-floating mb-5">
                             <input type="text" class="form-control" id="entityName" name="entityName" value="{{ old('entityName') }}" placeholder="ACME">
                             <label for="entityName">Entity Name</label>
                             <input type="text" id="ref" name="ref" value="{{ request('ref') }}" hidden>
@@ -43,24 +43,23 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-5">
+                    <div class="col-md-12 col-12">
                         <a href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="Borrower = Sponsor"><i class="fas fa-info-circle"></i></a>
-                        <div class="form-floating mb-5">
+                    </div>
+                    <div class="col-md-5 col-12">
+                        <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="sponsorFirstName" name="sponsorFirstName" value="{{ old('sponsorFirstName') }}" placeholder="John Doe">
                             <label for="sponsorFirstName" class="form-label">Borrower First Name</label>
-
                         </div>
                     </div>
-                    <div class="col-5">
-                        &nbsp;
-                        <div class="form-floating mb-5">
+                    <div class="col-md-5 col-8">
+                        <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="sponsorLastName" name="sponsorLastName" value="{{ old('SponsorLastName') }}" placeholder="Jane Doe">
                             <label for="SponsorLastName" class="form-label">Borrower Last Name</label>
                         </div>
                     </div>
-                    <div class="col-2">
-                        &nbsp;
-                        <div class="form-floating mb-5">
+                    <div class="col-md-2 col-4">
+                        <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="sponsorMiddleInitial" name="sponsorMiddleInitial" value="{{ old('sponsorMiddleInitial') }}" placeholder="J">
                             <label for="sponsorMiddleInitial" class="form-label">MI</label>
                         </div>
@@ -81,21 +80,21 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-5">
-                        <div class="form-floating mb-5">
+                    <div class="col-md-5 col-12">
+                        <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="coSponsorFirstName" name="coSponsorFirstName" value="{{ old('coSponsorFirstName') }}" placeholder="John Doe">
                             <label for="coSponsorFirstName" class="form-label">Co-Borrower First Name</label>
 
                         </div>
                     </div>
-                    <div class="col-5">
-                        <div class="form-floating mb-5">
+                    <div class="col-md-5 col-8">
+                        <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="coSponsorLastName" name="coSponsorLastName" value="{{ old('coSponsorLastName') }}" placeholder="Jane Doe">
                             <label for="coSponsorLastName" class="form-label">Co-Borrower Last Name</label>
                         </div>
                     </div>
-                    <div class="col-2">
-                        <div class="form-floating mb-5">
+                    <div class="col-md-2 col-4">
+                        <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="coSponsorMiddleInitial" name="coSponsorMiddleInitial" value="{{ old('coSponsorMiddleInitial') }}" placeholder="J">
                             <label for="coSponsorMiddleInitial" class="form-label">MI</label>
                         </div>
@@ -116,39 +115,54 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-12">
                         <a href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="If applicable"><i class="fas fa-info-circle"></i></a>
-                        <div class="form-floating mb-5">
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="brokerName" name="brokerName" value="{{ old('brokerName') }}" placeholder="John Doe">
                             <label for="brokerName" class="form-label">Broker Name</label>
-
                         </div>
                     </div>
-                    <div class="col-4">
-                        &nbsp;
-                        <div class="form-floating mb-5">
+                    <div class="col-md-4 col-6">
+                        <div class="form-floating mb-3">
                             <input type="email" class="form-control" id="brokerEmail" name="brokerEmail" value="{{ old('brokerEmail') }}" placeholder="John Doe">
                             <label for="brokerEmail" class="form-label">Broker Email</label>
                         </div>
                     </div>
-                    <div class="col-4">
-                        &nbsp;
-                        <div class="form-floating mb-5">
+                    <div class="col-md-4 col-6">
+                        <div class="form-floating mb-3">
                             <input type="tel" class="form-control" id="brokerPhone" name="brokerPhone" value="{{ old('brokerPhone') }}" placeholder="John Doe">
                             <label for="brokerPhone" class="form-label">Broker Phone</label>
                         </div>
                     </div>
                 </div>
                 <div class="row">
+                    <div class="col-md-6 col-12">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="brokerPoints" name="brokerPoints" value="{{ old('brokerPoints') }}" placeholder="John Doe" required>
+                            <label for="brokerPoints" class="form-label">Broker Points<span class="required"> *</span></label>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="form-floating mb-5">
+                            <input type="text" class="form-control" id="brokerProcessingFees" name="brokerProcessingFees" value="{{ old('brokerProcessingFees') }}" placeholder="John Doe" required>
+                            <label for="brokerProcessingFees" class="form-label">Broker Processing Fees<span class="required"> *</span></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-12">
                         <a href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="We lend on residential properties 1-29 units. No mixed use."><i class="fas fa-info-circle"></i></a>
+                    </div>
+                    <div class="col-12">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="address" name="address" value="{{ old('address') }}" placeholder="Street Address" required>
                             <label for="address" class="form-label">Subject Property Address<span class="required"> *</span></label>
                         </div>
                     </div>
                     <div class="col-12">
-                        &nbsp;
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="address2" name="address2" value="{{ old('address2') }}" placeholder="Street Address Line 2">
                             <label for="address2" class="form-label">Street Address Line 2</label>
@@ -156,14 +170,14 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-6">
-                        <div class="form-floating mb-5">
+                    <div class="col-md-6 col-12">
+                        <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="city" name="city" value="{{ old('city') }}" placeholder="City" required>
                             <label for="city" class="form-label">City<span class="required"> *</span></label>
                         </div>
                     </div>
                     <div class="col-6">
-                        <div class="form-floating mb-5">
+                        <div class="form-floating mb-3">
                             <select class="form-select" name="state" value="{{ old('state') }}" required>
                                 <option selected disabled value="">Select</option>
                                 <option value="AL">Alabama</option>
@@ -222,20 +236,20 @@
                         </div>
                     </div>
                     <div class="col-6">
-                        <div class="form-floating mb-5">
+                        <div class="form-floating mb-3">
                             <input type="number" class="form-control" name="zipcode" id="zipcode" value="{{ old('zipcode') }}" placeholder="ZIP" required>
                             <label for="zipcode" class="form-label">ZIP<span class="required"> *</span></label>
                         </div>
                     </div>
                     <div class="col-6">
-                        <div class="form-floating mb-3">
+                        <div class="form-floating mb-5">
                             <input type="text" class="form-control" id="units" name="units" value="{{ old('units') }}" placeholder="1-50">
                             <label for="units" class="form-label">How many units? (1-29)</label>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-md-6 col-12">
                         <div class="form-floating mb-3">
                             <select class="form-select" id="loanPrograms" name="loanPrograms" value="{{ old('loanPrograms') }}" required>
                                 <option selected disabled value="">Select</option>
@@ -249,15 +263,15 @@
                             <label class="loanPrograms">Loan Programs<span class="required"> *</span></label>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
+                    <div class="col-md-6 col-12">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="purchasePrice" name="purchasePrice" value="{{ old('purchasePrice') }}" placeholder="Purchase Price" required>
                             <label for="purchasePrice" class="form-label">Purchase Price<span class="required"> *</span></label>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-3">
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-lg-6">
                         <div class="form-floating mb-3">
                             <input type="date" class="form-control" id="originalPurchaseDate" name="originalPurchaseDate" value="{{ old('originalPurchaseDate') }}" placeholder="Purchase Date">
                             <label for="originalPurchaseDate" class="form-label">Original Purchase Date</label>
@@ -265,13 +279,13 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-md-6 col-12">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="firstLien" name="firstLien" value="{{ old('firstLien') }}" placeholder="Purchase Price">
                             <label for="firstLien" class="form-label">First Current Lien</label>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-md-6 col-12">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="secondLien" name="secondLien" value="{{ old('secondLien') }}" placeholder="Purchase Date">
                             <label for="secondLien" class="form-label">Second Current Lien (if applicable)</label>
@@ -279,7 +293,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-md-6 col-12">
                         <div class="form-floating mb-5">
                             <input type="text" class="form-control" id="taxesOwed" name="taxesOwed" value="{{ old('taxesOwed') }}" placeholder="Purchase Date">
                             <label for="taxesOwed" class="form-label">Taxes Owed</label>
@@ -298,25 +312,25 @@
                             <label for="marketRent" class="form-label">Market Rent</label>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-md-6 col-12">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="annualTaxes" name="annualTaxes" value="{{ old('annualTaxes') }}" placeholder="Purchase Price">
                             <label for="annualTaxes" class="form-label">Annual Taxes</label>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-md-6 col-12">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="annualInsurance" name="annualInsurance" value="{{ old('annualInsurance') }}" placeholder="Purchase Price">
                             <label for="annualInsurance" class="form-label">Annual Insurance</label>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-md-6 col-12">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="hoa" name="hoa" value="{{ old('hoa') }}" placeholder="HOA (if applicable)">
-                            <label for="hoa" class="form-label">Annual Insurance</label>
+                            <label for="hoa" class="form-label">HOA (if applicable)</label>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-md-6 col-12">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="other" name="other" value="{{ old('other') }}" placeholder="Purchase Price">
                             <label for="other" class="form-label">Other</label>
@@ -333,19 +347,19 @@
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <a href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="Liquid assets help establish the stability of the borrower and may result in higher LTV’s"><i class="fas fa-info-circle"></i></a>
+                        <a href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="Liquid assets help establish the stability of the borrower and may result in higher LTV's"><i class="fas fa-info-circle"></i></a>
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="liquidity" name="liquidity" value="{{ old('liquidity') }}" placeholder="Borrower's Liquidity" required>
                             <label for="marketValue" class="form-label">Borrower's Liquidity<span class="required"> *</span></label>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-md-6 col-12">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="marketValue" name="marketValue" value="{{ old('marketValue') }}" placeholder="As Is/Current Market Value" required>
                             <label for="marketValue" class="form-label">"As Is"/Current Market Value<span class="required"> *</span></label>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-md-6 col-12">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="amountRequested" name="amountRequested" value="{{ old('amountRequested') }}" placeholder="Amount Requested" required>
                             <label for="amountRequested" class="form-label">Amount of Rehab Requested<span class="required"> *</span></label>
@@ -353,9 +367,9 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-md-6 col-12">
                         <a href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="The A.R.V. is a critical component used by the lender to determine pricing. Appraisers use the Sponsors rehab budget along with “like” completed projects to determine the A.R.V."><i class="fas fa-info-circle"></i></a>
-                        <div class="form-floating mb-5">
+                        <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="afterRepairValue" name="afterRepairValue" value="{{ old('afterRepairValue') }}" placeholder="After Repair Value" required>
                             <label for="afterRepairValue" class="form-label">After Repair Value (A.R.V.)<span class="required"> *</span></label>
                         </div>
@@ -425,7 +439,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <div class="form-floating mb-5">
+                        <div class="form-floating mb-3">
                             <select class="form-select" id="propertiesSold" name="propertiesSold" value="{{ old('propertiesSold') }}" required>
                                 <option selected value="N/A">Select</option>
                                 <option value="0">0</option>
@@ -444,7 +458,6 @@
                         </div>
                     </div>
                     <div class="col-12">
-                        &nbsp;
                         <div class="form-floating mb-5">
                             <select class="form-select" id="propertiesOwned" name="propertiesOwned" value="{{ old('propertiesOwned') }}" required>
                                 <option selected value="N/A">Select</option>
@@ -474,13 +487,13 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="form-floating mb-3">
-                            <textarea type="text" class="form-control" id="scopeOfWork" name="scopeOfWork" value="{{ old('scopeOfWork') }}" placeholder="Experience" style="height: 100px"></textarea>
-                            <label for="scopeOfWork" class="form-label">Description</label>
+                            <textarea type="text" class="form-control" id="scopeOfWork" name="scopeOfWork" value="{{ old('scopeOfWork') }}" placeholder="Experience" style="height: 100px" required></textarea>
+                            <label for="scopeOfWork" class="form-label">Description<span class="required"> *</span></label>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-md-6 col-12">
                         <div class="form-floating mb-3">
                             <select class="form-select" id="addSqFt" name="addSqFt" value="{{ old('addSqFt') }}" required>
                                 <option selected value="N/A">Select</option>
@@ -490,15 +503,15 @@
                             <label class="addSqFt">Are you adding Square Footage?<span class="required"> *</span></label>
                         </div>
                     </div>
-                    <div class="col-12">
-                        <div class="form-floating mb-3">
+                    <div class="col-md-6 col-12">
+                        <div class="form-floating mb-5">
                             <input type="text" class="form-control" id="sqFt" name="sqFt" value="{{ old('sqFt') }}" placeholder="Square Feet">
                             <label for="sqFt" class="form-label">If Yes, how much?</label>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="mb-4">
+                    <div class="col-md-8 col-12 mb-4">
                         <label for="formFileMultiple" class="form-label">Please provide any images for project</label>
                         {{-- <input class="form-control" type="file" id="formFileMultiple" name="formFileMultiple" multiple> --}}
                         <div class="form-group">
