@@ -487,8 +487,8 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="form-floating mb-3">
-                            <textarea type="text" class="form-control" id="scopeOfWork" name="scopeOfWork" value="{{ old('scopeOfWork') }}" placeholder="Experience" style="height: 100px" required></textarea>
-                            <label for="scopeOfWork" class="form-label">Description<span class="required"> *</span></label>
+                            <textarea type="text" class="form-control" id="scopeOfWork" name="scopeOfWork" value="{{ old('scopeOfWork') }}" placeholder="Experience" style="height: 100px"></textarea>
+                            <label for="scopeOfWork" class="form-label">Description</label>
                         </div>
                     </div>
                 </div>
