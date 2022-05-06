@@ -361,8 +361,8 @@
                     </div>
                     <div class="col-md-6 col-12">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="amountRequested" name="amountRequested" value="{{ old('amountRequested') }}" placeholder="Amount Requested" required>
-                            <label for="amountRequested" class="form-label">Amount of Rehab Requested<span class="required"> *</span></label>
+                            <input type="text" class="form-control" id="amountRequested" name="amountRequested" value="{{ old('amountRequested') }}" placeholder="Amount Requested">
+                            <label for="amountRequested" class="form-label">Amount of Rehab Requested</label>
                         </div>
                     </div>
                 </div>
@@ -370,8 +370,8 @@
                     <div class="col-md-6 col-12">
                         <a href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="The A.R.V. is a critical component used by the lender to determine pricing. Appraisers use the Sponsors rehab budget along with “like” completed projects to determine the A.R.V."><i class="fas fa-info-circle"></i></a>
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="afterRepairValue" name="afterRepairValue" value="{{ old('afterRepairValue') }}" placeholder="After Repair Value" required>
-                            <label for="afterRepairValue" class="form-label">After Repair Value (A.R.V.)<span class="required"> *</span></label>
+                            <input type="text" class="form-control" id="afterRepairValue" name="afterRepairValue" value="{{ old('afterRepairValue') }}" placeholder="After Repair Value">
+                            <label for="afterRepairValue" class="form-label">After Repair Value (A.R.V.)</label>
                         </div>
                     </div>
                 </div>
