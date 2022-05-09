@@ -61,7 +61,7 @@ class FormController extends Controller
             'creditScore'           => 'nullable',
             'propertiesSold'        => 'nullable',
             'propertiesOwned'       => 'nullable',
-            'scopeOfWork'           => 'required',
+            'scopeOfWork'           => 'nullable',
             'addSqFt'               => 'required',
             'sqFt'                  => 'nullable',
             'attachment'            => 'array',
