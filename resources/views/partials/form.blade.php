@@ -480,7 +480,7 @@
                 <div class="row">
                     <div class="col-6">
                         <div class="mb-2">
-                            <label for="scopeOfWork" class="form-label">Scope of Work <a href="#!" data-bs-toggle="tooltip" data-bs-placement="top" title="In a couple of sentences, please explain the overview of the project. (i.e., basic or high end fixtures, change in floor plan, etc.)"><i class="fas fa-info-circle"></i></a></label>
+                            <label for="scopeOfWork" class="form-label">Scope of Work / Additional Comments <a href="#!" data-bs-toggle="tooltip" data-bs-placement="top" title="In a couple of sentences, please explain the overview of the project. (i.e., basic or high end fixtures, change in floor plan, etc.)"><i class="fas fa-info-circle"></i></a></label>
                         </div>
                     </div>
                 </div>
