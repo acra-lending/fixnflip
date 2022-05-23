@@ -115,8 +115,9 @@ class FormController extends Controller
         Mail::to($emailArray)
         ->send($mail);
 
-        return response()->json(['success' => 'Sent Successfully. We will reach out to you shortly.']);
-        // return redirect('/');
+        // return response()->json(['success' => 'Sent Successfully. We will reach out to you shortly.']);
+        return redirect('/apply')
+            ->with('success', 'Form Sent');
         
     }
 }

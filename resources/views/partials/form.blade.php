@@ -1,8 +1,8 @@
-<style>
+{{-- <style>
     .progress { position:relative; width:100%; background-color: var(--gray-color); height: 20px; }
     .bar { background-color: var(--primary-color); width:0%; height:40px; }
     .percent { position:absolute; display:inline-block; left:50%; top:50%; color: #fff;}
-</style>
+</style> --}}
 
 {{ Form::open(['action' => 'App\Http\Controllers\FormController@submit', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
     <div class="container apply">
@@ -523,11 +523,11 @@
                     <div class="col-12 mb-5">
                         <button type="submit" class="btn btn-primary">Submit</button>
                         {{-- {{ Form::submit('Submit', ['class' => 'btn btn-outline-danger ']) }} --}}
-                        <div class="progress mt-3" hidden>
+                        {{-- <div class="progress mt-3" hidden>
                             <div class="bar"></div>
                             <div class="percent">0%</div>
                         </div>
-                        <div class="complete"></div>
+                        <div class="complete"></div> --}}
                     </div>
                 </div>
             </div>
