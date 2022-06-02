@@ -120,35 +120,35 @@
                     </div>
                     <div class="col-md-4 col-12">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="brokerName" name="brokerName" value="{{ old('brokerName') }}" placeholder="John Doe" required>
-                            <label for="brokerName" class="form-label">Broker Name<span class="required"> *</span></label>
+                            <input type="text" class="form-control" id="brokerName" name="brokerName" value="{{ old('brokerName') }}" placeholder="John Doe">
+                            <label for="brokerName" class="form-label">Broker Name</label>
                         </div>
                     </div>
                     <div class="col-md-4 col-6">
                         <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="brokerEmail" name="brokerEmail" value="{{ old('brokerEmail') }}" placeholder="John Doe" required>
-                            <label for="brokerEmail" class="form-label">Broker Email<span class="required"> *</span></label>
+                            <input type="email" class="form-control" id="brokerEmail" name="brokerEmail" value="{{ old('brokerEmail') }}" placeholder="John Doe">
+                            <label for="brokerEmail" class="form-label">Broker Email</label>
                         </div>
                     </div>
                     <div class="col-md-4 col-6">
                         <div class="form-floating mb-3">
-                            <input type="tel" class="form-control" id="brokerPhone" name="brokerPhone" value="{{ old('brokerPhone') }}" placeholder="John Doe" required>
-                            <label for="brokerPhone" class="form-label">Broker Phone<span class="required"> *</span></label>
+                            <input type="tel" class="form-control" id="brokerPhone" name="brokerPhone" value="{{ old('brokerPhone') }}" placeholder="John Doe">
+                            <label for="brokerPhone" class="form-label">Broker Phone</label>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-12">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="brokerPoints" name="brokerPoints" value="{{ old('brokerPoints') }}" placeholder="John Doe" required>
-                            <label for="brokerPoints" class="form-label">Broker Points<span class="required"> *</span></label>
+                            <input type="text" class="form-control" id="brokerPoints" name="brokerPoints" value="{{ old('brokerPoints') }}" placeholder="John Doe">
+                            <label for="brokerPoints" class="form-label">Broker Points</label>
 
                         </div>
                     </div>
                     <div class="col-md-6 col-12">
                         <div class="form-floating mb-5">
-                            <input type="text" class="form-control" id="brokerProcessingFees" name="brokerProcessingFees" value="{{ old('brokerProcessingFees') }}" placeholder="John Doe" required>
-                            <label for="brokerProcessingFees" class="form-label">Broker Processing Fees<span class="required"> *</span></label>
+                            <input type="text" class="form-control" id="brokerProcessingFees" name="brokerProcessingFees" value="{{ old('brokerProcessingFees') }}" placeholder="John Doe">
+                            <label for="brokerProcessingFees" class="form-label">Broker Processing Fees</label>
                         </div>
                     </div>
                 </div>
