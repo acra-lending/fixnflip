@@ -134,7 +134,6 @@ class FormController extends Controller
             'own'                   => 'nullable',
             'liquidity'             => 'nullable',
             'netWorth'              => 'nullable',
-
             'listName1'             => 'nullable',
             'ownership1'            => 'nullable',
             'personalResidence1'    => 'nullable',
@@ -142,7 +141,6 @@ class FormController extends Controller
             'liquidity1'            => 'nullable',
             'netWorth1'             => 'nullable',
             'creditScore1'          => 'nullable',
-
             'listName2'             => 'nullable',
             'ownership2'            => 'nullable',
             'personalResidence2'    => 'nullable',
@@ -150,7 +148,6 @@ class FormController extends Controller
             'liquidity2'            => 'nullable',
             'netWorth2'             => 'nullable',
             'creditScore2'          => 'nullable',
-
             'listName3'             => 'nullable',
             'ownership3'            => 'nullable',
             'personalResidence3'    => 'nullable',
@@ -159,7 +156,6 @@ class FormController extends Controller
             'netWorth3'             => 'nullable',
             'creditScore3'          => 'nullable',
             'propertiesOwned'       => 'nullable',
-
             'address'               => 'required',
             'address2'              => 'nullable',
             'city'                  => 'required',
@@ -169,7 +165,6 @@ class FormController extends Controller
             'vacantUnits'           => 'nullable|max:50',
             'occupancyPercentage'   => 'nullable',
             'ownerOccupied'         => 'nullable',
-
             'requestedLoanAmount'   => 'nullable',
             'ltv'                   => 'nullable',
             'cltv'                  => 'nullable',
@@ -183,7 +178,6 @@ class FormController extends Controller
             'rentalIncome'          => 'nullable',
             'otherIncome'           => 'nullable',
             'totalIncome'           => 'nullable',
-
             'annualExpenses'        => 'nullable',
             'currentMonths2'        => 'nullable',
             'realEstateTaxes'       => 'nullable',
