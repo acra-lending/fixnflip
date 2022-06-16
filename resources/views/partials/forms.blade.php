@@ -5,12 +5,7 @@
     top: -7.85rem;
     visibility: hidden;
     }
-    .letter-banner {
-        background: rgb(138,183,233);
-        background: linear-gradient(84deg, rgba(138,183,233,1) 0%, rgba(0,51,161,1) 100%);
-        border-radius: 0.25rem;
-        margin: 1.5rem 0 0.75rem 0;
-    }
+
     h4 {
         color: #fff;
     }

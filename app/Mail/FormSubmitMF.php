@@ -7,7 +7,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class FormSubmit extends Mailable
+class FormSubmitMF extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -21,6 +21,7 @@ class FormSubmit extends Mailable
     public function __construct($mail)
     {
         $this->mail = $mail;
+        
     }
 
     /**
@@ -30,7 +31,7 @@ class FormSubmit extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.form.submit')
-                    ->subject('New Fix & Flip BPLA Submission');
+        return $this->markdown('emails.form.multifam')
+                    ->subject('New Fix & Flip Multi-Family Submission');
     }
 }

@@ -10326,7 +10326,6 @@ body {
   width: 100%;
   height: auto;
   min-height: 35rem;
-  padding: 5rem 0;
 }
 .apply h1 {
   font-size: 1.5rem;
@@ -10552,4 +10551,11 @@ body {
 .bpla-form {
   /* border: 1px solid #e9e9e9; */
   padding: 2rem;
+}
+
+.letter-banner {
+  background: rgb(138,183,233);
+  background: linear-gradient(84deg, rgba(0,51,161,1) 0%, rgba(138,183,233,1) 100%);
+  border-radius: 0.25rem;
+  margin: 1.5rem 0 0.75rem 0;
 }

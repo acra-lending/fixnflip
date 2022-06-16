@@ -1,6 +1,6 @@
 @component('mail::message')
 
-# Fix N Flip Business Purpose Loan Analysis<br/>
+# Fix & Flip Business Purpose Loan Analysis<br/>
 <strong>Referred by:</strong> {{ $mail['referredBy'] }}<br/>
 
 <hr/>

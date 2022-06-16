@@ -18,7 +18,7 @@ function updateTextView(_obj){
   }
   $(document).ready(function(){
 
-    $('#purchasePrice, #firstLien, #secondLien, #taxesOwed, #marketRent, #annualTaxes, #annualInsurance, #liquidity, #marketValue, #amountRequested, #afterRepairValue, #sqFt').on('keyup',function(){
+    $('#purchasePrice, #firstLien, #secondLien, #taxesOwed, #marketRent, #annualTaxes, #annualInsurance, #liquidity, #marketValue, #amountRequested, #afterRepairValue, #sqFt, #requestedLoanAmount, #estimatedProceeds, #netWorth, #liquidity1, #netWorth1, #liquidity2, #netWorth2, #liquidity3, #netWorth3, #estimatedValue').on('keyup',function(){
       updateTextView($(this));
     });
     
