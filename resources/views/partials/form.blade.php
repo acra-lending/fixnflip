@@ -13,7 +13,7 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-              Business Purpose Loan Analysis - Apply here for short-term (12-24 months) <strong> Fix & Flip/Bridge Loans </strong>.
+              Business Purpose Loan Analysis - Apply here for short-term (12-24 months) Fix & Flip/Bridge Loans.
             </button>
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -25,7 +25,7 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Multi-Family Quote Request - Apply here for <strong> Multi-Family Long Term </strong> financing.
+              Multi-Family Quote Request - Apply here for Multi-Family Long Term financing.
             </button>
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
