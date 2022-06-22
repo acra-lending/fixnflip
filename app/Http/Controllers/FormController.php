@@ -47,11 +47,11 @@ class FormController extends Controller
             'firstLien'             => 'nullable',
             'secondLien'            => 'nullable',
             'taxesOwed'             => 'nullable',
-            'marketRent'            => 'nullable',
-            'annualTaxes'           => 'nullable',
-            'annualInsurance'       => 'nullable',
-            'hoa'                   => 'nullable',
-            'other'                 => 'nullable',
+            // 'marketRent'            => 'nullable',
+            // 'annualTaxes'           => 'nullable',
+            // 'annualInsurance'       => 'nullable',
+            // 'hoa'                   => 'nullable',
+            // 'other'                 => 'nullable',
             'liquidity'             => 'nullable',
             'marketValue'           => 'nullable',
             'amountRequested'       => 'nullable',
@@ -183,6 +183,8 @@ class FormController extends Controller
             'realEstateTaxes'       => 'nullable',
             'insurance'             => 'nullable',
             'otherExpenses'         => 'nullable',
+            'attachment'            => 'array',
+            'attachment.*'          => 'nullable|mimes:pdf,jpeg,jpg,bmp,png,gif|max:99999999',
         ]);
 
         // dd($request);
@@ -221,16 +223,16 @@ class FormController extends Controller
 
         $mail = new FormSubmitMF($data);
 
-        // $files = $request->file('attachment');
-        // if($request->hasFile('attachment')){
+        $files = $request->file('attachment');
+        if($request->hasFile('attachment')){
 
-        //     foreach ($files as $file){
-        //         $mail->attach($file->getRealPath(), [
-        //             'as'    => $file->getClientOriginalName(),
-        //             'mime'  => $file->getClientMimeType()
-        //         ]);          
-        //     }
-        // };
+            foreach ($files as $file){
+                $mail->attach($file->getRealPath(), [
+                    'as'    => $file->getClientOriginalName(),
+                    'mime'  => $file->getClientMimeType()
+                ]);          
+            }
+        };
 
         Mail::to($emailArray)
         ->send($mail);

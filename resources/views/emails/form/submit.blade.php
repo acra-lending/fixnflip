@@ -53,7 +53,7 @@
 
 <hr/>
 
-# If Rental Property:
+{{-- # If Rental Property:
 
 <strong>Market Rent:</strong> ${{ $mail[0]['marketRent'] }}<br/>
 
@@ -65,7 +65,7 @@
 
 <strong>Other:</strong> ${{ $mail[0]['other'] }}<br/>
 
-<hr/>
+<hr/> --}}
 
 # Loan Details:
 

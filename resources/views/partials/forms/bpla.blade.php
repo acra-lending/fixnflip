@@ -5,11 +5,11 @@
         <p class="pb-0 mb-0">As a busy real estate investor, we value your time and the opportunity to compete for your business. Be advised pricing and leverage are determined by the borrower’s experience, project, credit and liquidity.</p>
         <p class="pt-2">Kindly, assist us in delivering our best pricing by filling out this form with as much detail as possible.</p>
         <ul class="pt-3">
-            <li>SFR 1-4 Units; Multi-Family 5-29 Units. No mixed-use</li>
+            <li>SFR 1-4 Units; Multi-Family 5-29 Units. Mixed-use considered on a case-by-case basis</li>
             <li>Loan Amounts: SFR 1-4 Units – up to $4 million; Multi-Family 5-29 Units – up to $7.5 million</li>
             <li>All loans are 12 months, interest only with 3 months minimum interest</li>
             <li>No rural properties</li>
-            <li>Minimum “AS IS” value $75,000</li>
+            <li>Minimum AS IS Value is $75,000 (minimum Purchase Price $75,000)</li>
             <li>No interest charged on un-used rehab available for experience investors.</li>
         </ul>
         <br/>
@@ -293,7 +293,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            {{-- <div class="row">
                 <div class="col-12">
                     <div class="mb-2">
                         <label for="loanDetails" class="form-label">If Rental Property:</label>
@@ -329,7 +329,7 @@
                         <label for="other" class="form-label">Other</label>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <br>
             <div class="row">
                 <div class="col-12">
@@ -481,7 +481,7 @@
                 <div class="col-12">
                     <div class="form-floating mb-3">
                         <textarea type="text" class="form-control" id="scopeOfWork" name="scopeOfWork" value="{{ old('scopeOfWork') }}" placeholder="Experience" style="height: 100px"></textarea>
-                        <label for="scopeOfWork" class="form-label">Description</label>
+                        <label for="scopeOfWork" class="form-label">Please provide a detailed written description of the rehab to be performed.</label>
                     </div>
                 </div>
             </div>
@@ -505,7 +505,7 @@
             </div>
             <div class="row">
                 <div class="col-md-8 col-12 mb-4">
-                    <label for="formFileMultiple" class="form-label">Please provide any images for project</label>
+                    <label for="formFileMultiple" class="form-label">Please upload images, budgets and supporting documentation here (pdf,jpg,png,gif)</label>
                     {{-- <input class="form-control" type="file" id="formFileMultiple" name="formFileMultiple" multiple> --}}
                     <div class="form-group">
                         {{ Form::file('attachment[]', array('multiple' => true, 'class' => 'form-control', 'accept' => 'pdf,jpeg,jpg,bmp,png,gif')) }}
