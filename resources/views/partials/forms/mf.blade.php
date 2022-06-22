@@ -548,14 +548,14 @@
                 <div class="col-md-6 col-12">
 
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="realEstateTaxes" name="realEstateTaxes" value="{{ old('realEstateTaxes') }}" placeholder="John Doe">
+                        <input type="text" class="form-control" id="realEstateTaxes" name="realEstateTaxes" value="{{ old('realEstateTaxes') }}" placeholder="John Doe" required>
                         <label for="realEstateTaxes" class="form-label">Real Estate Taxes</label>
 
                     </div>
                 </div>
                 <div class="col-md-6 col-12">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="insurance" name="insurance" value="{{ old('insurance') }}" placeholder="John Doe">
+                        <input type="text" class="form-control" id="insurance" name="insurance" value="{{ old('insurance') }}" placeholder="John Doe" required>
                         <label for="insurance" class="form-label">Insurance</label>
                     </div>
                 </div>
