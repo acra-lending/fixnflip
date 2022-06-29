@@ -11,6 +11,7 @@
 <script src="{{ asset('js/alert-timeout/alert-timeout.js') }}"></script>
 <script src="{{ asset('js/numbers.js?ver=3') }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.min.js" ></script>
 {{-- <script src="{{ asset('js/progress.js?ver=2') }}"></script> --}}
 <script>
     var tooltipTriggerList = [].slice.call(
@@ -22,4 +23,8 @@
 </script>
 <script src="https://cdn.userway.org/widget.js" data-account="dC4dVUeRnF"></script>
 <script src="js/scripts.js?ver=3"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js" integrity="sha256-+C0A5Ilqmu4QcSPxrlGpaZxJ04VjsRjKu+G82kl5UJk=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.bootstrap3.min.css" integrity="sha256-ze/OEYGcFbPRmvCnrSeKbRTtjG4vGLHXgOqsyLFTRjg=" crossorigin="anonymous" />
+
+
 

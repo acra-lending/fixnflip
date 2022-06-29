@@ -32,6 +32,6 @@
         </footer>
 
         @include('includes.scripts')
-        {{-- @stack('includes.scripts') --}}
+        @stack('custom-scripts')
 </body> 
 </html>

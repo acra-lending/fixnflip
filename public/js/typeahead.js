@@ -1,0 +1,3 @@
+$('#aeName').selectize({
+  sortField: 'text'
+});

@@ -36,4 +36,7 @@
         </div>
     </div>
 </div>
-
+@push('custom-scripts')
+<!-- Type Select -->
+<script src="js/typeahead.js"></script>
+@endpush

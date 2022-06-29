@@ -12,7 +12,15 @@ class FormController extends Controller
 {
     public function index()
     {
-        return view('apply');
+        $users = DB::connection('mysql2')
+            ->table('s2zar_jsn_users')
+            ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+            ->where('position', 'Account Executive')
+            ->get(['name', 'email']);
+        
+        return view('apply')->with([
+            'users' => $users
+        ]);
     }
 
     public function submit(Request $request)
@@ -25,6 +33,7 @@ class FormController extends Controller
             'sponsorMiddleInitial'  => 'nullable|max:1',
             'email'                 => 'required|email',
             'phone'                 => 'required|regex:/^(\+\d{1,2}\s?)?1?\-?\.?\s?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/',
+            'aeName'                => 'required',
             'coSponsorFirstName'    => 'nullable|max:100',
             'coSponsorLastName'     => 'nullable|max:100',
             'coSponsorMiddleInitial'=> 'nullable|max:100',
@@ -78,7 +87,6 @@ class FormController extends Controller
 
         if ($request->filled('ref')) {
             $user = DB::connection('mysql2')->table('s2zar_users')->where('email', $request->input('ref'))->first();
-            // dd($user->email);
             if ($user != null) {
                 $userEmail = $user->email;
                 array_push($emailArray, $userEmail);
@@ -94,9 +102,12 @@ class FormController extends Controller
                 ];
             }
         } else {
+            $user = DB::connection('mysql2')->table('s2zar_users')->where('email', $request->input('aeName'))->first();
+            $userEmail = $user->email;
+                array_push($emailArray, $userEmail);
             $data = [
                 $request->all(),
-                'referredBy' => null
+                'referredBy' => $user->name
             ];
         }
 
@@ -129,6 +140,7 @@ class FormController extends Controller
             'name'                  => 'required',
             'email'                 => 'required|email',
             'phone'                 => 'required|regex:/^(\+\d{1,2}\s?)?1?\-?\.?\s?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/',
+            'aeName'                => 'required',
             'entityName'            => 'nullable|max:100',
             'mailingAddress'        => 'nullable',
             'own'                   => 'nullable',
@@ -199,7 +211,6 @@ class FormController extends Controller
 
         if ($request->filled('ref')) {
             $user = DB::connection('mysql2')->table('s2zar_users')->where('email', $request->input('ref'))->first();
-            // dd($user->email);
             if ($user != null) {
                 $userEmail = $user->email;
                 array_push($emailArray, $userEmail);
@@ -215,9 +226,12 @@ class FormController extends Controller
                 ];
             }
         } else {
+            $user = DB::connection('mysql2')->table('s2zar_users')->where('email', $request->input('aeName'))->first();
+            $userEmail = $user->email;
+                array_push($emailArray, $userEmail);
             $data = [
                 $request->all(),
-                'referredBy' => null
+                'referredBy' => $user->name
             ];
         }
 
