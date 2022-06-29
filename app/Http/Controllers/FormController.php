@@ -34,7 +34,7 @@ class FormController extends Controller
             'sponsorMiddleInitial'  => 'nullable|max:1',
             'email'                 => 'required|email',
             'phone'                 => 'required|regex:/^(\+\d{1,2}\s?)?1?\-?\.?\s?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/',
-            'aeName'                => 'required',
+            'aeName'                => 'nullable',
             'coSponsorFirstName'    => 'nullable|max:100',
             'coSponsorLastName'     => 'nullable|max:100',
             'coSponsorMiddleInitial'=> 'nullable|max:100',
@@ -103,13 +103,21 @@ class FormController extends Controller
                 ];
             }
         } else {
-            $user = DB::connection('mysql2')->table('s2zar_users')->where('email', $request->input('aeName'))->first();
-            $userEmail = $user->email;
-                array_push($emailArray, $userEmail);
-            $data = [
-                $request->all(),
-                'referredBy' => $user->name
-            ];
+            if($request->filled('aeName')) {
+                $user = DB::connection('mysql2')->table('s2zar_users')->where('email', $request->input('aeName'))->first();
+                $userEmail = $user->email;
+                    array_push($emailArray, $userEmail);
+                $data = [
+                    $request->all(),
+                    'referredBy' => $user->name
+                ];
+            } else {
+                $userEmail = null;
+                $data = [
+                    $request->all(),
+                    'referredBy' => null
+                ];
+            }
         }
 
         $mail = new FormSubmit($data);
@@ -141,7 +149,7 @@ class FormController extends Controller
             'name'                  => 'required',
             'email'                 => 'required|email',
             'phone'                 => 'required|regex:/^(\+\d{1,2}\s?)?1?\-?\.?\s?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/',
-            'aeName'                => 'required',
+            'aeName'                => 'nullable',
             'entityName'            => 'nullable|max:100',
             'mailingAddress'        => 'nullable',
             'own'                   => 'nullable',
@@ -227,13 +235,21 @@ class FormController extends Controller
                 ];
             }
         } else {
-            $user = DB::connection('mysql2')->table('s2zar_users')->where('email', $request->input('aeName'))->first();
-            $userEmail = $user->email;
-                array_push($emailArray, $userEmail);
-            $data = [
-                $request->all(),
-                'referredBy' => $user->name
-            ];
+            if($request->filled('aeName2')) {
+                $user = DB::connection('mysql2')->table('s2zar_users')->where('email', $request->input('aeName2'))->first();
+                $userEmail = $user->email;
+                    array_push($emailArray, $userEmail);
+                $data = [
+                    $request->all(),
+                    'referredBy' => $user->name
+                ];
+            } else {
+                $userEmail = null;
+                $data = [
+                    $request->all(),
+                    'referredBy' => null
+                ];
+            }
         }
 
         $mail = new FormSubmitMF($data);
