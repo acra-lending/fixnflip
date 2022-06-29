@@ -26,8 +26,15 @@
                 </div>
             </div> --}}
             <div class="row">
-                <div class="col-sm-12 col-lg-4">
-                    <label class="aeName">Account Executive<span class="required"> *</span></label>
+                <div class="col-sm-12 col-lg-12">
+                    <label class="aeName2">Please select an Account Executive.
+                        <br>If AE is not listed, please use their referral link.
+                        <br>DO NOT SUBMIT without using a referral link or selecting an AE.
+                        <br>Failure to do so will result in a longer process time or the loss of your submission.
+                    </label>
+                </div>
+                <div class="col-sm-12 col-lg-4 mb-2">
+                    <label class="aeName">Account Executive</label>
                     <select id="aeName" name="aeName" value="{{ old('aeName') }}">
                         <option value=""></option>
                         @foreach($users as $user)

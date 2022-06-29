@@ -47,8 +47,14 @@
                         <label for="phone" class="form-label">Phone<span class="required"> *</span></label>
                     </div>
                 </div>
+                <div class="col-sm-12 col-lg-12">
+                    <label class="aeName2">Please select an Account Executive.
+                        <br>If AE is not listed, please use their referral link.
+                        <br>DO NOT SUBMIT without using a referral link or selecting an AE.
+                        <br>Failure to do so will result in a longer process time or the loss of your submission.
+                    </label>
+                </div>
                 <div class="col-sm-12 col-lg-4">
-                    <label class="aeName2">Account Executive<span class="required"> *</span></label>
                     <select id="aeName2" name="aeName2" value="{{ old('aeName2') }}">
                         <option value=""></option>
                         @foreach($users as $user)
