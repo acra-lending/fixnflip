@@ -35,7 +35,6 @@
                         @endforeach
                     </select>
                 </div>
-            </div>
                 <div class="col-12">
                     <a href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="All loans must close into an entity"><i class="fas fa-info-circle"></i></a>
                     <div class="form-floating mb-5">
