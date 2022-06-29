@@ -26,14 +26,14 @@
                 </div>
             </div> --}}
             <div class="row">
-                <div class="col-sm-12 col-lg-4">
+                {{-- <div class="col-sm-12 col-lg-4">
                 <label class="aeName">Account Executive<span class="required"> *</span></label>
                 <select id="aeName" name="aeName" value="{{ old('aeName') }}" required>
                     <option value=""></option>
                     @foreach($users as $user)
                     <option value="{{$user->email}}">{{ $user->name }}</option>
                     @endforeach
-                </select>
+                </select> --}}
             </div>
                 <div class="col-12">
                     <a href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="All loans must close into an entity"><i class="fas fa-info-circle"></i></a>

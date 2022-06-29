@@ -47,7 +47,7 @@
                         <label for="phone" class="form-label">Phone<span class="required"> *</span></label>
                     </div>
                 </div>
-                <div class="col-sm-12 col-lg-4">
+                {{-- <div class="col-sm-12 col-lg-4">
                     <label class="aeName">Account Executive<span class="required"> *</span></label>
                     <select id="aeName" name="aeName" value="{{ old('aeName') }}" required>
                         <option value=""></option>
@@ -55,7 +55,7 @@
                         <option value="{{$user->email}}">{{ $user->name }}</option>
                         @endforeach
                     </select>
-                </div>
+                </div> --}}
             </div>
 
             <!-- Borrower Information -->
