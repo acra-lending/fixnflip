@@ -48,8 +48,8 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-lg-4">
-                    <label class="aeName">Account Executive<span class="required"> *</span></label>
-                    <select id="aeName" name="aeName" value="{{ old('aeName') }}" required>
+                    <label class="aeName2">Account Executive<span class="required"> *</span></label>
+                    <select id="aeName2" name="aeName2" value="{{ old('aeName2') }}" required>
                         <option value=""></option>
                         @foreach($users as $user)
                         <option value="{{$user->email}}">{{ $user->name }}</option>
