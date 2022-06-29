@@ -105,19 +105,21 @@ class FormController extends Controller
         } else {
             if($request->filled('aeName')) {
                 $user = DB::connection('mysql2')->table('s2zar_users')->where('email', $request->input('aeName'))->first();
-                $userEmail = $user->email;
+                if($user != null) {
+                    $userEmail = $user->email;
                     array_push($emailArray, $userEmail);
-                $data = [
-                    $request->all(),
-                    'referredBy' => $user->name
-                ];
-            } else {
-                $userEmail = null;
-                $data = [
-                    $request->all(),
-                    'referredBy' => null
-                ];
-            }
+                    $data = [
+                        $request->all(),
+                        'referredBy' => $user->name
+                    ];
+                } else {
+                    $userEmail = null;
+                    $data = [
+                        $request->all(),
+                        'referredBy' => null
+                    ];
+                }
+            } 
         }
 
         $mail = new FormSubmit($data);
@@ -237,18 +239,20 @@ class FormController extends Controller
         } else {
             if($request->filled('aeName2')) {
                 $user = DB::connection('mysql2')->table('s2zar_users')->where('email', $request->input('aeName2'))->first();
-                $userEmail = $user->email;
+                if($user != null) {
+                    $userEmail = $user->email;
                     array_push($emailArray, $userEmail);
-                $data = [
-                    $request->all(),
-                    'referredBy' => $user->name
-                ];
-            } else {
-                $userEmail = null;
-                $data = [
-                    $request->all(),
-                    'referredBy' => null
-                ];
+                    $data = [
+                        $request->all(),
+                        'referredBy' => $user->name
+                    ];
+                } else {
+                    $userEmail = null;
+                    $data = [
+                        $request->all(),
+                        'referredBy' => null
+                    ];
+                }
             }
         }
 
