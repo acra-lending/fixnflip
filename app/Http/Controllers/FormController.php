@@ -16,6 +16,7 @@ class FormController extends Controller
             ->table('s2zar_jsn_users')
             ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
             ->where('position', 'Account Executive')
+            ->orWhere('name', 'Robert Jennings')
             ->get(['name', 'email']);
         
         return view('apply')->with([

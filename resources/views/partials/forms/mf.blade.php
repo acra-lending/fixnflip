@@ -53,7 +53,6 @@
                         <option value=""></option>
                         @foreach($users as $user)
                         <option value="{{$user->email}}">{{ $user->name }}</option>
-                        <option value="Robert.Jennings@acralending.com">Robert Jennings</option>
                         @endforeach
                     </select>
                 </div>
