@@ -76,7 +76,7 @@ class FormController extends Controller
             'addSqFt'               => 'required',
             'sqFt'                  => 'nullable',
             'attachment'            => 'array',
-            'attachment.*'          => 'nullable|mimes:pdf,jpeg,jpg,bmp,png,gif|max:99999999',
+            'attachment.*'          => 'nullable|mimes:pdf,jpeg,jpg,bmp,png,gif|max:29000',
         ]);
 
         $emailArray = array(
@@ -197,7 +197,7 @@ class FormController extends Controller
             'insurance'             => 'required',
             'otherExpenses'         => 'nullable',
             'attachment'            => 'array',
-            'attachment.*'          => 'nullable|mimes:pdf,jpeg,jpg,bmp,png,gif|max:99999999',
+            'attachment.*'          => 'nullable|mimes:pdf,jpeg,jpg,bmp,png,gif|max:29000',
         ]);
 
         // dd($request);
