@@ -42,7 +42,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-lg-4">
-                    <div class="form-floating mb-3">
+                    <div class="form-floating mb-5">
                         <input type="tel" class="form-control" id="phone" name="phone" value="{{ old('phone') }}" placeholder="555-555-5555" required>
                         <label for="phone" class="form-label">Phone<span class="required"> *</span></label>
                     </div>
