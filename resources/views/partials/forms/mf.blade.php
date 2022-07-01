@@ -47,7 +47,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-lg-12">
-                    <label class="aeName2">Please select an Account Executive.
+                    <label class="aeName2">Please select an Account Executive.<span class="required"> *</span>
                         <br>If AE is not listed, please use their referral link.
                         <br>DO NOT SUBMIT without using a referral link or selecting an AE.
                         <br>Failure to do so will result in a longer process time or the loss of your submission.
