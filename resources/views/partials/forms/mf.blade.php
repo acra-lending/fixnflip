@@ -86,7 +86,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 col-lg-4">
+                {{-- <div class="col-sm-6 col-lg-4">
                     <div class="form-floating mb-3">
                         <select class="form-select" id="own" name="own" value="{{ old('own') }}">
                             <option selected value="N/A"></option>
@@ -95,14 +95,14 @@
                         </select>
                         <label class="addSqFt">Own?</label>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
+                </div> --}}
+                <div class="col-sm-12 col-lg-6">
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" id="liquidity" name="liquidity" value="{{ old('liquidity') }}" placeholder="Liquidity">
                         <label for="liquidity" class="form-label">Liquidity</label>
                     </div>
                 </div>
-                <div class="col-sm-12 col-lg-4">
+                <div class="col-sm-12 col-lg-6">
                     <div class="form-floating mb-5">
                         <input type="text" class="form-control" id="netWorth" name="netWorth" value="{{ old('netWorth') }}" placeholder="Net Worth">
                         <label for="netWorth" class="form-label">Net Worth</label>
@@ -111,28 +111,28 @@
             </div>
             <div class="row">
                 <p>List owners of either entity/company or Property</p>
-                <p>1)</p>
+                <p>1)<span class="required"> *</span></p>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="listName1" name="listName1" value="{{ old('listName1') }}" placeholder="John Doe">
-                        <label for="listName1" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="listName1" name="listName1" value="{{ old('listName1') }}" placeholder="John Doe" required>
+                        <label for="listName1" class="form-label">Name<span class="required"> *</span></label>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-3 m-0 py-0">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="ownership1" name="ownership1" value="{{ old('ownership1') }}" placeholder="Jane Doe">
-                        <label for="ownership1" class="form-label">Ownership %</label>
+                        <input type="text" class="form-control" id="ownership1" name="ownership1" value="{{ old('ownership1') }}" placeholder="Jane Doe" required>
+                        <label for="ownership1" class="form-label">Ownership %<span class="required"> *</span></label>
                     </div>
                 </div>
                 <div class="col-sml-12 col-md-12 col-lg-5">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="personalResidence1" name="personalResidence1" value="{{ old('personalResidence1') }}" placeholder="J">
-                        <label for="personalResidence1" class="form-label">Personal Residence City/State</label>
+                        <input type="text" class="form-control" id="personalResidence1" name="personalResidence1" value="{{ old('personalResidence1') }}" placeholder="J" required>
+                        <label for="personalResidence1" class="form-label">Personal Residence City/State<span class="required"> *</span></label>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 col-lg-3">
+                {{-- <div class="col-sm-6 col-lg-3">
                     <div class="form-floating mb-3">
                         <select class="form-select" id="own1" name="own1" value="{{ old('own1') }}">
                             <option selected value="N/A"></option>
@@ -141,23 +141,23 @@
                         </select>
                         <label class="own?">Own?</label>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
+                </div> --}}
+                <div class="col-sm-6 col-lg-4">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="liquidity1" name="liquidity1" value="{{ old('liquidity1') }}" placeholder="Liquidity">
-                        <label for="liquidity1" class="form-label">Liquidity</label>
+                        <input type="text" class="form-control" id="liquidity1" name="liquidity1" value="{{ old('liquidity1') }}" placeholder="Liquidity" required>
+                        <label for="liquidity1" class="form-label">Liquidity<span class="required"> *</span></label>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3">
+                <div class="col-sm-6 col-lg-4">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="netWorth1" name="netWorth1" value="{{ old('netWorth1') }}" placeholder="Net Worth">
-                        <label for="netWorth1" class="form-label">Net Worth</label>
+                        <input type="text" class="form-control" id="netWorth1" name="netWorth1" value="{{ old('netWorth1') }}" placeholder="Net Worth" required>
+                        <label for="netWorth1" class="form-label">Net Worth<span class="required"> *</span></label>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3">
+                <div class="col-sm-6 col-lg-4">
                     <div class="form-floating mb-5">
-                        <input type="text" class="form-control" id="creditScore1" name="creditScore1" value="{{ old('creditScore1') }}" placeholder="Net Worth">
-                        <label for="creditScore1" class="form-label">Credit Score</label>
+                        <input type="text" class="form-control" id="creditScore1" name="creditScore1" value="{{ old('creditScore1') }}" placeholder="Net Worth" required>
+                        <label for="creditScore1" class="form-label">Credit Score<span class="required"> *</span></label>
                     </div>
                 </div>
             </div>
@@ -183,7 +183,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 col-lg-3">
+                {{-- <div class="col-sm-6 col-lg-3">
                     <div class="form-floating mb-3">
                         <select class="form-select" id="own2" name="own2" value="{{ old('own2') }}">
                             <option selected value="N/A"></option>
@@ -192,20 +192,20 @@
                         </select>
                         <label class="own?">Own?</label>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
+                </div> --}}
+                <div class="col-sm-6 col-lg-4">
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" id="liquidity2" name="liquidity2" value="{{ old('liquidity2') }}" placeholder="Liquidity">
                         <label for="liquidity2" class="form-label">Liquidity</label>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3">
+                <div class="col-sm-6 col-lg-4">
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" id="netWorth2" name="netWorth2" value="{{ old('netWorth2') }}" placeholder="Net Worth">
                         <label for="netWorth2" class="form-label">Net Worth</label>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3">
+                <div class="col-sm-6 col-lg-4">
                     <div class="form-floating mb-5">
                         <input type="text" class="form-control" id="creditScore2" name="creditScore2" value="{{ old('creditScore2') }}" placeholder="Net Worth">
                         <label for="creditScore2" class="form-label">Credit Score</label>
@@ -234,7 +234,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 col-lg-3">
+                {{-- <div class="col-sm-6 col-lg-3">
                     <div class="form-floating mb-3">
                         <select class="form-select" id="own3" name="own3" value="{{ old('own3') }}">
                             <option selected value="N/A"></option>
@@ -243,20 +243,20 @@
                         </select>
                         <label class="own?">Own?</label>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
+                </div> --}}
+                <div class="col-sm-6 col-lg-4">
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" id="liquidity3" name="liquidity3" value="{{ old('liquidity3') }}" placeholder="Liquidity">
                         <label for="liquidity3" class="form-label">Liquidity</label>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3">
+                <div class="col-sm-6 col-lg-4">
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" id="netWorth3" name="netWorth3" value="{{ old('netWorth3') }}" placeholder="Net Worth">
                         <label for="netWorth3" class="form-label">Net Worth</label>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3">
+                <div class="col-sm-6 col-lg-4">
                     <div class="form-floating mb-5">
                         <input type="text" class="form-control" id="creditScore3" name="creditScore3" value="{{ old('creditScore3') }}" placeholder="Net Worth">
                         <label for="creditScore3" class="form-label">Credit Score</label>
@@ -369,14 +369,14 @@
                 </div>
                 <div class="col-sm-6 col-lg-6">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="totalUnits" name="totalUnits" value="{{ old('totalUnits') }}" placeholder="1-50">
-                        <label for="totalUnits" class="form-label">Total # of Units</label>
+                        <input type="text" class="form-control" id="totalUnits" name="totalUnits" value="{{ old('totalUnits') }}" placeholder="1-50" required>
+                        <label for="totalUnits" class="form-label">Total # of Units<span class="required"> *</span></label>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-6">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="vacantUnits" name="vacantUnits" value="{{ old('vacantUnits') }}" placeholder="1-50">
-                        <label for="vacantUnits" class="form-label"># of Vacant Units</label>
+                        <input type="text" class="form-control" id="vacantUnits" name="vacantUnits" value="{{ old('vacantUnits') }}" placeholder="1-50" required>
+                        <label for="vacantUnits" class="form-label"># of Vacant Units<span class="required"> *</span></label>
                     </div>
                 </div>
             </div>
@@ -389,12 +389,12 @@
                 </div>
                 <div class="col-sm-12 col-md-8 col-lg-8">
                     <div class="form-floating mb-5">
-                        <select class="form-select" id="ownerOccupied" name="ownerOccupied" value="{{ old('ownerOccupied') }}">
+                        <select class="form-select" id="ownerOccupied" name="ownerOccupied" value="{{ old('ownerOccupied') }}" required>
                             <option selected value="N/A"></option>
                             <option value="Yes">Yes</option>
                             <option value="No">No</option>
                         </select>
-                        <label class="ownerOccupied">Does the owner occupy any portion of the property?</label>
+                        <label class="ownerOccupied">Does the owner occupy any portion of the property?<span class="required"> *</span></label>
                     </div>
                 </div>
             </div>
@@ -406,8 +406,8 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="requestedLoanAmount" name="requestedLoanAmount" value="{{ old('requestedLoanAmount') }}" placeholder="John Doe">
-                        <label for="requestedLoanAmount" class="form-label">Requested Loan Amount</label>
+                        <input type="text" class="form-control" id="requestedLoanAmount" name="requestedLoanAmount" value="{{ old('requestedLoanAmount') }}" placeholder="John Doe" required>
+                        <label for="requestedLoanAmount" class="form-label">Requested Loan Amount<span class="required"> *</span></label>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-3">
@@ -424,45 +424,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 col-md-6 col-lg-6">
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="estimatedValue" name="estimatedValue" value="{{ old('estimatedValue') }}" placeholder="John Doe">
-                        <label for="estimatedValue" class="form-label">Estimated Value</label>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-6">
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="purchasePrice" name="purchasePrice" value="{{ old('purchasePrice') }}" placeholder="Purchase Price">
-                        <label for="purchasePrice" class="form-label">Purchase Price</label>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 col-lg-4">
-                    <a href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="Final credit score will be determined by lender credit pull"><i class="fas fa-info-circle"></i></a>
-                    <div class="form-floating mb-3">
-                        <select class="form-select" id="creditScore" name="creditScore" value="{{ old('creditScore') }}" required>
-                            <option selected value="N/A">Select</option>
-                            <option value="600-619">600-619</option>
-                            <option value="620-639">620-639</option>
-                            <option value="640-659">640-659</option>
-                            <option value="660-679">660-679</option>
-                            <option value="680-699">680-699</option>
-                            <option value="700-719">700-719</option>
-                            <option value="720-739">720-739</option>
-                            <option value="740-759">740-759</option>
-                            <option value="760-779">760-779</option>
-                            <option value="780-800">780-800</option>
-                        </select>
-                        <label class="creditScore">Estimated Fico Score<span class="required"> *</span></label>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <div class="form-floating mb-3">
                         <select class="form-select" id="purpose" name="purpose" value="{{ old('purpose') }}" required>
-                            <option selected value="N/A">Select</option>
+                            <option value="Na">Select</option>
                             <option value="Purchase">Purchase</option>
                             <option value="Rate And Term Refinance">Rate And Term Refinance</option>
                             <option value="Refinance Cash-Out">Refinance Cash-Out</option>
@@ -470,6 +435,58 @@
                         <label class="purpose">Loan Programs<span class="required"> *</span></label>
                     </div>
                 </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="form-floating mb-3" id="eValue" style="display: none;">
+                        <input type="text" class="form-control" id="estimatedValue" name="estimatedValue" value="" placeholder="John Doe">
+                        <label for="estimatedValue" class="form-label">Estimated Value<span class="required"> *</span></label>
+                    </div>
+                    <div class="form-floating mb-3" id="pPrice" style="display: none;">
+                        <input type="text" class="form-control" id="purchasePrice" name="purchasePrice" value="" placeholder="Purchase Price">
+                        <label for="purchasePrice" class="form-label">Purchase Price<span class="required"> *</span></label>
+                    </div>
+                </div>
+                {{-- <div class="col-sm-6 col-md-6 col-lg-12">
+                    
+                </div> --}}
+                <script>
+                    const el = document.getElementById("purpose");
+                    const inputEl = document.getElementById("pPrice");
+                    const inputEl2 = document.getElementById("eValue");
+
+                    el.addEventListener("change", function() {
+                        if (this.value === "Purchase") {
+                            inputEl.style.display = "block";
+                            inputEl2.style.display = "none";
+
+                        } else if (this.value === "Rate And Term Refinance" || this.value === "Refinance Cash-Out") {
+                            inputEl2.style.display = "block";
+                            inputEl.style.display = "none";
+
+                        } else {
+                            inputEl.style.display = "none";
+                            inputEl2.style.display = "none";
+                        }
+                    });
+                </script>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-lg-6">
+                    <a href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="Final credit score will be determined by lender credit pull"><i class="fas fa-info-circle"></i></a>
+                    <div class="form-floating mb-3">
+                        <select class="form-select" id="creditScore" name="creditScore" value="{{ old('creditScore') }}" required>
+                            <option selected value="N/A">Select</option>
+                            <option value="625-649">625-649</option>
+                            <option value="650-674">650-674</option>
+                            <option value="675-699">675-699</option>
+                            <option value="700-724">700-724</option>
+                            <option value="725-750">725-750</option>
+                            <option value="750+">750+</option>
+                        </select>
+                        <label class="creditScore">Estimated Fico Score<span class="required"> *</span></label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <div class="form-floating mb-5">
                         <input type="text" class="form-control" id="estimatedProceeds" name="estimatedProceeds" value="{{ old('estimatedProceeds') }}" placeholder="John Doe">
@@ -478,40 +495,38 @@
                 </div>
             </div>
 
-
             <!-- Annual Income -->
             <div class="row">
                 <div class="letter-banner">
                     <h4 class="pt-2">Annual Income</h4>
                 </div>
-                <p>Please Select<span class="required"> *</span></p>
-                <div class="col-sm-12 col-lg-12">
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="annualIncome" id="currentYear" value="Current Year" required>
-                        <label class="form-check-label" for="currentYear">
-                            Current Year
-                        </label>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="currentMonths1" name="currentMonths1" value="{{ old('currentMonths1') }}" placeholder="Months">
-                    </div>
-                </div>
-                <div class="col-sm-12 col-lg-12">
-                    <div class="form-check form-check-inline mb-5">
-                        <input class="form-check-input" type="radio" name="annualIncome" id="t-12" value="T-12" required>
-                        <label class="form-check-label" for="t-12">
-                          T-12
-                        </label>
+                <p>Please select<span class="required"> *</span></p>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="form-floating mb-3">
+                        <select class="form-select" id="currentMonths1" name="currentMonths1" value="{{ old('currentMonths1') }}" required>
+                            <option selected value="N/A">Select</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        <label class="currentMonths1">Number of Months<span class="required"> *</span></label>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 col-12">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="rentalIncome" name="rentalIncome" value="{{ old('rentalIncome') }}" placeholder="John Doe">
-                        <label for="rentalIncome" class="form-label">Rental Income Collected</label>
+                        <input type="text" class="form-control" id="rentalIncome" name="rentalIncome" value="{{ old('rentalIncome') }}" placeholder="John Doe" required>
+                        <label for="rentalIncome" class="form-label">Rental Income Collected<span class="required"> *</span></label>
 
                     </div>
                 </div>
@@ -523,8 +538,8 @@
                 </div>
                 <div class="col-md-6 col-12">
                     <div class="form-floating mb-5">
-                        <input type="text" class="form-control" id="totalIncome" name="totalIncome" value="{{ old('totalIncome') }}" placeholder="John Doe">
-                        <label for="totalIncome" class="form-label">Total Income Collected</label>
+                        <input type="text" class="form-control" id="totalIncome" name="totalIncome" value="{{ old('totalIncome') }}" placeholder="John Doe" required>
+                        <label for="totalIncome" class="form-label">Total Income Collected<span class="required"> *</span></label>
                     </div>
                 </div>
             </div>
@@ -534,26 +549,25 @@
                 <div class="letter-banner">
                     <h4 class="pt-2">Annual Expenses</h4>
                 </div>
-                <p>Please Select<span class="required"> *</span></p>
-                <div class="col-sm-12 col-lg-12">
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="annualExpenses" id="currentYear" value="Current Year" required>
-                        <label class="form-check-label" for="currentYear">
-                            Current Year
-                        </label>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="currentMonths2" name="currentMonths2" value="{{ old('currentMonths2') }}" placeholder="Months">
-                    </div>
-                </div>
-                <div class="col-sm-12 col-lg-12">
-                    <div class="form-check form-check-inline mb-5">
-                        <input class="form-check-input" type="radio" name="annualExpenses" id="t-12" value="T-12" required>
-                        <label class="form-check-label" for="t-12">
-                          T-12
-                        </label>
+                <p>Please select<span class="required"> *</span></p>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="form-floating mb-3">
+                        <select class="form-select" id="currentMonths2" name="currentMonths2" value="{{ old('currentMonths2') }}" required>
+                            <option selected value="N/A">Select</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        <label class="currentMonths2">Number of Months<span class="required"> *</span></label>
                     </div>
                 </div>
             </div>

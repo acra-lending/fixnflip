@@ -32,6 +32,6 @@ class FormSubmitMF extends Mailable
     public function build()
     {
         return $this->markdown('emails.form.multifam')
-                    ->subject('New Fix & Flip Multi-Family Submission');
+                    ->subject('Fix & Flip Multi-Family Submission' .' '. $this->mail[0]['address']);
     }
 }

@@ -164,21 +164,21 @@ class FormController extends Controller
             'listName1'             => 'nullable',
             'ownership1'            => 'nullable',
             'personalResidence1'    => 'nullable',
-            'own1'                  => 'nullable',
+            // 'own1'                  => 'nullable',
             'liquidity1'            => 'nullable',
             'netWorth1'             => 'nullable',
             'creditScore1'          => 'nullable',
             'listName2'             => 'nullable',
             'ownership2'            => 'nullable',
             'personalResidence2'    => 'nullable',
-            'own2'                  => 'nullable',
+            // 'own2'                  => 'nullable',
             'liquidity2'            => 'nullable',
             'netWorth2'             => 'nullable',
             'creditScore2'          => 'nullable',
             'listName3'             => 'nullable',
             'ownership3'            => 'nullable',
             'personalResidence3'    => 'nullable',
-            'own3'                  => 'nullable',
+            // 'own3'                  => 'nullable',
             'liquidity3'            => 'nullable',
             'netWorth3'             => 'nullable',
             'creditScore3'          => 'nullable',
@@ -200,12 +200,12 @@ class FormController extends Controller
             'creditScore'           => 'nullable',
             'purpose'               => 'nullable',
             'estimatedProceeds'     => 'nullable',
-            'annualIncome'          => 'nullable',
+            // 'annualIncome'          => 'nullable',
             'currentMonths1'        => 'nullable',
             'rentalIncome'          => 'nullable',
             'otherIncome'           => 'nullable',
             'totalIncome'           => 'nullable',
-            'annualExpenses'        => 'nullable',
+            // 'annualExpenses'        => 'nullable',
             'currentMonths2'        => 'nullable',
             'realEstateTaxes'       => 'required',
             'insurance'             => 'required',
@@ -264,7 +264,6 @@ class FormController extends Controller
             ];
         }
         
-
         $mail = new FormSubmitMF($data);
 
         $files = $request->file('attachment');
