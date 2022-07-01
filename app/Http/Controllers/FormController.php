@@ -12,7 +12,7 @@ class FormController extends Controller
 {
     public function index()
     {
-        $userRoles = DB::connection('mysql2')->table('role_user')->where('role_id', 7)->get();
+        $userRoles = DB::connection('mysql2')->table('role_user')->where('role_id', 7)->orWhere('role_id', 9)->get();
         $users = collect();
 
         foreach($userRoles as $user) {
