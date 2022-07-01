@@ -12,12 +12,19 @@ class FormController extends Controller
 {
     public function index()
     {
-        $users = DB::connection('mysql2')
-            ->table('s2zar_jsn_users')
-            ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
-            ->where('position', 'Account Executive')
-            ->orWhere('name', 'Robert Jennings')
-            ->get(['name', 'email']);
+        $userRoles = DB::connection('mysql2')->table('role_user')->where('role_id', 7)->get();
+        $users = collect();
+
+        foreach($userRoles as $user) {
+            $users[] = DB::connection('mysql2')->table('s2zar_users')->where('id', $user->user_id)->first(['name', 'email']);
+        }
+
+        // $users = DB::connection('mysql2')
+        //     ->table('s2zar_jsn_users')
+        //     ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+        //     ->where('position', 'Account Executive')
+        //     ->orWhere('name', 'Robert Jennings')
+        //     ->get(['name', 'email']);
         
         return view('apply')->with([
             'users' => $users
