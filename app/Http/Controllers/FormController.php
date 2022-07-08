@@ -93,9 +93,9 @@ class FormController extends Controller
             'keith.lind@acralending.com',
         );    
 
-        if ($request->filled('ref')) {
-            $user = DB::connection('mysql2')->table('s2zar_users')->where('email', $request->input('ref'))->first();
-            if ($user != null) {
+        if ($request->filled('aeName')) {
+            $user = DB::connection('mysql2')->table('s2zar_users')->where('email', $request->input('aeName'))->first();
+            if($user != null) {
                 $userEmail = $user->email;
                 array_push($emailArray, $userEmail);
                 $data = [
@@ -108,10 +108,11 @@ class FormController extends Controller
                     $request->all(),
                     'referredBy' => null
                 ];
-            }
-        } elseif ($request->filled('aeName')) {
-            $user = DB::connection('mysql2')->table('s2zar_users')->where('email', $request->input('aeName'))->first();
-            if($user != null) {
+            } 
+        
+        } elseif ($request->filled('ref')) {
+            $user = DB::connection('mysql2')->table('s2zar_users')->where('email', $request->input('ref'))->first();
+            if ($user != null) {
                 $userEmail = $user->email;
                 array_push($emailArray, $userEmail);
                 $data = [
@@ -231,25 +232,25 @@ class FormController extends Controller
             'keith.lind@acralending.com',
         );    
 
-        if ($request->filled('ref')) {
+        if ($request->filled('aeName2')) {
+                $user = DB::connection('mysql2')->table('s2zar_users')->where('email', $request->input('aeName2'))->first();
+                if($user != null) {
+                    $userEmail = $user->email;
+                    array_push($emailArray, $userEmail);
+                    $data = [
+                        $request->all(),
+                        'referredBy' => $user->name
+                    ];
+                } else {
+                    $userEmail = null;
+                    $data = [
+                        $request->all(),
+                        'referredBy' => null
+                    ];
+                }
+        } elseif ($request->filled('ref')) {
             $user = DB::connection('mysql2')->table('s2zar_users')->where('email', $request->input('ref'))->first();
             if ($user != null) {
-                $userEmail = $user->email;
-                array_push($emailArray, $userEmail);
-                $data = [
-                    $request->all(),
-                    'referredBy' => $user->name
-                ];
-            } else {
-                $userEmail = null;
-                $data = [
-                    $request->all(),
-                    'referredBy' => null
-                ];
-            }
-        } elseif ($request->filled('aeName2')) {
-            $user = DB::connection('mysql2')->table('s2zar_users')->where('email', $request->input('aeName2'))->first();
-            if($user != null) {
                 $userEmail = $user->email;
                 array_push($emailArray, $userEmail);
                 $data = [
