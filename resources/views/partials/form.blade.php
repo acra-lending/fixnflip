@@ -39,4 +39,5 @@
 @push('custom-scripts')
 <!-- Type Select -->
 <script src="js/typeahead.js?ver=1.0.0"></script>
+<script src="js/filesize.js?ver=0.1"></script>
 @endpush

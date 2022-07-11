@@ -524,13 +524,13 @@
                     <label for="formFileMultiple" class="form-label">Please upload images, budgets and supporting documentation here (pdf,jpg,png,gif) Max Filesize: 29MB</label>
                     {{-- <input class="form-control" type="file" id="formFileMultiple" name="formFileMultiple" multiple> --}}
                     <div class="form-group">
-                        {{ Form::file('attachment[]', array('multiple' => true, 'class' => 'form-control', 'accept' => 'pdf,jpeg,jpg,bmp,png,gif')) }}
+                        {{ Form::file('attachment[]', array('multiple' => true, 'class' => 'form-control', 'accept' => 'pdf,jpeg,jpg,bmp,png,gif', 'id' => 'files1')) }}
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 mb-5">
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary" id="submitBtn1">Submit</button>
                     {{-- {{ Form::submit('Submit', ['class' => 'btn btn-outline-danger ']) }} --}}
                     {{-- <div class="progress mt-3" hidden>
                         <div class="bar"></div>
