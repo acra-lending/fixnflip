@@ -390,7 +390,7 @@
                 <div class="col-sm-12 col-md-8 col-lg-8">
                     <div class="form-floating mb-5">
                         <select class="form-select" id="ownerOccupied" name="ownerOccupied" value="{{ old('ownerOccupied') }}" required>
-                            <option selected value="N/A"></option>
+                            <option value=""></option>
                             <option value="Yes">Yes</option>
                             <option value="No">No</option>
                         </select>
@@ -427,7 +427,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <div class="form-floating mb-3">
                         <select class="form-select" id="purpose" name="purpose" value="{{ old('purpose') }}" required>
-                            <option value="Na">Select</option>
+                            <option value="">Select</option>
                             <option value="Purchase">Purchase</option>
                             <option value="Rate And Term Refinance">Rate And Term Refinance</option>
                             <option value="Refinance Cash-Out">Refinance Cash-Out</option>
@@ -441,7 +441,7 @@
                         <label for="estimatedValue" class="form-label">Estimated Value<span class="required"> *</span></label>
                     </div>
                     <div class="form-floating mb-3" id="pPrice" style="display: none;">
-                        <input type="text" class="form-control" id="purchasePrice" name="purchasePrice" value="" placeholder="Purchase Price">
+                        <input type="text" class="form-control" id="purPrice" name="purchasePrice" value="" placeholder="Purchase Price">
                         <label for="purchasePrice" class="form-label">Purchase Price<span class="required"> *</span></label>
                     </div>
                 </div>
@@ -451,20 +451,31 @@
                 <script>
                     const el = document.getElementById("purpose");
                     const inputEl = document.getElementById("pPrice");
+                    const purchasePrice = document.getElementById("purPrice")
                     const inputEl2 = document.getElementById("eValue");
+                    const estimatedValue = document.getElementById("estimatedValue")
 
                     el.addEventListener("change", function() {
                         if (this.value === "Purchase") {
                             inputEl.style.display = "block";
+                            purchasePrice.setAttribute('required','');
+
                             inputEl2.style.display = "none";
+                            estimatedValue.removeAttribute('required','');
 
                         } else if (this.value === "Rate And Term Refinance" || this.value === "Refinance Cash-Out") {
                             inputEl2.style.display = "block";
+                            estimatedValue.setAttribute('required','');
+
                             inputEl.style.display = "none";
+                            purchasePrice.removeAttribute('required','');
+
 
                         } else {
                             inputEl.style.display = "none";
+                            purchasePrice.removeAttribute('required','');
                             inputEl2.style.display = "none";
+                            estimatedValue.removeAttribute('required','');
                         }
                     });
                 </script>
@@ -474,7 +485,7 @@
                     <a href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="Final credit score will be determined by lender credit pull"><i class="fas fa-info-circle"></i></a>
                     <div class="form-floating mb-3">
                         <select class="form-select" id="creditScore" name="creditScore" value="{{ old('creditScore') }}" required>
-                            <option selected value="N/A">Select</option>
+                            <option value="">Select</option>
                             <option value="625-649">625-649</option>
                             <option value="650-674">650-674</option>
                             <option value="675-699">675-699</option>
@@ -504,7 +515,7 @@
                 <div class="col-sm-12 col-lg-4">
                     <div class="form-floating mb-3">
                         <select class="form-select" id="currentMonths1" name="currentMonths1" value="{{ old('currentMonths1') }}" required>
-                            <option selected value="N/A">Select</option>
+                            <option value="">Select</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -553,7 +564,7 @@
                 <div class="col-sm-12 col-lg-4">
                     <div class="form-floating mb-3">
                         <select class="form-select" id="currentMonths2" name="currentMonths2" value="{{ old('currentMonths2') }}" required>
-                            <option selected value="N/A">Select</option>
+                            <option value="">Select</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
