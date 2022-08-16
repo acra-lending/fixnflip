@@ -39,7 +39,11 @@
                     <select id="aeName" name="aeName" value="{{ old('aeName') }}">
                         <option value=""></option>
                         @foreach($users as $user)
-                        <option value="{{@$user->email}}">{{ @$user->name }}</option>
+                            @if (strtolower(@$user->email) == strtolower(request('ref')))
+                                <option value="{{@$user->email}}" selected>{{ @$user->name }}</option>
+                            @else 
+                                <option value="{{@$user->email}}">{{ @$user->name }}</option>
+                            @endif
                         @endforeach
                     </select>
                 </div>
