@@ -80,6 +80,7 @@ class FormController extends Controller
             'propertiesSold'        => 'nullable',
             'propertiesOwned'       => 'nullable',
             'scopeOfWork'           => 'nullable',
+            'additionalNotes'       => 'nullable',
             'addSqFt'               => 'required',
             'sqFt'                  => 'nullable',
             'attachment'            => 'array',

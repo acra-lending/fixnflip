@@ -89,12 +89,15 @@
 
 # Borrower's Real Estate Experience:
 
-<strong>Properties Sold in Last 36 Months:</strong> {{ $mail[0]['propertiesSold'] }}<br/>
+<strong>Investment Properties Sold in Last 36 Months:</strong> {{ $mail[0]['propertiesSold'] }}<br/>
 
-<strong>Properties Currently Owned:</strong> {{ $mail[0]['propertiesOwned'] }}<br/>
+<strong>Investment Properties Currently Owned:</strong> {{ $mail[0]['propertiesOwned'] }}<br/>
 
 <strong>Scope of Work:</strong> 
 {{ $mail[0]['scopeOfWork'] }}<br/>
+
+<strong>Additional Notes:</strong> 
+{{ $mail[0]['additionalNotes'] }}<br/>
 
 <strong>Adding Square Footage?</strong> {{ $mail[0]['addSqFt'] }}<br/>
 <strong>How much?</strong> {{ $mail[0]['sqFt'] }}<br/>

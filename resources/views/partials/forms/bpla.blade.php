@@ -25,6 +25,7 @@
                     </div>
                 </div>
             </div> --}}
+            
             <div class="row">
                 <div class="col-sm-12 col-lg-12">
                     <label class="aeName2">Please select an Account Executive.<span class="required"> *</span>
@@ -38,7 +39,7 @@
                     <select id="aeName" name="aeName" value="{{ old('aeName') }}">
                         <option value=""></option>
                         @foreach($users as $user)
-                        <option value="{{$user->email}}">{{ $user->name }}</option>
+                        <option value="{{@$user->email}}">{{ @$user->name }}</option>
                         @endforeach
                     </select>
                 </div>
@@ -463,7 +464,7 @@
                             <option value="9">9</option>
                             <option value="10+">10+</option>
                         </select>
-                        <label class="propertiesSold">Properties Sold in Last 36 Months<span class="required"> *</span></label>
+                        <label class="propertiesSold">Investment Properties Sold in Last 36 Months<span class="required"> *</span></label>
                     </div>
                 </div>
                 <div class="col-12">
@@ -482,7 +483,7 @@
                             <option value="9">9</option>
                             <option value="10+">10+</option>
                         </select>
-                        <label class="propertiesOwned">Properties Currently Owned (excl. Personal)<span class="required"> *</span></label>
+                        <label class="propertiesOwned">Investment Properties Currently Owned (excl. Personal)<span class="required"> *</span></label>
                     </div>
                 </div>
             </div>
@@ -498,6 +499,12 @@
                     <div class="form-floating mb-3">
                         <textarea type="text" class="form-control" id="scopeOfWork" name="scopeOfWork" value="{{ old('scopeOfWork') }}" placeholder="Experience" style="height: 100px"></textarea>
                         <label for="scopeOfWork" class="form-label">Please provide a detailed written description of the rehab to be performed.</label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-floating mb-3">
+                        <textarea type="text" class="form-control" id="additionalNotes" name="additionalNotes" value="{{ old('additionalNotes') }}" placeholder="Experience" style="height: 100px"></textarea>
+                        <label for="additionalNotes" class="form-label">Additional Notes</label>
                     </div>
                 </div>
             </div>
