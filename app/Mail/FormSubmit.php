@@ -31,6 +31,6 @@ class FormSubmit extends Mailable
     public function build()
     {
         return $this->markdown('emails.form.submit')
-                    ->subject('New Fix & Flip BPLA Submission' .' '. $this->mail[0]['address' .' '. $this->mail[0]['brokerEmail']]);
+                    ->subject('New Fix & Flip BPLA Submission' .' '. $this->mail[0]['address'] .' '. $this->mail[0]['brokerEmail']);
     }
 }
