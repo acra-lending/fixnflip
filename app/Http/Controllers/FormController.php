@@ -94,6 +94,7 @@ class FormController extends Controller
             'robert.jennings@acralending.com',
             'terrence.taylor@acralending.com',
             'keith.lind@acralending.com',
+            'raymond.riccelli@acralending.com'
         );    
 
         if ($request->filled('aeName')) {
@@ -233,6 +234,7 @@ class FormController extends Controller
             'terrence.taylor@acralending.com',
             'kevin.horodas@acralending.com',
             'keith.lind@acralending.com',
+            'raymond.riccelli@acralending.com'
         );    
 
         if ($request->filled('aeName2')) {
