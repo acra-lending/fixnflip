@@ -74,6 +74,7 @@
                       {{-- <a class="dropdown-item" href="#">Guidelines</a> --}}
                       <a class="dropdown-item" href="/forms">Forms</a>
                       <a class="dropdown-item" href="/ratesheets">Ratesheets</a>
+                      <a class="dropdown-item" href="/newfileupload">New File Upload</a>
                     </div>
                 </li>
                 {{-- <li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li> --}}

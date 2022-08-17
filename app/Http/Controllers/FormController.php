@@ -16,8 +16,10 @@ class FormController extends Controller
         $users = collect();
 
         foreach($userRoles as $user) {
-            $users[] = DB::connection('mysql2')->table('s2zar_users')->where('id', $user->user_id)->first(['name', 'email']);
+            $users[] = DB::connection('mysql2')->table('s2zar_users')->where('id', $user->user_id)->first(['name', strtolower('email')]);
         }
+        $users = $users->unique('email');
+        // $users = $users->unique('email');
 
         // $users = DB::connection('mysql2')
         //     ->table('s2zar_jsn_users')
