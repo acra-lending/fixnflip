@@ -12,17 +12,17 @@
         {{-- <h3>Please select</h3> --}}
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
               Business Purpose Loan Analysis - Apply here for short-term (12-24 months) Fix & Flip/Bridge Loans.
             </button>
           </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body">
               @include('partials.forms.bpla')
             </div>
           </div>
         </div>
-        {{-- <div class="accordion-item">
+        <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
               Multi-Family Quote Request - Apply here for Multi-Family long term financing.
@@ -33,7 +33,7 @@
                 @include('partials.forms.mf')
             </div>
           </div>
-        </div> --}}
+        </div>
     </div>
 </div>
 @push('custom-scripts')
