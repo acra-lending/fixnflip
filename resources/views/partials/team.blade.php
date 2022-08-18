@@ -35,7 +35,7 @@
                 <div class="col-lg-4 text-center">
                     <img src="{{ asset('img/raymond-riccelli.jpg') }}" class="img-fluid rounded-3 mb-3 mx-auto" alt="Raymond Ricelli">
                     <p class="fw-bold text-uppercase">Raymond Riccelli</p>
-                    <p class="mb-4">Account Executive</p>
+                    <p class="mb-4">Area Sales Manager</p>
                 </div>
                 <div class="col-lg-8">
                     <p>
