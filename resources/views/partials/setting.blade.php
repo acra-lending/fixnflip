@@ -1,4 +1,44 @@
-<section class="projects-section bg-light pt-5" id="setting">
+<style>
+    @media print {
+        body {
+            margin: 0;
+            background-color: #fff;
+        }
+        header, footer, aside, nav, form, iframe, .btn {
+            display: none !important;
+        }
+    } 
+    h4 {
+        color: #fff;
+    }
+
+    h5 {
+        color: #0033a1;
+    }
+
+    em {
+        color: #c8102e;
+        font-size: 14px;
+    }
+
+    .table thead th {
+        border-bottom: 2px solid #0033a1 !important;
+    }
+
+    .table thead tr th {
+        border-top: transparent !important;
+    }
+
+    .table tbody tr:last-child>* {
+        border-bottom-color: transparent !important;
+    }
+
+    .table tbody tr:first-child {
+        border-bottom-color: transparent !important;
+    }
+</style>
+
+<section class="projects-section pt-5" id="setting">
     <div class="container">
         <!-- Featured Project Row-->
         <div class="row align-items-center no-gutters pb-5">
@@ -73,5 +113,51 @@
                 </div>
             </div>
         </div>
-    </div>
+        {{-- <div class="text-center letter-banner">
+            <h4 class="mx-auto py-1 pt-2">Turn Times</h4>
+        </div>
+        <table class="table">
+            @foreach ($turnTimes->section as $turnTime)
+
+            <thead>
+
+                <tr>
+                    <th scope="col">{{$turnTime->title}}</th>
+                    <th scope="col"></th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{!! $turnTime->comments !!}</td>
+                    <td>{{$turnTime->body}}</td>
+                </tr>
+                @if ($turnTime->subSection->count())
+                @foreach($turnTime->subSection as $subSection)
+                <tr>
+                    <td>{{$subSection->title}}<br>
+                        @if (!empty($subSection->comments))
+                            {!! $subSection->comments !!}
+                        @endif
+                    </td>
+                    <td>{{$subSection->body}}</td>
+                </tr>
+                @endforeach
+                @endif
+
+            </tbody>
+            @endforeach
+
+        </table>
+        <br>
+        <br>
+        <p>
+            *Turn times are estimates and may vary depending on certain factors, such as daily loan volume. The next business day will count as the first day of the stated turn time.
+        </p>
+        <br>
+        <div class="text-right small">
+            <p><em>Last updated EOD {{Carbon\Carbon::parse($turnTimes->section[0]->updated_at)->format('m-d-Y')}}</em></p>
+        </div>
+    </div> --}}
+    
 </section>
