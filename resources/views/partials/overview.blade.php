@@ -12,7 +12,7 @@
                     <h2 class="border-start border-primary border-4 px-2 pt-2 mb-4">Overview</h2>
                 </div>
                 <div class="col-lg-9 border-top border-end rounded-end py-3">
-                    <p class="mb-4">Fix & Flip is a new product to Acra Lending in an established industry. While often referred to as customers in the lending industry, Acra Lending recognizes that our Fix & Flip partners are often entrepreneurs.</p>
+                    <p class="mb-4">Acra Investor Loans is a new product to Acra Lending in an established industry. While often referred to as customers in the lending industry, Acra Lending recognizes that our Investor Loans Division partners are often entrepreneurs.</p>
                     <a href="/apply" class="btn btn-primary">Get Pre-Approved</a>
                 </div>
             </div>

@@ -23,7 +23,7 @@
                 </div>
                 <div class="col-lg-8">
                     <p>
-                        Mr. Jennings' early career was serving in the U.S. Marine Corps, 0311 Infantry. He has over 30 years of experience in finance and real estate transactions. His career path has afforded him insight into an ever-changing industry, being directly involved with Fix & Flip throughout its maturity as an industry. 
+                        Mr. Jennings' early career was serving in the U.S. Marine Corps, 0311 Infantry. He has over 30 years of experience in finance and real estate transactions. His career path has afforded him insight into an ever-changing industry, being directly involved with Investor Loans Division throughout its maturity as an industry. 
                         <br><br>
                         Mr. Jennings has operated in various roles from A to Z within the mortgage industry. He truly understands operations and sales, two key components to ensure successful results for investors. 
                         <br><br>    

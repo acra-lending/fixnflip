@@ -12,7 +12,7 @@
                     <h2 class="border-start border-primary border-4 px-2 pt-2 mb-4">History</h2>
                 </div>
                 <div class="col-lg-9 border-top border-end rounded-end py-3">
-                    <p class="mb-4">Fix and Flip as a practice predates the term itself. The concept has been around for a long time, going back to American Colonial times and even in England before American settlement. During this time, it was largely limited due to time and money constraints.</p>
+                    <p class="mb-4">Investor Loans as a practice predates the term itself. The concept has been around for a long time, going back to American Colonial times and even in England before American settlement. During this time, it was largely limited due to time and money constraints.</p>
                 </div>
             </div>
             <div class="row mb-3 pb-3">
@@ -41,7 +41,7 @@
             </div>
             <div class="row mb-3 pb-3">
                 <div class="col-lg-12">
-                    <h5 class="fw-bold">Fast forward to the 1980s – those post-WWII homes were now 30+ years old. During this time, the two “parents” of Fix and Flip came into existence:</h5>
+                    <h5 class="fw-bold">Fast forward to the 1980s – those post-WWII homes were now 30+ years old. During this time, the two “parents” of Investor Loans came into existence:</h5>
                 </div>
             </div>
             <div class="row mb-4 pb-4">
@@ -57,7 +57,7 @@
             </div>
             <div class="row mb-3 pb-3">
                 <div class="col-sm-12">
-                    <p>In today’s world, the average age of homes in the U.S. is 36 years. With the concept of "Remodel & Sale" having been rebranded as "Fix & Flip", a subset funding industry was carved out to support increased American interest.</p>
+                    <p>In today’s world, the average age of homes in the U.S. is 36 years. With the concept of "Remodel & Sale" having been rebranded as "Investor Loans", a subset funding industry was carved out to support increased American interest.</p>
                 </div>
             </div>
             <div class="row mb-5 pb-5">
@@ -65,7 +65,7 @@
                     <hr class="mb-5" style="color: #0033a1; opacity: 0.75;">
                 </div>
                 <div class="col-sm-12">
-                    <p class="mb-5">Here at Acra Lending Fix and Flip, we are committed to ensuring that our Simple, Efficient, and Transparent process will help you reach your fixing and flipping goals.</p>
+                    <p class="mb-5">Here at Acra Lending Investor Loans Division, we are committed to ensuring that our Simple, Efficient, and Transparent process will help you reach your fixing and flipping goals.</p>
                     <a href="/apply" class="d-inline btn btn-primary mr-5">Get Pre-Approved</a>
                     <a href="/contact" class="d-inline btn btn-secondary">Contact us</a>
                 </div>
