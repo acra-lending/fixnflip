@@ -57,7 +57,7 @@
             </div>
             <div class="row mb-3 pb-3">
                 <div class="col-sm-12">
-                    <p>In today’s world, the average age of homes in the U.S. is 36 years. With the concept of "Remodel & Sale" having been rebranded as "Fix & Flip", a subset funding industry was carved out to support increased American interest.</p>
+                    <p>In today’s world, the average age of homes in the U.S. is 36 years. With the concept of "Remodel & Sale" having been rebranded as "Fix and Flip", a subset funding industry was carved out to support increased American interest.</p>
                 </div>
             </div>
             <div class="row mb-5 pb-5">
@@ -65,7 +65,7 @@
                     <hr class="mb-5" style="color: #0033a1; opacity: 0.75;">
                 </div>
                 <div class="col-sm-12">
-                    <p class="mb-5">Here at Acra Lending Fix and Flip, we are committed to ensuring that our Simple, Efficient, and Transparent process will help you reach your fixing and flipping goals.</p>
+                    <p class="mb-5">Here at Acra Lending Investor Loans Division, we are committed to ensuring that our Simple, Efficient, and Transparent process will help you reach your fixing and flipping goals.</p>
                     <a href="/apply" class="d-inline btn btn-primary mr-5">Get Pre-Approved</a>
                     <a href="/contact" class="d-inline btn btn-secondary">Contact us</a>
                 </div>
