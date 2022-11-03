@@ -45,20 +45,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row mb-3 pb-3">
-                <div class="col-lg-4 text-center">
-                    <img src="{{ asset('img/keith-hale.jpg') }}" class="img-fluid rounded-3 mb-3 mx-auto" alt="Keith Hale">
-                    <p class="fw-bold text-uppercase">Keith Hale</p>
-                    <p class="mb-4">Account Executive</p>
-                </div>
-                <div class="col-lg-8">
-                    <p>
-                        Keith is an industry veteran with over 20 years of experience in the private lending space. Keith started his career in the early '90s working for one of the top private money mortgage brokerages in California, where Keith quickly became a top producer working with real estate investors. Soon thereafter Keith went to work for World Savings & Loan, one of the top portfolio lenders, where Keith headed the field underwriting department known mostly for working with mortgage brokers and real estate investors. After the real estate crash, Keith founded a private lending company where he continued to help real estate investors fund projects while helping his investors lend their money. Keith not only worked with clients and mortgage brokers directly, but also underwrote and made final decisions on lending.
-                        <br><br>
-                        After putting out over $100 million in private capital, Keith went back to work as an Account Executive in the private lending space. Not only is Keith well versed at helping others, he has also flipped more than 100 homes and prides himself on knowing both the ends and outs of private lending with hands-on experience.
-                    </p>
-                </div>
-            </div>
+
 
             <div class="row mb-5 pb-5">
                 <div class="col-sm-12">
