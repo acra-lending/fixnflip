@@ -18,21 +18,39 @@
         <h4 class="text-center py-1 pt-2">Ratesheets</h4>
     </div>
     <div class="link">
+        <a href="https://acralending.com/wp-content/uploads/2022/RateSheets/FF/acra-ild-main.pdf" target="_blank">
+            <i id="icon" class="fas fa-file-pdf"></i> 
+            <span id="text">Main Ratesheet</span>
+        </a>
+    </div>
+    <div class="link">
         <a href="https://acralending.com/wp-content/uploads/2022/RateSheets/FF/acra-ff-ratematrix-sbmf.pdf" target="_blank">
             <i id="icon" class="fas fa-file-pdf"></i> 
             <span id="text">Small Balance Multifamily</span>
         </a>
     </div>
     <div class="link">
-        <a href="https://acralending.com/wp-content/uploads/2022/RateSheets/FF/acra-ff-creditbox-sfr.pdf" target="_blank">
+        <a href="https://acralending.com/wp-content/uploads/2022/RateSheets/FF/acra-ild-sfr.pdf" target="_blank">
             <i id="icon" class="fas fa-file-pdf"></i> 
-            <span id="text">Fix & Flip / Stabilized Bridge SFR</span>
+            <span id="text">SFR Bridge</span>
         </a>
     </div>
     <div class="link">
-        <a href="https://acralending.com/wp-content/uploads/2022/RateSheets/FF/acra-ff-creditbox-mf.pdf" target="_blank">
+        <a href="https://acralending.com/wp-content/uploads/2022/RateSheets/FF/acra-ild-mf-longterm.pdf" target="_blank">
             <i id="icon" class="fas fa-file-pdf"></i> 
-            <span id="text">Fix & Flip / Stabilized Bridge MF</span>
+            <span id="text">MF Long Term</span>
+        </a>
+    </div>
+    <div class="link">
+        <a href="https://acralending.com/wp-content/uploads/2022/RateSheets/FF/acra-ild-mf-bridge.pdf" target="_blank">
+            <i id="icon" class="fas fa-file-pdf"></i> 
+            <span id="text">MF Bridge</span>
+        </a>
+    </div>
+    <div class="link">
+        <a href="https://acralending.com/wp-content/uploads/2022/RateSheets/FF/acra-ild-dscr.pdf" target="_blank">
+            <i id="icon" class="fas fa-file-pdf"></i> 
+            <span id="text">DSCR</span>
         </a>
     </div>
     <hr />
