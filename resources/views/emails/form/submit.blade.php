@@ -47,6 +47,13 @@
 
 <strong>First Lien:</strong> ${{ $mail[0]['firstLien'] }}<br/>
 
+
+@if(!empty($mail[0]['isPaidOff']))
+<strong>Lien Paid Off:</strong> {{ $mail[0]['isPaidOff'] }}<br/>
+@else
+<strong>Lien Paid Off:</strong> No<br/>
+@endif
+
 <strong>Second Lien:</strong> ${{ $mail[0]['secondLien'] }}<br/>
 
 <strong>Taxes Owed:</strong> ${{ $mail[0]['taxesOwed'] }}<br/>

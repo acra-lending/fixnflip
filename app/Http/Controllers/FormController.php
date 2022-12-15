@@ -66,6 +66,7 @@ class FormController extends Controller
             'firstLien'             => 'nullable',
             'secondLien'            => 'nullable',
             'taxesOwed'             => 'nullable',
+            'isPaidOff'             => 'nullable',
             // 'marketRent'            => 'nullable',
             // 'annualTaxes'           => 'nullable',
             // 'annualInsurance'       => 'nullable',

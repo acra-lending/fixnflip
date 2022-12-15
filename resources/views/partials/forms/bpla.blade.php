@@ -297,6 +297,11 @@
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" id="firstLien" name="firstLien" value="{{ old('firstLien') }}" placeholder="Purchase Price">
                         <label for="firstLien" class="form-label">First Current Lien</label>
+                        <br/>
+                        <div>
+                            <label for="isPaidOff">Is this lien paid off?</label>
+                            <input type="checkbox" id="isPaidOff" name="isPaidOff" value="Yes" {{ old('isPaidOff') == 'Yes' ? 'checked' : '' }}>
+                        </div>    
                     </div>
                 </div>
                 <div class="col-md-6 col-12">
