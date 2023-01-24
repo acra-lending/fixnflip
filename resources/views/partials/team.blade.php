@@ -17,25 +17,9 @@
             </div>
             <div class="row mb-3 pb-3">
                 <div class="col-lg-4 text-center">
-                    <img src="{{ asset('img/rob-jennings.jpg') }}" class="img-fluid rounded-3 mb-3 mx-auto" alt="Rob Jennings">
-                    <p class="fw-bold text-uppercase">Robert Jennings</p>
-                    <p class="mb-4">Managing Director</p>
-                </div>
-                <div class="col-lg-8">
-                    <p>
-                        Mr. Jennings' early career was serving in the U.S. Marine Corps, 0311 Infantry. He has over 30 years of experience in finance and real estate transactions. His career path has afforded him insight into an ever-changing industry, being directly involved with Fix and Flip throughout its maturity as an industry. 
-                        <br><br>
-                        Mr. Jennings has operated in various roles from A to Z within the mortgage industry. He truly understands operations and sales, two key components to ensure successful results for investors. 
-                        <br><br>    
-                        Joining Acra Lending has afforded Mr. Jennings the opportunity to continue his mission of paying forward the knowledge and experience he has gained. This continues to be important in helping others to become effective in the industry.
-                    </p>
-                </div>
-            </div>
-            <div class="row mb-3 pb-3">
-                <div class="col-lg-4 text-center">
                     <img src="{{ asset('img/raymond-riccelli.jpg') }}" class="img-fluid rounded-3 mb-3 mx-auto" alt="Raymond Ricelli">
                     <p class="fw-bold text-uppercase">Raymond Riccelli</p>
-                    <p class="mb-4">Area Sales Manager</p>
+                    <p class="mb-4">Sr. Vice President / Director of Sales</p>
                 </div>
                 <div class="col-lg-8">
                     <p>
