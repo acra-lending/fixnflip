@@ -30,7 +30,7 @@ class ContactUsController extends Controller
         $mail = new ContactSubmit($data);
 
         Mail::to([
-            'robert.jennings@acralending.com'
+            'raymond.riccelli@acralending.com'
             ])
             ->bcc(['webupdates@acralending.com'])
             ->send($mail);
