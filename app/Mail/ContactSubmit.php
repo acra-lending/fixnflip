@@ -31,6 +31,6 @@ class ContactSubmit extends Mailable
     public function build()
     {
         return $this->markdown('emails.contact.submit')
-                    ->subject('Contact Inquiry for Fix N Flip');
+                    ->subject('Contact Inquiry for Fix & Flip');
     }
 }
