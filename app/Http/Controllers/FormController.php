@@ -93,6 +93,7 @@ class FormController extends Controller
         $emailArray = array(
             'webupdates@acralending.com',
             'keith.lind@acralending.com',
+            'kevin.horodas@acralending.com',
             'kyleg@citadelservicing.com',
             'raymond.riccelli@acralending.com'
         );    
