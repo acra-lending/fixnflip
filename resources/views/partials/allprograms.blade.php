@@ -59,7 +59,7 @@
                         <li>Timely processing of Rehab requests</li>
                         <li>Heavy Rehab options available</li>
                         <li>100% Rehab financing available</li>
-                        <li>Up to 90% LTV, 80% ARV, and 90% LTC available</li>
+                        <li>Up to 85% LTV, 65% ARV, and 85% LTC available</li>
                     </ul>
                     <a href="/apply" class="btn btn-primary">Get Pre-Approved</a>
                 </div>
@@ -87,7 +87,7 @@
                         <li>Heavy Rehab options available</li>
                         <li>Option to finance points and fees</li>
                         <li>Cash-Out up to 70% LTV</li>
-                        <li>Up to 80% LTV, 80% ARV, and 90% LTC available</li>
+                        <li>Up to 75% LTV, 65% ARV, and 85% LTC</li>
                     </ul>
                     <a href="/apply" class="btn btn-primary">Get Pre-Approved</a>
                 </div>
