@@ -6,10 +6,10 @@
                 <h3 class="py-2">
                     Contact Us
                 </h3>
-                <a href="https://goo.gl/maps/F7Eikwrm2C1vbNVx9" class="text-white" style="text-decoration: none;" target="_blank">
-                    25531 Commercecentre Drive <br>
-                    Suite 160 <br>
-                    Lake Forest, CA 92630
+                <a href="https://goo.gl/maps/uFDkU9W6mhJYFMFz7" class="text-white" style="text-decoration: none;" target="_blank">
+                    3 Ada Parkway <br>
+                    Suite 200A <br>
+                    Irvine, CA 92618
                 </a>
                 <br>
                 <br>
