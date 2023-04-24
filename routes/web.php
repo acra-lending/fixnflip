@@ -45,5 +45,3 @@ Route::get('/history', 'App\Http\Controllers\HistoryController@index');
 Route::get('/team', 'App\Http\Controllers\TeamController@index');
 
 Route::get('/programs', 'App\Http\Controllers\ProgramsController@index');
-
-
