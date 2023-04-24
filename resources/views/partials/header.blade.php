@@ -4,14 +4,14 @@
             <h1 class="mx-auto mt-5 text-uppercase">PREMIER BUSINESS PURPOSE LOANS FOR REAL ESTATE INVESTORS</h1>
             <h2 class="text-white mx-auto mt-4 mb-5 pt-2">Simple Fix & Flip Solutions</h2>
             <a class="btn btn-primary js-scroll-trigger" href="/apply">Get Approved</a>
-            <a class="btn btn-primary js-scroll-trigger" href="/apply">Bank Statement Analysis</a>
+            <a class="btn btn-primary modal-trigger-btn" href="#analysis">Bank Statement Analysis</a>
         </div>
     </div>
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="analysis" tabindex="-1" aria-labelledby="bankStatement" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="bankStatement">Bank Statement Analysis</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
