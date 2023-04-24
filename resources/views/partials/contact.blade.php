@@ -26,9 +26,9 @@
                         border-radius: 0.5rem 0 0 0.5rem;">
                         <ul class="text-white-75 mt-4" style="list-style-type: none;">
                             <li class="mb-3"><i class="fas fa-map-marked-alt mr-1"></i>
-                                <a class="text-white-75" href="https://goo.gl/maps/F7Eikwrm2C1vbNVx9" style="text-decoration: none;" target="_blank">25531 Commercecentre Drive<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Suite 160<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lake Forest, CA 92630</a></li>
+                                <a class="text-white-75" href="https://goo.gl/maps/F7Eikwrm2C1vbNVx9" style="text-decoration: none;" target="_blank">3 Ada Parkway<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Suite 200A<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Irvine, CA 92618</a></li>
                             <li><i class="fas fa-phone mr-1"></i>
                                 <a class="text-white-75" href="tel:8888007661" style="text-decoration: none;">(888) 800-7661</a></li>
                         </ul>
