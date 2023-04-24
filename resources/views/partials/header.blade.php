@@ -7,7 +7,7 @@
             <a class="btn btn-primary modal-trigger-btn" href="#analysis">Bank Statement Analysis</a>
         </div>
     </div>
-    <div class="modal fade" id="analysis" tabindex="-1" aria-labelledby="bankStatement" aria-hidden="true">
+    <!-- <div class="modal fade" id="analysis" tabindex="-1" aria-labelledby="bankStatement" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -16,9 +16,9 @@
       </div>
       <div class="modal-body">
         <h3>Bank Statement Analysis</h3>
-      <div style="display: flex;">
+      <div style="display: flex;"> -->
     <!-- Column for text -->
-    <div style="flex: 1;">
+    <!-- <div style="flex: 1;">
       <h4>Bank Statement Income Pre-Screen</h4>
       <p>We will review and provide a Bank<br>
           Statement Analysis prior to submission.</p>
@@ -27,10 +27,10 @@
       <h4>Expedite Setup and Review</h4>
       <p>Understand income used for qualifying and<br>
           expedite the setup and UW review process</p>
-    </div>
+    </div> -->
 
     <!-- Column for form -->
-    <div style="flex: 1;">
+    <!-- <div style="flex: 1;">
       <form action="#" method="post">
 
         <input type="text" id="name" name="name" placeholder="Your Name"><br>
@@ -56,5 +56,5 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 </header>
