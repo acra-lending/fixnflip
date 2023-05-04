@@ -22,12 +22,12 @@
           <input type="text" id="company" name="company" placeholder="Your Company"><br> 
           <input type="email" id="email" name="email" placeholder="Email address"><br>
           <input type="phone" id="phone" name="phone" placeholder="Phone"><br>
-          <button type="submit" class="btn btn-primary">
+          <a class="btn btn-primary">Get Started</a>
       </div>
       <div class="modal-footer">
         <p>Already an approved Acra Lending<br>
           Correspondent? Take advantage today!
-          <a href="https://acracorrespondent.com/bankstatementanalysis">Click Here</a>
+          <a style="text-align: center;" href="https://acracorrespondent.com/bankstatementanalysis">Click Here</a>
       </div>
     </div>
   </div>
