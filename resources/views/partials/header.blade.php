@@ -16,11 +16,18 @@
         </button>
       </div>
       <div class="modal-body">
-        <p>Modal body text goes here.</p>
+        <h3>Bank Statement Analysis</h3>
+        <form action="">
+          <input type="text" id="name" name="name" placeholder="Your Name"><br>
+          <input type="text" id="company" name="company" placeholder="Your Company"><br> 
+          <input type="email" id="email" name="email" placeholder="Email address"><br>
+          <input type="phone" id="phone" name="phone" placeholder="Phone"><br>
+          <button type="submit" class="btn btn-primary">
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Save changes</button>
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <p>Already an approved Acra Lending<br>
+          Correspondent? Take advantage today!
+          <a href="https://acracorrespondent.com/bankstatementanalysis">Click Here</a>
       </div>
     </div>
   </div>
