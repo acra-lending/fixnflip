@@ -6,9 +6,9 @@
             <a class="btn btn-primary js-scroll-trigger" href="/apply">Get Approved</a>
             <a class="btn btn-primary" data-toggle="modal" data-target=".modal">Bank Statement Analysis</a>
         </div>
-        <div class="modal" style="background-color: white; tabindex="-1" role="dialog">
+        <div class="modal" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
-    <div class="modal-content" style="display: flex; border-radius: 6px; flex-direction: column;>
+    <div class="modal-content" style="display: flex; border-radius: 6px;>
       <div class="modal-header">
         <h5 class="modal-title">Modal title</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
