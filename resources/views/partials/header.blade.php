@@ -8,7 +8,7 @@
         </div>
         <div class="modal" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
-    <div class="modal-content" style="display: flex; border-radius: 6px;>
+    <div class="modal-content" style="border-radius: 6px;>
       <div class="modal-header">
         <h5 class="modal-title">Modal title</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
