@@ -6,17 +6,23 @@
             <a class="btn btn-primary js-scroll-trigger" href="/apply">Get Approved</a>
             <a class="btn btn-primary" data-toggle="modal" data-target=".modal">Bank Statement Analysis</a>
         </div>
-        <div class="modal" style="margin-top: 50px;" tabindex="-1" role="dialog">
+        <div class="modal" style="margin-top: 250px;" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content" style="border-radius: 6px;">
       <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
         <h3 style="text-align: center; color: #3c4858; font-family: Univers, Times New Roman, Arial, sans-serif;">Bank Statement Analysis</h3>
+        <div class="bsips">
+          <h4 style="color: #3c4858;">Bank Statement Income Pre-Screen</h4>
+          <p style="color: #999">We will review and provide a Bank Statement Analysis prior to submission.</p>
+        </div>
+        <div class="esr">
+          <h4 style="color: #3c4858;">Expedite Setup and Review</h4>
+          <p style="color: #999">Understand income used for qualifying and expedite the setup and UW review process.</p>
         <form action="">
           <input type="text" id="name" name="name" placeholder="Your Name"><br>
           <input type="text" id="company" name="company" placeholder="Your Company"><br> 
