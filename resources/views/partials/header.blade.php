@@ -8,7 +8,7 @@
         </div>
         <div class="modal" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
-    <div class="modal-content">
+    <div class="modal-content" style="display: flex; border-radius: 6px; flex-direction: column;>
       <div class="modal-header">
         <h5 class="modal-title">Modal title</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -16,7 +16,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <h3>Bank Statement Analysis</h3>
+        <h3 style="text-align: center; color: #3c4858; font-family: Univers, Times New Roman, Arial, sans-serif;">Bank Statement Analysis</h3>
         <form action="">
           <input type="text" id="name" name="name" placeholder="Your Name"><br>
           <input type="text" id="company" name="company" placeholder="Your Company"><br> 
