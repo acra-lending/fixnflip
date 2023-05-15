@@ -45,3 +45,6 @@ Route::get('/history', 'App\Http\Controllers\HistoryController@index');
 Route::get('/team', 'App\Http\Controllers\TeamController@index');
 
 Route::get('/programs', 'App\Http\Controllers\ProgramsController@index');
+
+Route::get('/form', 'App\Http\Controllers\FrmController@showForm');
+Route::post('/form', 'App\Http\Controllers\FrmController@submit');
