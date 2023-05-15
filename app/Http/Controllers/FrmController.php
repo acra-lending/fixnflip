@@ -32,9 +32,9 @@ class FrmController extends Controller
         $mail = new FrmSubmit($data);
 
         Mail::to([
-            'matthew.kirby@acralending.com'
+            'jeffrey.lemieux@acralending.com',
+            'Raymond.Riccelli@acralending.com'
         ])
-        ->bcc(['anthony.lopez@acralending.com'])
         ->send($mail);
 
         // return redirect()->back()->with('success', 'Form submitted successfully!');
