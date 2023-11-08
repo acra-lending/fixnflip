@@ -5,8 +5,8 @@
         <p class="pb-0 mb-0">As a busy real estate investor, we value your time and the opportunity to compete for your business. Be advised pricing and leverage are determined by the borrower’s experience, project, credit and liquidity.</p>
         <p class="pt-2">Kindly, assist us in delivering our best pricing by filling out this form with as much detail as possible.</p>
         <ul class="pt-3">
-            <li>SFR 1-4 Units; Multi-Family 5-29 Units. Mixed-use considered on a case-by-case basis</li>
-            <li>Loan Amounts: SFR 1-4 Units – up to $4 million; Multi-Family 5-29 Units – up to $7.5 million</li>
+            <li>SFR 1-4 Units. Mixed-use considered on a case-by-case basis</li>
+            <li>Loan Amounts: SFR 1-4 Units – up to $4 million</li>
             <li>All loans are 12 months, interest only with 3 months minimum interest</li>
             <li>No rural properties</li>
             <li>Minimum AS IS Value is $75,000 (minimum Purchase Price $75,000)</li>

@@ -39,13 +39,13 @@
             </div>
         </div>
         <div class="col-6">
-            <div class="link">
+            <div class="link" style="display: none;">
                 <a href="https://acralending.com/wp-content/uploads/2022/RateSheets/FF/acra-ild-mf-longterm.pdf" target="_blank">
                     <i id="icon" class="fas fa-file-pdf"></i> 
                     <span id="text">MF Long Term</span>
                 </a>
             </div>
-            <div class="link">
+            <div class="link" style="display: none;">
                 <a href="https://acralending.com/wp-content/uploads/2022/RateSheets/FF/acra-ild-mf-bridge.pdf" target="_blank">
                     <i id="icon" class="fas fa-file-pdf"></i> 
                     <span id="text">MF Bridge</span>
