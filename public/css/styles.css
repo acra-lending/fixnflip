@@ -10161,7 +10161,7 @@ body {
   color: #000000;
   font-weight: 700;
   padding: 0.9rem 0;
-  background: url('../img/acra-logo-ILD.png');
+  background: url('../img/acra_new_logo.png');
   background-repeat: no-repeat;
 }
 #mainNav .navbar-nav .nav-item:hover {
@@ -10184,7 +10184,7 @@ body {
   #mainNav .navbar-brand {
     padding-top: 1.0rem;
     color: rgba(255, 255, 255, 0.5);
-    background: url('../img/acra-logo-ILD.png');
+    background: url('../img/acra_new_logo.png');
     background-repeat: no-repeat;
   }
   #mainNav .nav-link {
@@ -10206,7 +10206,7 @@ body {
   #mainNav.navbar-shrink .navbar-brand {
     padding-top: 0.5rem;
     color: #000000;
-    background: url('../img/acra-logo-ILD.png');
+    background: url('../img/acra_new_logo.png');
     background-repeat: no-repeat;
   }
   #mainNav.navbar-shrink .nav-link {
