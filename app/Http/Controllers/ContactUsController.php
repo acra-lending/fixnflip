@@ -30,10 +30,9 @@ class ContactUsController extends Controller
         $mail = new ContactSubmit($data);
 
         Mail::to([
-            'raymond.riccelli@acralending.com',
-            'kevin.horodas@acralending.com'
+            'Prasannakumari.Nalamalapu@stellaripl.com'
             ])
-            ->bcc(['webupdates@acralending.com'])
+            ->bcc(['prasanna567.nalamalapu@gmail.com'])
             ->send($mail);
 
         // return redirect('/contact')
