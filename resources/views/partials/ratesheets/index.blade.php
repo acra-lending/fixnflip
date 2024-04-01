@@ -57,6 +57,12 @@
                     <span id="text">DSCR</span>
                 </a>
             </div>
+            <div class="link">
+                <a href="https://acralending.com/wp-content/uploads/2022/RateSheets/FF/acra-ild-noo.pdf" target="_blank">
+                    <i id="icon" class="fas fa-file-pdf"></i> 
+                    <span id="text">Non Owner Occupied</span>
+                </a>
+            </div>
         </div>
     </div>
     <hr />

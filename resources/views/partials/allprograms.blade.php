@@ -25,7 +25,7 @@
                     </p>
                     <ul>
                         <li>SFR 1-4 Units; Multi-Family 5-24 Units. No mixed-use</li>
-	                    <li>Loan Amounts: SFR 1-4 Units – up to $4 million; Multi-Family 5-24 Units – up to $7.5 million</li>
+	                    <li>Loan Amounts: SFR 1-4 Units – up to $2M; Multi-Family 5-24 Units – up to $3M</li>
                         <li>12-month interest only (no pre-pay penalties)</li>
                         <li>Non-TRID (enabling a faster close)</li>
                         <li>Shorter term loan before longer term financing is obtained</li>
@@ -52,14 +52,14 @@
                     </p>
                     <ul>
                         <li>SFR 1-4 Units; Multi-Family 5-24 Units. No mixed-use</li>
-                        <li>Loan Amounts: SFR 1-4 Units – up to $4 million; Multi-Family 5-24 Units – up to $7.5 million</li>
+                        <li>Loan Amounts: SFR 1-4 Units – up to $2M; Multi-Family 5-24 Units – up to $3M</li>
                         <li>12-month interest only (no pre-pay penalties)</li>
                         <li>Non-TRID (enabling a faster close)</li>
                         <li>Options for no interest on Rehab Draws until requested</li>
                         <li>Timely processing of Rehab requests</li>
                         <li>Heavy Rehab options available</li>
-                        <li>100% Rehab financing available</li>
-                        <li>Up to 85% LTV, 65% ARV, and 85% LTC available</li>
+                        <li>Rehab financing available</li>
+                        <li>Up to 85% LTV, 70% ARV, 85% LTC available</li>
                     </ul>
                     <a href="/apply" class="btn btn-primary">Get Pre-Approved</a>
                 </div>
@@ -78,7 +78,7 @@
                     </p>
                     <ul>
                         <li>SFR 1-4 Units; Multi-Family 5-24 Units. No mixed-use</li>
-                        <li>Loan Amounts: SFR 1-4 Units – up to $4 million; Multi-Family 5-24 Units – up to $7.5 million</li>
+                        <li>Loan Amounts: SFR 1-4 Units – up to $2M; Multi-Family 5-24 Units – up to $3M</li>
                         <li>12-month interest only (no pre-pay penalties)</li>
                         <li>Non-TRID (enabling a faster close)</li>
                         <li>Rehab options available</li>
