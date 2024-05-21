@@ -95,7 +95,9 @@ class FormController extends Controller
             'keith.lind@acralending.com',
             'kevin.horodas@acralending.com',
             'kyleg@citadelservicing.com',
-            'raymond.riccelli@acralending.com'
+            'raymond.riccelli@acralending.com',
+            'JohnPaul.Luongo@acralending.com',
+            'Amanda.Goodman@acralending.com'
         );    
 
         if ($request->filled('aeName')) {
@@ -227,14 +229,16 @@ class FormController extends Controller
             'attachment.*'          => 'nullable|mimes:pdf,jpeg,jpg,bmp,png,gif|max:29000',
         ]);
 
-        // dd($request);
-
         $emailArray = array(
             'webupdates@acralending.com',
             'kevin.horodas@acralending.com',
             'keith.lind@acralending.com',
             'kyleg@citadelservicing.com',
-            'raymond.riccelli@acralending.com'
+            'raymond.riccelli@acralending.com',
+            'JohnPaul.Luongo@acralending.com',
+            'Amanda.Goodman@acralending.com'
+            
+
         );    
 
         if ($request->filled('aeName2')) {
