@@ -83,7 +83,7 @@
                 {{-- <li class="nav-item"><a class="nav-link" href="#setting">Setting Expectations</a></li> --}}
                 <li class="nav-item"><a class="nav-link" href="/apply">Get Pre-Approved</a></li>
                 <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
-                {{-- <li class="nav-item"><a class=" href="#login"><button class="btn btn-primary pb-1 pt-2" type="submit" style="margin-top: 1.7rem; margin-bottom: 1rem;">Login</button></a></li> --}}
+                <li class="nav-item"><a class="nav-link" href="https://alglide.com/login" target="_blank"><button class="btn btn-primary pb-1 pt-2" type="submit" style="margin-top: -5px; margin-bottom: 1rem;">Login</button></a></li>
             </ul>
         </div>
     </div>
