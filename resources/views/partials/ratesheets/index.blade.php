@@ -20,27 +20,27 @@
     <div class="row">
         <div class="col-6">
             <div class="link">
-                <a href="https://acralending.com/wp-content/uploads/2022/RateSheets/FF/acra-ild-main.pdf" target="_blank">
+                <a href="https://acralending.com/wp-content/uploads/2022/RateSheets/FF/acra-ild-mains.pdf" target="_blank">
                     <i id="icon" class="fas fa-file-pdf"></i> 
                     <span id="text">Main Ratesheet</span>
                 </a>
             </div>
-            <div class="link">
+            <div class="link" style="display: none;">
                 <a href="https://acralending.com/wp-content/uploads/2022/RateSheets/FF/acra-ff-ratematrix-sbmf.pdf" target="_blank">
                     <i id="icon" class="fas fa-file-pdf"></i> 
                     <span id="text">Small Balance Multifamily</span>
                 </a>
             </div>
             <div class="link">
-                <a href="https://acralending.com/wp-content/uploads/2022/RateSheets/FF/acra-ild-sfr.pdf" target="_blank">
+                <a href="https://acralending.com/wp-content/uploads/2022/RateSheets/FF/acra-ild-sfd.pdf" target="_blank">
                     <i id="icon" class="fas fa-file-pdf"></i> 
                     <span id="text">SFR Bridge</span>
                 </a>
             </div>
         </div>
         <div class="col-6">
-            <div class="link" style="display: none;">
-                <a href="https://acralending.com/wp-content/uploads/2022/RateSheets/FF/acra-ild-mf-longterm.pdf" target="_blank">
+            <div class="link">
+                <a href="https://acralending.com/wp-content/uploads/2022/RateSheets/FF/acra-ild-mf-long.pdf" target="_blank">
                     <i id="icon" class="fas fa-file-pdf"></i> 
                     <span id="text">MF Long Term</span>
                 </a>
@@ -52,7 +52,7 @@
                 </a>
             </div>
             <div class="link">
-                <a href="https://acralending.com/wp-content/uploads/2022/RateSheets/FF/acra-ild-dscr.pdf" target="_blank">
+                <a href="https://acralending.com/wp-content/uploads/2022/RateSheets/FF/acra-ild-bpdscr.pdf" target="_blank">
                     <i id="icon" class="fas fa-file-pdf"></i> 
                     <span id="text">DSCR</span>
                 </a>
