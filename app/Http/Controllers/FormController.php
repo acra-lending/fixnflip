@@ -91,7 +91,6 @@ class FormController extends Controller
         ]);
 
         $emailArray = array(
-            'webupdates@acralending.com',
             'keith.lind@acralending.com',
             'kevin.horodas@acralending.com',
             'kyleg@citadelservicing.com',
@@ -118,7 +117,7 @@ class FormController extends Controller
             } 
         
         } elseif ($request->filled('ref')) {
-            $user = DB::connection('mysql2')->table('s2zar_users')->where('email', $request->input('ref'))->first();
+            $user = DB::connection('')->table('s2zar_users')->where('email', $request->input('ref'))->first();
             if ($user != null) {
                 $userEmail = $user->email;
                 array_push($emailArray, $userEmail);
@@ -230,16 +229,13 @@ class FormController extends Controller
         ]);
 
         $emailArray = array(
-            'webupdates@acralending.com',
             'kevin.horodas@acralending.com',
             'keith.lind@acralending.com',
             'kyleg@citadelservicing.com',
             'raymond.riccelli@acralending.com',
             'JohnPaul.Luongo@acralending.com',
             'Amanda.Goodman@acralending.com'
-            
-
-        );    
+         );    
 
         if ($request->filled('aeName2')) {
                 $user = DB::connection('mysql2')->table('s2zar_users')->where('email', $request->input('aeName2'))->first();
